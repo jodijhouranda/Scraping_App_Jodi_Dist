@@ -1,0 +1,5279 @@
+{
+  "b0": {
+    "var": "b0",
+    "question": "PENGANTAR",
+    "type": 1
+  },
+  "pengantar": {
+    "var": "pengantar",
+    "question": "/* Default / Light Theme */\r\n.se-header {\r\n     font-size: 16px;\r\n     font-weight: 500;\r\n     color: #5A2E00;\r\n     margin-bottom: 14px;\r\n     padding: 24px 24px;\r\n     background-color: #FFF4E6;\r\n     border-bottom: 4px solid #FF8C00;\r\n     border-radius: 6px 6px 0 0;\r\n     line-height: 1.4;\r\n     text-align: center;\r\n     transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n}\r\n\r\n.se-header small {\r\n     line-height: 1.2;\r\n     display: inline-block;\r\n}\r\n\r\n/* Dark Theme (ketika class 'dark' ada di tag html) */\r\nhtml.dark .se-header {\r\n     background-color: #2b211a; /* Background cokelat gelap senada dengan pengantar */\r\n     color: #fce8d5;            /* Teks krem terang agar mudah dibaca */\r\n     border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan agar nyaman di mata */\r\n}\r\n\r\n\r\n\r\n    \r\n        SENSUS EKONOMI 2026\r\n    \r\n    \r\n        PENDATAAN LENGKAP USAHA/PERUSAHAAN",
+    "type": 3
+  },
+  "keterangan": {
+    "var": "keterangan",
+    "question": "/* Default / Light Theme */\r\ndiv.note {\r\n     -moz-border-radius: 6px;\r\n     -webkit-border-radius: 6px;\r\n     background-color: #FFF4E6;\r\n     border: solid 1px #fecba1;\r\n     border-radius: 6px;\r\n     line-height: 18px;\r\n     overflow: hidden;\r\n     padding: 12px;\r\n     font-family: \"Sofia\", sans-serif;\r\n     color: #333333;\r\n     transition: background-color 0.3s, border-color 0.3s, color 0.3s;\r\n}\r\n\r\nol.note {\r\n     list-style-type: decimal !important;\r\n     line-height: 18px;\r\n     padding: 13px;\r\n     font-family: \"Sofia\", sans-serif;\r\n}\r\n\r\n.note-box {\r\n     border: 2px solid #fecba1;\r\n     border-radius: 6px;\r\n     padding: 10px;\r\n     margin-top: 12px;\r\n     background-color: #FFF4E6;\r\n     text-align: center;\r\n     font-weight: bold;\r\n     font-style: italic;\r\n     transition: background-color 0.3s, border-color 0.3s, color 0.3s;\r\n}\r\n\r\n/* Dark Theme (ketika class 'dark' ada di tag html) */\r\nhtml.dark div.note {\r\n     background-color: #2b211a; /* Warna background gelap bernuansa cokelat hangat */\r\n     border-color: #7a5030;     /* Warna border lebih gelap */\r\n     color: #e8e4e1;            /* Warna teks terang agar kontras */\r\n}\r\n\r\nhtml.dark .note-box {\r\n     background-color: #2b211a;\r\n     border-color: #7a5030;\r\n}\r\n\r\n\r\n\r\n    PENGANTAR\r\n\r\n    \r\n        \r\n            Tujuan\r\n            SE2026 bertujuan untuk menyediakan data dasar yang terpercaya untuk seluruh kegiatan ekonomi.\r\n        \r\n\r\n        \r\n\r\n        \r\n            Dasar Hukum\r\n            \r\n                \r\n                    Undang-Undang No. 16 Tahun 1997 tentang Statistik.\r\n                \r\n                \r\n                    Peraturan Pemerintah RI No. 51 Tahun 1999 tentang Penyelenggaraan Statistik.\r\n                \r\n            \r\n        \r\n\r\n        \r\n\r\n        \r\n            Kerahasiaan\r\n            Kerahasiaan data yang diberikan dijamin oleh Undang-Undang No. 16 Tahun 1997 pasal 21.\r\n        \r\n\r\n        \r\n\r\n        \r\n            Layanan Informasi\r\n            Untuk bantuan pengisian daftar isian, dapat menghubungi Sekretariat Sensus Ekonomi Tahun 2026 - Badan Pusat Statistik\r\n            \r\n            Email: halose2026@bps.go.id\r\n        \r\n    \r\n\r\n    \r\n        Pendataan ini tidak ada hubungannya dengan pajak dan tidak dipungut biaya apapun.",
+    "type": 3
+  },
+  "mulai": {
+    "var": "mulai",
+    "question": "Waktu Mulai",
+    "type": 35
+  },
+  "cawi_identifier": {
+    "var": "cawi_identifier",
+    "question": "cawi_identifier",
+    "type": 4
+  },
+  "is_cawi": {
+    "var": "is_cawi",
+    "question": "is_cawi",
+    "type": 4
+  },
+  "is_from_cawi": {
+    "var": "is_from_cawi",
+    "question": "is_from_cawi",
+    "type": 4
+  },
+  "kunjungan_1": {
+    "var": "kunjungan_1",
+    "question": "Waktu Kunjungan I",
+    "type": 35
+  },
+  "catatan_1": {
+    "var": "catatan_1",
+    "question": "Catatan Kunjungan I",
+    "type": 30
+  },
+  "kunjungan_2": {
+    "var": "kunjungan_2",
+    "question": "Waktu Kunjungan II",
+    "type": 35
+  },
+  "catatan_2": {
+    "var": "catatan_2",
+    "question": "Catatan Kunjungan II",
+    "type": 30
+  },
+  "kunjungan_3": {
+    "var": "kunjungan_3",
+    "question": "Waktu Kunjungan III",
+    "type": 35
+  },
+  "alasan_nr": {
+    "var": "alasan_nr",
+    "question": "Alasan Nonrespon",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Tidak dapat ditemui",
+        "value": "1"
+      },
+      {
+        "label": "2. Menolak",
+        "value": "2"
+      },
+      {
+        "label": "3. Lanjutkan pendataan",
+        "value": "3"
+      }
+    ]
+  },
+  "catatan_3": {
+    "var": "catatan_3",
+    "question": "Catatan Kunjungan III",
+    "type": 30
+  },
+  "kunjungan_pml": {
+    "var": "kunjungan_pml",
+    "question": "Waktu Kunjungan PML",
+    "type": 35
+  },
+  "geotag_pml": {
+    "var": "geotag_pml",
+    "question": "Geotaging oleh PML",
+    "type": 33
+  },
+  "catatan_pml": {
+    "var": "catatan_pml",
+    "question": "Catatan Kunjungan PML",
+    "type": 30
+  },
+  "ec_mulai": {
+    "var": "ec_mulai",
+    "question": "New Question",
+    "type": 4
+  },
+  "mode": {
+    "var": "mode",
+    "question": "Mode",
+    "type": 4
+  },
+  "css_hidden": {
+    "var": "css_hidden",
+    "question": "#kunjungan_1 {\r\n            display:none!important;\r\n        }\r\n        #catatan_1 {\r\n            display:none!important;\r\n        }\r\n        #kunjungan_2 {\r\n            display:none!important;\r\n        }\r\n         #catatan_2 {\r\n            display:none!important;\r\n        }\r\n        #kunjungan_3 {\r\n            display:none!important;\r\n        }\r\n         #catatan_3 {\r\n            display:none!important;\r\n        }\r\n        .fasih-form-sidebar:nth-child(3),\r\n        .fasih-form-sidebar:nth-child(6),\r\n        .fasih-form-sidebar:nth-child(7)\r\n        {\r\n            display:none!important;\r\n        }",
+    "type": 3
+  },
+  "pml_hidden": {
+    "var": "pml_hidden",
+    "question": "#kunjungan_pml {\n        $hide   \n    }\n    \n    #geotag_pml {\n        $hide\n    }\n    \n    #catatan_pml {\n        $hide\n    }",
+    "type": 3
+  },
+  "nama_principal": {
+    "var": "nama_principal",
+    "question": "Nama Keluarga/Bangunan/Usaha untuk principal",
+    "type": 4
+  },
+  "b1_p": {
+    "var": "b1_p",
+    "question": "IDENTITAS WILAYAH",
+    "type": 1
+  },
+  "b1_head": {
+    "var": "b1_head",
+    "question": "/* Variabel dinamis bawaan sistem Anda */\r\n    #kodepos { $style_kodepos }\r\n    #ubah_sls { $style_ubah_sls }\r\n    #kab {\r\n        $style_kab_prelist\r\n    }\r\n    #kec {\r\n        $style_kec_prelist\r\n    }\r\n    #desa {\r\n        $style_desa_prelist\r\n    }\r\n    #kab_baru {\r\n        $style_kab_baru\r\n    }\r\n    #kec_baru {\r\n        $style_kec_baru\r\n    }\r\n    #desa_baru {\r\n        $style_desa_baru\r\n    }\r\n    #ubah_wilayah { display: none }\r\n\r\n    /* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Background cokelat gelap senada */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Oranye redup */\r\n    }\r\n\r\n\r\n\r\n    \r\n        BLOK I. IDENTITAS WILAYAH",
+    "type": 3
+  },
+  "prov": {
+    "var": "prov",
+    "question": "1. Provinsi",
+    "type": 25
+  },
+  "kab": {
+    "var": "kab",
+    "question": "2. Kabupaten/Kota",
+    "type": 25
+  },
+  "kec": {
+    "var": "kec",
+    "question": "3. Kecamatan",
+    "type": 25
+  },
+  "desa": {
+    "var": "desa",
+    "question": "4. Desa/Kelurahan",
+    "type": 25
+  },
+  "ubah_wilayah": {
+    "var": "ubah_wilayah",
+    "question": "Apakah Terdapat Perubahan Wilayah?",
+    "type": 26,
+    "options": [
+      {
+        "label": "Ya",
+        "value": "1"
+      },
+      {
+        "label": "Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "kab_baru": {
+    "var": "kab_baru",
+    "question": "2. Kabupaten/Kota",
+    "type": 27
+  },
+  "kec_baru": {
+    "var": "kec_baru",
+    "question": "3. Kecamatan",
+    "type": 27
+  },
+  "desa_baru": {
+    "var": "desa_baru",
+    "question": "4. Desa/Kelurahan",
+    "type": 27
+  },
+  "kode_prov": {
+    "var": "kode_prov",
+    "question": "kode_prov",
+    "type": 4
+  },
+  "prov_kab": {
+    "var": "prov_kab",
+    "question": "prov_kab",
+    "type": 4
+  },
+  "klas_desa": {
+    "var": "klas_desa",
+    "question": "5. Klasifikasi Desa/Kelurahan",
+    "type": 25
+  },
+  "kode_sls": {
+    "var": "kode_sls",
+    "question": "6. Kode SLS/Non-SLS/Sub-SLS",
+    "type": 25
+  },
+  "nama_sls": {
+    "var": "nama_sls",
+    "question": "7. Nama SLS/Non-SLS",
+    "type": 25
+  },
+  "ubah_sls": {
+    "var": "ubah_sls",
+    "question": "8. Apakah mengalami perubahan SLS (pemekaran/penggabungan/perubahan nama?)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "sudah": {
+    "var": "sudah",
+    "question": "sudah",
+    "type": 4
+  },
+  "nama_sls_lap": {
+    "var": "nama_sls_lap",
+    "question": "9. Nama SLS/Non-SLS Lapangan",
+    "type": 25
+  },
+  "tahun_survei": {
+    "var": "tahun_survei",
+    "question": "Tahun Survei",
+    "type": 4
+  },
+  "kodepos": {
+    "var": "kodepos",
+    "question": "10. Kodepos",
+    "type": 25
+  },
+  "has_kodepos": {
+    "var": "has_kodepos",
+    "question": "has_kodepos",
+    "type": 4
+  },
+  "has_ubah_sls": {
+    "var": "has_ubah_sls",
+    "question": "has_ubah_sls",
+    "type": 4
+  },
+  "tahun_lalu": {
+    "var": "tahun_lalu",
+    "question": "Tahun survei minus 1",
+    "type": 4
+  },
+  "css_hidden_2": {
+    "var": "css_hidden_2",
+    "question": "#kunjungan_1 {\r\n            display:none!important;\r\n        }\r\n        #catatan_1 {\r\n            display:none!important;\r\n        }\r\n        #kunjungan_2 {\r\n            display:none!important;\r\n        }\r\n         #catatan_2 {\r\n            display:none!important;\r\n        }\r\n        #kunjungan_3 {\r\n            display:none!important;\r\n        }\r\n         #catatan_3 {\r\n            display:none!important;\r\n        }\r\n       .fasih-form-sidebar:nth-child(3),\r\n        .fasih-form-sidebar:nth-child(6),\r\n        .fasih-form-sidebar:nth-child(7)\r\n        {\r\n            display:none!important;\r\n        }",
+    "type": 3
+  },
+  "var_desa": {
+    "var": "var_desa",
+    "question": "New Question",
+    "type": 4
+  },
+  "b5": {
+    "var": "b5",
+    "question": "SE2026 - P",
+    "type": 1
+  },
+  "b5_head": {
+    "var": "b5_head",
+    "question": "/* Style bawaan sistem Anda */\r\n    #callnik_button_p button {\r\n        width: 100%;\r\n        max-width: 768px;\r\n    }\r\n    #no_keluarga_terbesar {\r\n        $style\r\n    }\r\n\r\n    /* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Background cokelat gelap senada */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Oranye redup */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN KELUARGA DAN USAHA",
+    "type": 3
+  },
+  "banner_id_sbr_match": {
+    "var": "banner_id_sbr_match",
+    "question": "\u26a0\ufe0f Usaha ini sudah digunakan pada usaha keluarga $nama\r\n\r\n\r\n\r\n/* Default / Light Theme */\r\n.alert-banner {\r\n    background: linear-gradient(135deg, #E8F1FF, #DDEBFF);\r\n    border-left: 5px solid #3B82F6;\r\n    color: #1E3A8A;\r\n    padding: 12px 16px;\r\n    border-radius: 8px;\r\n    margin: 12px 0;\r\n    font-family: Arial, sans-serif;\r\n    font-size: 14px;\r\n    line-height: 1.5;\r\n    position: relative;\r\n    overflow: hidden;\r\n    transition: color 0.3s, border-color 0.3s, box-shadow 0.3s;\r\n\r\n    /* subtle pulse */\r\n    animation: pulseGlow 2.5s infinite ease-in-out;\r\n}\r\n\r\n/* Dark Theme */\r\nhtml.dark .alert-banner {\r\n    background: linear-gradient(135deg, #1e293b, #0f172a); /* Latar belakang biru gelap / slate */\r\n    color: #dbeafe; /* Teks biru muda terang */\r\n    border-left-color: #60a5fa; /* Warna border sedikit diterangkan agar lebih \"pop\" di layar gelap */\r\n}\r\n\r\n/* Efek glow pulse - bisa dipakai untuk light dan dark mode */\r\n@keyframes pulseGlow {\r\n    0% {\r\n        box-shadow: 0 0 0 rgba(59, 130, 246, 0.2);\r\n    }\r\n    50% {\r\n        box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);\r\n    }\r\n    100% {\r\n        box-shadow: 0 0 0 rgba(59, 130, 246, 0.2);\r\n    }\r\n}\r\n\r\n/* Efek bling (shimmer lewat sekali-sekali) - Light Mode */\r\n.alert-banner::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    top: 0;\r\n    left: -75%;\r\n    width: 50%;\r\n    height: 100%;\r\n    background: linear-gradient(\r\n        120deg,\r\n        transparent,\r\n        rgba(255, 255, 255, 0.6),\r\n        transparent\r\n    );\r\n    transform: skewX(-20deg);\r\n    animation: shimmer 3.5s infinite;\r\n}\r\n\r\n/* Efek bling - Dark Mode (Intensitas putihnya dikurangi agar tidak silau) */\r\nhtml.dark .alert-banner::after {\r\n    background: linear-gradient(\r\n        120deg,\r\n        transparent,\r\n        rgba(255, 255, 255, 0.15), /* Opacity diturunkan dari 0.6 menjadi 0.15 */\r\n        transparent\r\n    );\r\n}\r\n\r\n@keyframes shimmer {\r\n    0% {\r\n        left: -75%;\r\n    }\r\n    100% {\r\n        left: 125%;\r\n    }\r\n}",
+    "type": 3
+  },
+  "is_keluarga": {
+    "var": "is_keluarga",
+    "question": "Flag keluarga yang  berasal dari prelist\nTerisi 1 Jika merupakan prelist keluarga",
+    "type": 4
+  },
+  "nik_anggta_lain_prelist": {
+    "var": "nik_anggta_lain_prelist",
+    "question": "nik_anggta_lain_prelist",
+    "type": 4
+  },
+  "is_usaha": {
+    "var": "is_usaha",
+    "question": "Flag usaha yang  berasal dari prelist\nTerisi 1 Jika merupakan prelist usaha/ umkm",
+    "type": 4
+  },
+  "is_prelist": {
+    "var": "is_prelist",
+    "question": "Flag prelist yang diisikan pada proses pembuatan prelist\nTerisi 1 jika merupakan prelist",
+    "type": 4
+  },
+  "set_is_prelist": {
+    "var": "set_is_prelist",
+    "question": "set_is_prelist",
+    "type": 4
+  },
+  "ec_non_keluarga": {
+    "var": "ec_non_keluarga",
+    "question": "Enabling Untuk Rincian Bangunan/Usaha Lainnya mencakup :\nUsaha prelist, Bangunan Lainnya ditemukan dan Usaha/ Bangunan Baru",
+    "type": 4
+  },
+  "ket_editable": {
+    "var": "ket_editable",
+    "question": "Keterangan/Catatan Kaki untuk predefined editable",
+    "type": 4
+  },
+  "ub_prelist": {
+    "var": "ub_prelist",
+    "question": "Status UB Prelist",
+    "type": 4
+  },
+  "ub": {
+    "var": "ub",
+    "question": "Status UB umkm",
+    "type": 4
+  },
+  "jenis_prelist": {
+    "var": "jenis_prelist",
+    "question": "Jenis Prelist",
+    "type": 4
+  },
+  "flag_pbi": {
+    "var": "flag_pbi",
+    "question": "PBI",
+    "type": 4
+  },
+  "is_new": {
+    "var": "is_new",
+    "question": "Tambah :\nPilih jenis assignment yang akan ditambahkan",
+    "type": 26,
+    "options": [
+      {
+        "label": "Keluarga",
+        "value": "1"
+      },
+      {
+        "label": "Bangunan Lainnya  (Selain Tempat Tinggal dan Campuran)",
+        "value": "2"
+      }
+    ]
+  },
+  "pilih_umkm": {
+    "var": "pilih_umkm",
+    "question": "Daftar Usaha Non Prelist\nPilih \"Tidak Ditemukan\"  jika nama usaha tidak ada di daftar usaha",
+    "type": 27,
+    "options": [
+      {
+        "label": "Tidak Ditemukan",
+        "value": "999"
+      }
+    ]
+  },
+  "no_kk_prelist": {
+    "var": "no_kk_prelist",
+    "question": "Nomor KK prelist untuk pembanding",
+    "type": 4
+  },
+  "nik_prelist": {
+    "var": "nik_prelist",
+    "question": "NIK prelist untuk pembanding",
+    "type": 4
+  },
+  "nama_lookup_umkm": {
+    "var": "nama_lookup_umkm",
+    "question": "Nama dari Lookup",
+    "type": 4
+  },
+  "nama_usaha_bang": {
+    "var": "nama_usaha_bang",
+    "question": "Nama Bangunan/ Usaha/ Perusahaan\n$ket",
+    "type": 25
+  },
+  "set_nama_usaha_bang": {
+    "var": "set_nama_usaha_bang",
+    "question": "set_nama_usaha_bang",
+    "type": 4
+  },
+  "no_kk": {
+    "var": "no_kk",
+    "question": "Nomor KK\n$ket",
+    "type": 25
+  },
+  "alsan_tidak_kk": {
+    "var": "alsan_tidak_kk",
+    "question": "Alasan Kode KK tidak dapat diberikan:",
+    "type": 4
+  },
+  "nik": {
+    "var": "nik",
+    "question": "NIK\n$ket",
+    "type": 25
+  },
+  "nama_kk": {
+    "var": "nama_kk",
+    "question": "Nama Kepala Keluarga (KK)\n$ket",
+    "type": 25
+  },
+  "banner_pemadanan_nik": {
+    "var": "banner_pemadanan_nik",
+    "question": "/* Gaya bawaan sistem Anda untuk elemen pemadanan NIK */\r\n    #htmlHasilPemadananNIK_p {\r\n        $style\r\n    }\r\n\r\n    /* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0; /* Menambahkan margin agar konsisten dengan banner lainnya */\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    Silakan lakukan pengecekan NIK dengan menekan tombol CEK NIK di bawah ini.",
+    "type": 3
+  },
+  "callnik_button_p": {
+    "var": "callnik_button_p",
+    "question": "CEK NIK",
+    "type": 6
+  },
+  "hasilPemadananNIK_p": {
+    "var": "hasilPemadananNIK_p",
+    "question": "Hasil Pengecekkan NIK",
+    "type": 4
+  },
+  "htmlHasilPemadananNIK2_p": {
+    "var": "htmlHasilPemadananNIK2_p",
+    "question": "Hasil Pengecekan NIK",
+    "type": 4
+  },
+  "htmlHasilPemadananNIK_p": {
+    "var": "htmlHasilPemadananNIK_p",
+    "question": "\u200e Hasil Pengecekan NIK",
+    "type": 4
+  },
+  "result_callnik_p": {
+    "var": "result_callnik_p",
+    "question": "\u200e",
+    "type": 4
+  },
+  "nama_ak_lain": {
+    "var": "nama_ak_lain",
+    "question": "Nama Anggota Keluarga Lainnya\n$ket",
+    "type": 25
+  },
+  "alamat_lookup_umkm": {
+    "var": "alamat_lookup_umkm",
+    "question": "Alamat dari lookup",
+    "type": 4
+  },
+  "alamat_klrg": {
+    "var": "alamat_klrg",
+    "question": "Alamat\n$ket",
+    "type": 4
+  },
+  "jumlah_usaha_prelist": {
+    "var": "jumlah_usaha_prelist",
+    "question": "Jumlah Usaha yang Dimiliki Seluruh Anggota Keluarga  (Sumber: UMKM dan ST2023)",
+    "type": 25
+  },
+  "kode_keberedaan_keluarga": {
+    "var": "kode_keberedaan_keluarga",
+    "question": "Pilihan kode keberadaan keluarga",
+    "type": 4
+  },
+  "kode_keluarga_new": {
+    "var": "kode_keluarga_new",
+    "question": "Pilihan Keberadaan Keluarga (new)",
+    "type": 4
+  },
+  "kode_bangunan_new": {
+    "var": "kode_bangunan_new",
+    "question": "Pilihan Keberadaan Bangunan (new)",
+    "type": 4
+  },
+  "ada_keluarga": {
+    "var": "ada_keluarga",
+    "question": "Keberadaan Keluarga",
+    "type": 26
+  },
+  "ada_bang_usaha": {
+    "var": "ada_bang_usaha",
+    "question": "Keberadaan Bangunan Lainnya/ Usaha",
+    "type": 26
+  },
+  "set_ada_bang_usaha": {
+    "var": "set_ada_bang_usaha",
+    "question": "set_ada_bang_usaha",
+    "type": 4
+  },
+  "alamat_prelist": {
+    "var": "alamat_prelist",
+    "question": "Alamat  (Prelist)",
+    "type": 30
+  },
+  "domisili": {
+    "var": "domisili",
+    "question": "Apakah alamat tersebut sesuai dengan alamat pada Kartu Keluarga?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya Sesuai KK",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak Sesuai KK",
+        "value": "2"
+      }
+    ]
+  },
+  "alamat_domisili": {
+    "var": "alamat_domisili",
+    "question": "Alamat",
+    "type": 3
+  },
+  "jalan_domisili": {
+    "var": "jalan_domisili",
+    "question": "Nama Jalan/Gang/Komplek/Gedung/dll (Tuliskan dengan rinci)",
+    "type": 30
+  },
+  "nomor_domisili": {
+    "var": "nomor_domisili",
+    "question": "Blok/Nomor Rumah\n(Jika tidak ada nomor rumah, tulis strip (-))",
+    "type": 25
+  },
+  "ec_keluarga": {
+    "var": "ec_keluarga",
+    "question": "Enabling Untuk Rincian Keluarga mencakup :\nKeluarga prelist ditemukan dan Keluarga Baru",
+    "type": 4
+  },
+  "no_keluarga_terbesar": {
+    "var": "no_keluarga_terbesar",
+    "question": "NOMOR URUT KELUARGA TERBESAR:",
+    "type": 4
+  },
+  "no_keluarga": {
+    "var": "no_keluarga",
+    "question": "Nomor Urut Keluarga",
+    "type": 28
+  },
+  "no_bangunan_terbesar": {
+    "var": "no_bangunan_terbesar",
+    "question": "NOMOR URUT BANGUNAN TERBESAR:",
+    "type": 4
+  },
+  "no_bang": {
+    "var": "no_bang",
+    "question": "Nomor Urut Bangunan",
+    "type": 28
+  },
+  "kode_bang": {
+    "var": "kode_bang",
+    "question": "Kode Penggunaan Bangunan",
+    "type": 26
+  },
+  "pilihan_kode_bang": {
+    "var": "pilihan_kode_bang",
+    "question": "Options untuk kode_bang disesuaikan",
+    "type": 4
+  },
+  "geotag": {
+    "var": "geotag",
+    "question": "Geotagging",
+    "type": 33
+  },
+  "foto_depan_p": {
+    "var": "foto_depan_p",
+    "question": "Foto tampak depan (harus mencakup atap dan dinding)",
+    "type": 32
+  },
+  "jumlah_ak_kk": {
+    "var": "jumlah_ak_kk",
+    "question": "Jumlah Anggota Keluarga Berdasarkan Kartu Keluarga",
+    "type": 28
+  },
+  "jumlah_ak": {
+    "var": "jumlah_ak",
+    "question": "Jumlah Anggota Keluarga Yang menetap di dalam bangunan tempat tinggal minimal 1 tahun, atau kurang dari 1 tahun dan berniat menetap",
+    "type": 25
+  },
+  "usaha_kos": {
+    "var": "usaha_kos",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK memiliki usaha penyewaan lahan atau kontrakan atau kos kosan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_keliling": {
+    "var": "usaha_keliling",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK memiliki usaha keliling (pedagang sayur keliling, ojek keliling, tukang becak keliling, supir",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_online": {
+    "var": "usaha_online",
+    "question": "Apakah $namaKK  atau anggota keluarga dari $namaKK  memiliki usaha online contoh: menjual barang melalui tokopedia/ shopee/website/ instagram tanpa memiliki toko?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_bongkar": {
+    "var": "usaha_bongkar",
+    "question": "Apakah $namaKK  atau anggota keluarga dari $namaKK   memiliki usaha di luar tempat tinggal, yang lokasi usahanya tetap tetapi peralatan/ perlengkapan usahanya dipindah/ dibawa pulang/ dibongkar pasang (misal: usaha kaki lima/ tenda seafood yang jika sudah tutup semua peralatan akan dibawa pulang, usaha dagang martabak gerobakan yang mangkal di pinggir jalan namun jika sudah selesai gerobak akan dibawa pulang, dan usaha lain yang sejenis)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_konstruksi": {
+    "var": "usaha_konstruksi",
+    "question": "Apakah  $namaKK atau anggota keluarga dari $namaKK memiliki usaha sebagai pemborong konstruksi/perusahaan konstruksi yang berlokasi di tempat tinggal ini atau penggalian perorangan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_lain": {
+    "var": "usaha_lain",
+    "question": "Apakah  $namaKK atau anggota keluarga dari $namaKK memiliki usaha lain? Seperti mengajar privat dari rumah ke rumah, Freelance, YouTuber, Konten Kreator, Afiliator, dan semua usaha lainnya yang dilakukan dalam bangunan ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "pertanian_head": {
+    "var": "pertanian_head",
+    "question": "Identifikasi Usaha Pertanian yang Dilakukan Keluarga",
+    "type": 3
+  },
+  "tanaman_pangan": {
+    "var": "tanaman_pangan",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Tanaman Pangan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?\n\ntermasuk yang seluruhnya dikonsumsi sendiri (padi, jagung, kedelai, kacang tanah, kacang hijau, ubi kayu, ubi jalar, talas, ganyong, dan palawija lainnya)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "hortikultura": {
+    "var": "hortikultura",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Hortikultura dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "perkebunan": {
+    "var": "perkebunan",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Perkebunan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "peternakan": {
+    "var": "peternakan",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Peternakan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "kehutanan": {
+    "var": "kehutanan",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Kehutanan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "perikanan": {
+    "var": "perikanan",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Perikanan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jasa_pertanian": {
+    "var": "jasa_pertanian",
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Jasa Pertanian dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jumlah_usaha_ditemukan": {
+    "var": "jumlah_usaha_ditemukan",
+    "question": "Jumlah usaha yang ditemukan\nJumlah usaha akan terisi dengan meng-update keberadaan usaha",
+    "type": 4
+  },
+  "daftar_nik_pengusaha": {
+    "var": "daftar_nik_pengusaha",
+    "question": "daftar_nik_pengusaha",
+    "type": 4
+  },
+  "usaha_gabung": {
+    "var": "usaha_gabung",
+    "question": "List yang ditampilkan di se2026_nested",
+    "type": 4
+  },
+  "ec_ada_usaha": {
+    "var": "ec_ada_usaha",
+    "question": "Enabling Condition Keberadaan Usaha",
+    "type": 4
+  },
+  "nama_usaha_prelist": {
+    "var": "nama_usaha_prelist",
+    "question": "Nama Usaha Prelist",
+    "type": 4
+  },
+  "list_individu_dtsen_prelist": {
+    "var": "list_individu_dtsen_prelist",
+    "question": "List Individu Prelist",
+    "type": 4
+  },
+  "status_pegawai": {
+    "var": "status_pegawai",
+    "question": "status_pegawai",
+    "type": 4
+  },
+  "idsbr_all": {
+    "var": "idsbr_all",
+    "question": "idsbr_all",
+    "type": 4
+  },
+  "nib_all": {
+    "var": "nib_all",
+    "question": "nib_all",
+    "type": 4
+  },
+  "email_all": {
+    "var": "email_all",
+    "question": "email_all",
+    "type": 4
+  },
+  "skala_usaha_all": {
+    "var": "skala_usaha_all",
+    "question": "skala_usaha_all",
+    "type": 4
+  },
+  "hidden_p": {
+    "var": "hidden_p",
+    "question": "/* Gaya bawaan sistem Anda untuk menyembunyikan elemen form */\r\n    .tw\\:\\@container\\/form > div:not(#hidden_p) {\r\n        display: none !important;\r\n    }\r\n\r\n    /* Default / Light Theme untuk Info Banner */\r\n    .info-banner {\r\n        background-color: #F8FAFC;\r\n        border-left: 5px solid #94A3B8;\r\n        color: #334155;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.6;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .info-banner {\r\n        background-color: #1e293b; /* Abu-abu kebiruan gelap (slate gelap) */\r\n        color: #e2e8f0;            /* Teks abu-abu terang agar kontras dan mudah dibaca */\r\n        border-left-color: #64748b; /* Warna border sedikit digelapkan agar menyatu dengan tema */\r\n    }\r\n\r\n\r\n\r\n    \u2139\ufe0f Halaman ini tidak memerlukan pengisian karena tidak terdapat pertanyaan yang ditujukan kepada responden pada bagian ini. Silakan lanjutkan ke halaman berikutnya sesuai petunjuk yang tersedia.",
+    "type": 3
+  },
+  "idunik_MSSD": {
+    "var": "idunik_MSSD",
+    "question": "idunik_MSSD",
+    "type": 4
+  },
+  "jumlah_usaha": {
+    "var": "jumlah_usaha",
+    "question": "jumlah_usaha",
+    "type": 4
+  },
+  "css_hidden_p": {
+    "var": "css_hidden_p",
+    "question": ".fasih-form-sidebar:nth-child(3),\r\n    .fasih-form-sidebar:nth-child(6),\r\n    .fasih-form-sidebar:nth-child(7)\r\n    {\r\n        display:none!important;\r\n    }",
+    "type": 3
+  },
+  "ya_pertanian": {
+    "var": "ya_pertanian",
+    "question": "Jumlah Usaha Pertanian",
+    "type": 4
+  },
+  "ya_nonpertanian": {
+    "var": "ya_nonpertanian",
+    "question": "Jumlah Usaha Non-Pertanian",
+    "type": 4
+  },
+  "ya_gabung": {
+    "var": "ya_gabung",
+    "question": "jum usaha gabung",
+    "type": 4
+  },
+  "skala_usaha_prelist": {
+    "var": "skala_usaha_prelist",
+    "question": "skala_usaha_prelist",
+    "type": 4
+  },
+  "b_ak": {
+    "var": "b_ak",
+    "question": "SE2026 - L BLOK I",
+    "type": 1
+  },
+  "ak_head": {
+    "var": "ak_head",
+    "question": "/* Gaya bawaan dari sistem Anda */\r\n    #set_nik_kk {\r\n        display: none;\r\n    }\r\n\r\n    /* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN ANGGOTA KELUARGA",
+    "type": 3
+  },
+  "set_nik_kk": {
+    "var": "set_nik_kk",
+    "question": "Set NIK KK",
+    "type": 4
+  },
+  "label_usaha": {
+    "var": "label_usaha",
+    "question": "Label Usaha",
+    "type": 4
+  },
+  "prelist_dtsen": {
+    "var": "prelist_dtsen",
+    "question": "Nama anggota keluarga",
+    "type": 4
+  },
+  "info_tambah_ak": {
+    "var": "info_tambah_ak",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    Format Penulisan Anggota Keluarga Baru:\r\n     Klik \"+ Tambah Baru\" untuk menambahkan anggota keluarga baru\r\n     Nama Anggota Keluarga hanya boleh terisi karakter: A-Z, a-z, spasi.",
+    "type": 3
+  },
+  "tambah_dtsen": {
+    "var": "tambah_dtsen",
+    "question": "Nama anggota keluarga",
+    "type": 21
+  },
+  "gabung_dtsen": {
+    "var": "gabung_dtsen",
+    "question": "gabung_dtsen",
+    "type": 4
+  },
+  "art_pengusaha": {
+    "var": "art_pengusaha",
+    "question": "art_pengusaha",
+    "type": 4
+  },
+  "art_keberadaan15": {
+    "var": "art_keberadaan15",
+    "question": "art yg keberadaan kode 1 dan 5",
+    "type": 4
+  },
+  "cek1": {
+    "var": "cek1",
+    "question": "cek jum art 15",
+    "type": 4
+  },
+  "jk_krt": {
+    "var": "jk_krt",
+    "question": "jk_krt",
+    "type": 4
+  },
+  "umur_krt": {
+    "var": "umur_krt",
+    "question": "umur krt",
+    "type": 4
+  },
+  "jum_anakmantucucu": {
+    "var": "jum_anakmantucucu",
+    "question": "Jumlah anak mantu cucu",
+    "type": 4
+  },
+  "jum_pasangan": {
+    "var": "jum_pasangan",
+    "question": "Jumlah pasangan suami / istri",
+    "type": 4
+  },
+  "jum_art_semua": {
+    "var": "jum_art_semua",
+    "question": "jum_art_semua",
+    "type": 4
+  },
+  "jum_art_1345": {
+    "var": "jum_art_1345",
+    "question": "jum_art_1345",
+    "type": 4
+  },
+  "jum_art_1345_umurkur10": {
+    "var": "jum_art_1345_umurkur10",
+    "question": "jum_art_1345_umurkur10",
+    "type": 4
+  },
+  "jum_kk_lebihdr10th": {
+    "var": "jum_kk_lebihdr10th",
+    "question": "jum_kk_lebihdr10th",
+    "type": 4
+  },
+  "jum_kk": {
+    "var": "jum_kk",
+    "question": "jum_kk",
+    "type": 4
+  },
+  "nested_dtsen_instruction_2": {
+    "var": "nested_dtsen_instruction_2",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    \ud83d\udd0d Untuk melanjutkan pengisian Blok Keterangan Anggota Keluarga, silakan klik tombol Lihat pada bagian di bawah ini.",
+    "type": 3
+  },
+  "nested_dtsen": {
+    "var": "nested_dtsen",
+    "question": "Keterangan Anggota Keluarga",
+    "type": 2
+  },
+  "css_hidden_8": {
+    "var": "css_hidden_8",
+    "question": ".fasih-form-sidebar:nth-child(3),\n        .fasih-form-sidebar:nth-child(6),\n        .fasih-form-sidebar:nth-child(7)\n        {\n            display:none!important;\n        }",
+    "type": 3
+  },
+  "head_ak": {
+    "var": "head_ak",
+    "question": "/* Gaya bawaan sistem Anda untuk tombol */\r\n    [id^=callnik_button] button {\r\n        width: 100%;\r\n        max-width: 768px;\r\n    }\r\n    \r\n    /* Gaya bawaan sistem Anda untuk hasil pemadanan NIK */\r\n    [id^=htmlHasilPemadananNIK] {\r\n        $style\r\n    }\r\n\r\n    /* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN ANGGOTA KELUARGA",
+    "type": 3
+  },
+  "isprelistart": {
+    "var": "isprelistart",
+    "question": "Apakah prelist art",
+    "type": 4
+  },
+  "no_urut_kk": {
+    "var": "no_urut_kk",
+    "question": "5. Nomor urut anggota keluarga",
+    "type": 4
+  },
+  "nama_dtsen": {
+    "var": "nama_dtsen",
+    "question": "6. Nama anggota keluarga",
+    "type": 4
+  },
+  "nik_dtsen": {
+    "var": "nik_dtsen",
+    "question": "7. Nomor Induk Kependudukan (NIK) $NAME$\n\n(Tulis sesuai yang tercantum di KK atau KTP paling mutakhir)",
+    "type": 25
+  },
+  "set_nik_dtsen_prelist": {
+    "var": "set_nik_dtsen_prelist",
+    "question": "set_nik_dtsen_prelist",
+    "type": 4
+  },
+  "nik_dtsen_prelist": {
+    "var": "nik_dtsen_prelist",
+    "question": "nik_dtsen_prelist",
+    "type": 4
+  },
+  "banner_cek_nik_2": {
+    "var": "banner_cek_nik_2",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    Silakan lakukan pengecekan NIK dengan menekan tombol CEK NIK di bawah ini.",
+    "type": 3
+  },
+  "callnik_button": {
+    "var": "callnik_button",
+    "question": "CEK NIK",
+    "type": 6
+  },
+  "hasilPemadananNIK": {
+    "var": "hasilPemadananNIK",
+    "question": "Hasil Pengecekkan NIK",
+    "type": 4
+  },
+  "htmlHasilPemadananNIK2": {
+    "var": "htmlHasilPemadananNIK2",
+    "question": ".",
+    "type": 4
+  },
+  "htmlHasilPemadananNIK": {
+    "var": "htmlHasilPemadananNIK",
+    "question": "Hasil Pengecekan NIK",
+    "type": 4
+  },
+  "result_callnik": {
+    "var": "result_callnik",
+    "question": ".",
+    "type": 4
+  },
+  "ec_anggota_keluarga": {
+    "var": "ec_anggota_keluarga",
+    "question": "Enabling anggota keluarga",
+    "type": 4
+  },
+  "hubungan": {
+    "var": "hubungan",
+    "question": "8. Hubungan $NAME$ dengan Kepala Keluarga",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Kepala Keluarga",
+        "value": "1"
+      },
+      {
+        "label": "2. Istri/Suami",
+        "value": "2"
+      },
+      {
+        "label": "3. Anak",
+        "value": "3"
+      },
+      {
+        "label": "4. Menantu",
+        "value": "4"
+      },
+      {
+        "label": "5. Cucu",
+        "value": "5"
+      },
+      {
+        "label": "6. Orang Tua",
+        "value": "6"
+      },
+      {
+        "label": "7. Mertua",
+        "value": "7"
+      },
+      {
+        "label": "8. Famili",
+        "value": "8"
+      },
+      {
+        "label": "9. Lainnya",
+        "value": "9"
+      }
+    ]
+  },
+  "keberadaan_dtsen": {
+    "var": "keberadaan_dtsen",
+    "question": "9. a. Keberadaan anggota keluarga",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Tinggal di rumah/tempat tinggal ini",
+        "value": "1"
+      },
+      {
+        "label": "2. Meninggal",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak tinggal bersama keluarga/pindah ke wilayah/daerah lain di Indonesia",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak tinggal bersama keluarga/pindah ke luar negeri",
+        "value": "4"
+      },
+      {
+        "label": "5. Anggota keluarga baru",
+        "value": "5"
+      },
+      {
+        "label": "6. Sudah pisah KK",
+        "value": "6"
+      },
+      {
+        "label": "7. Tidak ditemukan/Tidak dikenal",
+        "value": "7"
+      }
+    ]
+  },
+  "alamat_dn": {
+    "var": "alamat_dn",
+    "question": "9. b. Alamat domisili:",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Sesuai KK dan KTP",
+        "value": "1"
+      },
+      {
+        "label": "2. Hanya sesuai KK",
+        "value": "2"
+      },
+      {
+        "label": "3. Hanya sesuai KTP",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak sesuai KK dan KTP",
+        "value": "4"
+      }
+    ]
+  },
+  "domisili_dn": {
+    "var": "domisili_dn",
+    "question": "[id^=prov_dn],\n    [id^=kab_dn]\n    {\n        padding-left: 1.3rem;\n    }\n\n\n\n    10DN. Domisili Dalam Negeri",
+    "type": 3
+  },
+  "prov_dn": {
+    "var": "prov_dn",
+    "question": "a. Provinsi",
+    "type": 27
+  },
+  "kab_dn": {
+    "var": "kab_dn",
+    "question": "b. Kabupaten/Kota",
+    "type": 27
+  },
+  "domisili_ln": {
+    "var": "domisili_ln",
+    "question": "10LN.  Negara domisili Individu (luar negeri)",
+    "type": 27
+  },
+  "status_kawin": {
+    "var": "status_kawin",
+    "question": "11. Apakah status perkawinan $NAME$",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Belum kawin",
+        "value": "1"
+      },
+      {
+        "label": "2. Kawin/nikah",
+        "value": "2"
+      },
+      {
+        "label": "3. Cerai hidup",
+        "value": "3"
+      },
+      {
+        "label": "4. Cerai mati",
+        "value": "4"
+      }
+    ]
+  },
+  "set_jk_prelist": {
+    "var": "set_jk_prelist",
+    "question": "set_jk_prelist",
+    "type": 4
+  },
+  "jk_prelist": {
+    "var": "jk_prelist",
+    "question": "jk_prelist",
+    "type": 4
+  },
+  "jk_dtsen": {
+    "var": "jk_dtsen",
+    "question": "12. Jenis Kelamin $NAME$",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Laki-laki",
+        "value": "1"
+      },
+      {
+        "label": "2. Perempuan",
+        "value": "2"
+      }
+    ]
+  },
+  "tgl_bln_thn_lahir": {
+    "var": "tgl_bln_thn_lahir",
+    "question": "[id^=\"umur#$id\"] {\n        display: block !important;\n    }\n    [id^=tgl_lahir],\n    [id^=bln_lahir],\n    [id^=thn_lahir] \n    {\n        padding-left: 1.3rem;\n    }\n\n\n    13. a. Tanggal Lahir $NAME$",
+    "type": 3
+  },
+  "tgl_lahir": {
+    "var": "tgl_lahir",
+    "question": "Tanggal Lahir",
+    "type": 25
+  },
+  "bln_lahir": {
+    "var": "bln_lahir",
+    "question": "Bulan Lahir",
+    "type": 27,
+    "options": [
+      {
+        "label": "01 - JANUARI",
+        "value": "01"
+      },
+      {
+        "label": "02 - FEBRUARI",
+        "value": "02"
+      },
+      {
+        "label": "03 - MARET",
+        "value": "03"
+      },
+      {
+        "label": "04 - APRIL",
+        "value": "04"
+      },
+      {
+        "label": "05 - MEI",
+        "value": "05"
+      },
+      {
+        "label": "06 - JUNI",
+        "value": "06"
+      },
+      {
+        "label": "07 - JULI",
+        "value": "07"
+      },
+      {
+        "label": "08 - AGUSTUS",
+        "value": "08"
+      },
+      {
+        "label": "09 - SEPTEMBER",
+        "value": "09"
+      },
+      {
+        "label": "10 - OKTOBER",
+        "value": "10"
+      },
+      {
+        "label": "11 - NOVEMBER",
+        "value": "11"
+      },
+      {
+        "label": "12 - DESEMBER",
+        "value": "12"
+      },
+      {
+        "label": "98 - TIDAK TAHU",
+        "value": "98"
+      }
+    ]
+  },
+  "thn_lahir": {
+    "var": "thn_lahir",
+    "question": "Tahun Lahir",
+    "type": 24
+  },
+  "set_umur_ak": {
+    "var": "set_umur_ak",
+    "question": "set_umur_ak",
+    "type": 4
+  },
+  "umur_ak": {
+    "var": "umur_ak",
+    "question": "13. b. Umur $NAME$",
+    "type": 28
+  },
+  "art_ada_usaha": {
+    "var": "art_ada_usaha",
+    "question": "Apakah $NAME$ memiliki usaha berikut? \n\n$daftar_usaha",
+    "type": 26,
+    "options": [
+      {
+        "label": "Ya",
+        "value": "1"
+      },
+      {
+        "label": "Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "css_hidden_7": {
+    "var": "css_hidden_7",
+    "question": ".fasih-form-sidebar:nth-child(3),\n.fasih-form-sidebar:nth-child(6),\n.fasih-form-sidebar:nth-child(7)\n{\n    display:none!important;\n}",
+    "type": 3
+  },
+  "blokl": {
+    "var": "blokl",
+    "question": "SE2026 - L BLOK II",
+    "type": 1
+  },
+  "header_l": {
+    "var": "header_l",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.5;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Memindahkan inline-style dari tag  */\r\n    .blok-header small {\r\n         line-height: 1.2;\r\n         display: inline-block;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    SE2026-L\r\n    \r\n        Blok terkait Pendataan Variabel Usaha, hanya ditanyakan ketika keluarga memiliki usaha atau bangunan usaha",
+    "type": 3
+  },
+  "info_tambah": {
+    "var": "info_tambah",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    Silakan klik + Tambah Baru untuk menambahkan usaha keluarga",
+    "type": 3
+  },
+  "nama_usaha_tambahan": {
+    "var": "nama_usaha_tambahan",
+    "question": "Nama Usaha Tambahan",
+    "type": 21
+  },
+  "se2026_nested_instruction": {
+    "var": "se2026_nested_instruction",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    \ud83d\udd0d Untuk melanjutkan pengisian Blok Keterangan Usaha/Perusahaan, silakan klik tombol Lihat pada bagian di bawah ini.",
+    "type": 3
+  },
+  "se2026_nested": {
+    "var": "se2026_nested",
+    "question": "Keterangan Usaha/Perusahaan",
+    "type": 2
+  },
+  "head_l": {
+    "var": "head_l",
+    "question": "[id^=callnik_button] button {\n        width: 100%;\n        max-width: 768px;\n    }\n    [id^=cek_nib] button {\n        width: 100%;\n        max-width: 768px;\n    }\n\n\n  SE2026-L\n  \n  Blok terkait Pendataan Variabel Usaha, hanya ditanyakan ketika keluarga memiliki usaha atau bangunan usaha",
+    "type": 3
+  },
+  "b1": {
+    "var": "b1",
+    "question": "[id='htmlHasilPemadananNIK_l#$index'] {\n        $style_l\n    }\n    [id='htmlHasilCekNIB#$index'] {\n        $style_2\n    }\n\n\n\n\n    \n        BLOK II : IDENTITAS USAHA/PERUSAHAAN",
+    "type": 3
+  },
+  "cssket": {
+    "var": "cssket",
+    "question": ".tw\\:\\@container\\/form .toggle-checkbox {\n    display: none;\n}\n\n.tw\\:\\@container\\/form .toggle-label {\n    background: linear-gradient(to bottom, #FF9800, #F57C00);\n    color: white;\n    border: none;\n    padding: 8px 16px;\n    border-radius: 4px;\n    cursor: pointer;\n    font-size: 12px;\n    font-weight: bold;\n    margin: 10px 0;\n    display: inline-flex;\n    align-items: center;\n    transition: all 0.3s;\n    box-shadow: 0 2px 4px rgba(255, 152, 0, 0.2);\n}\n\n.tw\\:\\@container\\/form .toggle-label:hover {\n    background: linear-gradient(to bottom, #F57C00, #E65100);\n    transform: translateY(-1px);\n    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.3);\n}\n\n.tw\\:\\@container\\/form .toggle-label:active {\n    transform: translateY(0);\n}\n\n.tw\\:\\@container\\/form .toggle-label::before {\n    content: \"\u25ba\";\n    margin-right: 6px;\n    font-size: 10px;\n    transition: transform 0.3s;\n}\n\n.tw\\:\\@container\\/form .toggle-checkbox:checked ~ .toggle-label::before {\n    transform: rotate(90deg);\n}\n\n.tw\\:\\@container\\/form .table-container {\n    width: 100%;\n    margin: 0 auto;\n    border: 2px solid #FF9800;\n    border-radius: 8px;\n    overflow: hidden;\n    display: none;\n    box-shadow: 0 8px 16px rgba(255, 152, 0, 0.15);\n    margin-top: 15px;\n    background-color: white;\n}\n\n.tw\\:\\@container\\/form .toggle-checkbox:checked ~ .table-container {\n    display: block;\n    animation: fadeIn 0.5s ease-out;\n}\n\n.tw\\:\\@container\\/form table {\n    width: 100%;\n    border-collapse: collapse;\n}\n\n.tw\\:\\@container\\/form th {\n    background: linear-gradient(to bottom, #FFB74D, #FF9800);\n    color: white;\n    padding: 10px 8px;\n    text-align: left;\n    border-right: 1px solid #FFB74D;\n    font-weight: bold;\n    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);\n    font-size: 13px;\n}\n\n.tw\\:\\@container\\/form td {\n    padding: 10px 8px;\n    vertical-align: top;\n    border-bottom: 1px solid #FFE0B2;\n    border-right: 1px solid #FFE0B2;\n    font-size: 13px;\n}\n\n.tw\\:\\@container\\/form tr:nth-child(even) {\n    background-color: #FFF3E0;\n}\n\n.tw\\:\\@container\\/form tr:hover {\n    background-color: #FFE0B2;\n}\n\n.tw\\:\\@container\\/form .symbol {\n    width: 20px;\n    height: 20px;\n    text-align: center;\n    font-weight: bold;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    border-radius: 50%;\n    margin-right: 6px;\n    font-size: 11px;\n}\n\n.tw\\:\\@container\\/form .included .symbol {\n    background-color: #4CAF50;\n    color: white;\n}\n\n.tw\\:\\@container\\/form .excluded .symbol {\n    background-color: #F44336;\n    color: white;\n}\n\n.tw\\:\\@container\\/form .section-header {\n    background-color: #FFE0B2;\n    font-weight: bold;\n    padding: 8px;\n    border-left: 4px solid #FF9800;\n    font-size: 13px;\n}\n\n.tw\\:\\@container\\/form .note {\n    margin-top: 15px;\n    padding: 12px;\n    background-color: #FFF3E0;\n    border-radius: 6px;\n    border-left: 4px solid #FF9800;\n    font-size: 12px;\n    color: #5D4037;\n}\n\n.tw\\:\\@container\\/form .footer {\n    text-align: center;\n    margin-top: 25px;\n    color: #FF9800;\n    font-size: 11px;\n    border-top: 1px solid #FFE0B2;\n    padding-top: 12px;\n}\n\n.tw\\:\\@container\\/form .instruction {\n    font-size: 12px;\n    color: #666;\n    margin-bottom: 8px;\n}\n\n@keyframes fadeIn {\n    from { opacity: 0; transform: translateY(-10px); }\n    to { opacity: 1; transform: translateY(0); }\n}",
+    "type": 3
+  },
+  "pilih_umkm_options": {
+    "var": "pilih_umkm_options",
+    "question": "Opsi Pilih UMKM dalam satu SLS yang sama",
+    "type": 4
+  },
+  "pilih_umkm_sls": {
+    "var": "pilih_umkm_sls",
+    "question": "Pilih UMKM dalam satu SLS yang sama",
+    "type": 27
+  },
+  "prov_l": {
+    "var": "prov_l",
+    "question": "1. Provinsi",
+    "type": 4
+  },
+  "kab_l": {
+    "var": "kab_l",
+    "question": "2. Kabupaten/Kota",
+    "type": 4
+  },
+  "kec_l": {
+    "var": "kec_l",
+    "question": "3. Kecamatan",
+    "type": 4
+  },
+  "desa_l": {
+    "var": "desa_l",
+    "question": "4. Kelurahan/Desa/Nagari",
+    "type": 4
+  },
+  "sls_info": {
+    "var": "sls_info",
+    "question": "[id^=kodesls_l],\n    [id^=sls_l]\n    {\n        padding-left: 1.3 rem;\n    }\n\n\n5. Nama dan Nomor SLS/Sub-SLS",
+    "type": 3
+  },
+  "kodesls_l": {
+    "var": "kodesls_l",
+    "question": "Kode SLS/Sub-SLS",
+    "type": 4
+  },
+  "sls_l": {
+    "var": "sls_l",
+    "question": "Nama SLS/Sub-SLS",
+    "type": 4
+  },
+  "no_bang_l": {
+    "var": "no_bang_l",
+    "question": "6. Nomor Bangunan",
+    "type": 4
+  },
+  "no_usaha": {
+    "var": "no_usaha",
+    "question": "7. Nomor Urut Usaha/Perusahaan",
+    "type": 4
+  },
+  "ec_mulai_L": {
+    "var": "ec_mulai_L",
+    "question": "New Question",
+    "type": 4
+  },
+  "head_nama_usaha": {
+    "var": "head_nama_usaha",
+    "question": "[id^='nama_usaha#'],\n    [id^='keberadaan_usaha#'],\n    [id^='nama_usaha_edit#'],\n    [id^='nama_komersial#'],\n    [id^='alamat_usaha_view#'],\n    [id^='alamat_usaha#'],\n    [id^='tampilan_alamat#'],\n    [id^='jenis_kawasan#'],\n    [id^='nama_kawasan#'],\n    [id^='nama_kek_ki#']\n    {\n        padding-left: 1.3rem;\n    }\n    \n    [id^='rt#'],\n    [id^='rw#'],\n    [id^='kode_pos#'],\n    [id^='head_telp#'],\n    [id^='hp#'],\n    [id^='email#'],\n    [id^='website#']\n    {\n        padding-left: 2rem;\n    }\n    \n    [id^='no_telp#'],\n    [id^='eks#'],\n    [id^='kode_area#']\n    {\n        padding-left: 2.5rem;\n    }\n\n8. Nama dan Alamat Usaha/Perusahaan",
+    "type": 3
+  },
+  "nama_usaha": {
+    "var": "nama_usaha",
+    "question": "8. a. Nama usaha/perusahaan",
+    "type": 4
+  },
+  "keberadaan_usaha": {
+    "var": "keberadaan_usaha",
+    "question": "Keberadaan Usaha",
+    "type": 26
+  },
+  "set_keberadaan_usaha": {
+    "var": "set_keberadaan_usaha",
+    "question": "set_keberadaan_usaha",
+    "type": 4
+  },
+  "nama_usaha_edit": {
+    "var": "nama_usaha_edit",
+    "question": "8. a. Nama usaha/perusahaan\nTulis perbaikan nama usaha, jika tidak ada perubahan tulis  ulang nama usaha/perusahaan",
+    "type": 25
+  },
+  "skala_usaha": {
+    "var": "skala_usaha",
+    "question": "skala_usaha",
+    "type": 4
+  },
+  "is_prelist2": {
+    "var": "is_prelist2",
+    "question": "Is_Prelist2",
+    "type": 4
+  },
+  "id_pmss": {
+    "var": "id_pmss",
+    "question": "id_pmss",
+    "type": 4
+  },
+  "idsbr": {
+    "var": "idsbr",
+    "question": "ID SBR",
+    "type": 4
+  },
+  "kode_keberadaan_usaha": {
+    "var": "kode_keberadaan_usaha",
+    "question": "Pilihan untuk keberadaan Usaha",
+    "type": 4
+  },
+  "nama_komersial": {
+    "var": "nama_komersial",
+    "question": "8. b. Nama komersial usaha/perusahaan\n\nJika tidak memiliki nama komersial, maka tuliskan nama usaha/perusahaan.",
+    "type": 25
+  },
+  "alamat_usaha_view": {
+    "var": "alamat_usaha_view",
+    "question": "8.c. Alamat usaha/perusahaan",
+    "type": 30
+  },
+  "alamat_usaha_var": {
+    "var": "alamat_usaha_var",
+    "question": "8. c. Alamat usaha/perusahaan",
+    "type": 4
+  },
+  "alamat_usaha": {
+    "var": "alamat_usaha",
+    "question": "alamat_usaha",
+    "type": 4
+  },
+  "tampilan_alamat": {
+    "var": "tampilan_alamat",
+    "question": "Petunjuk Rincian 8c. Alamat usaha/perusahaan\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                            Khusus usaha: \r\n                            1) di dalam bangunan tempat tinggal (contoh: usaha online , catering , les privat, dsb, yang dilakukan di tempat tinggal); \r\n                            2) keliling; \r\n                            3) usaha di luar bangunan tempat tinggal dengan lokasi tetap dan perlengkapan usaha dipindah/dibongkar pasang;\r\n4) konstruksi perorangan, pertambangan dan penggalian perorangan; \r\n5) persewaan rumah/kamar/kantor;\r\n\u2192 yang dicatat adalah alamat tempat tinggal pemilik usaha.",
+    "type": 3
+  },
+  "kp_nested": {
+    "var": "kp_nested",
+    "question": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daftar Kantor Cabang",
+    "type": 2
+  },
+  "kp_head": {
+    "var": "kp_head",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.5;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN KANTOR CABANG/UNIT DI BAWAH KENDALI KANTOR PUSAT",
+    "type": 3
+  },
+  "kp_ket": {
+    "var": "kp_ket",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    Lengkapi informasi kantor pusat dan kantor cabang/unit di bawah kendali kantor pusat",
+    "type": 3
+  },
+  "kp_unit": {
+    "var": "kp_unit",
+    "question": "Nama Kantor/\nUnit",
+    "type": 25
+  },
+  "kp_jenis": {
+    "var": "kp_jenis",
+    "question": "Jenis Unit",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Kantor Cabang",
+        "value": "1"
+      },
+      {
+        "label": "2. Kantor Perwakilan",
+        "value": "2"
+      },
+      {
+        "label": "3. Pabrik",
+        "value": "3"
+      },
+      {
+        "label": "4. Unit Pembantu/Penunjang",
+        "value": "4"
+      }
+    ]
+  },
+  "kp_prov": {
+    "var": "kp_prov",
+    "question": "Provinsi",
+    "type": 27
+  },
+  "kp_kab": {
+    "var": "kp_kab",
+    "question": "Kabupaten",
+    "type": 27
+  },
+  "kp_produksi_lingkungan": {
+    "var": "kp_produksi_lingkungan",
+    "question": "Apakah perusahaan ini memproduksi barang/jasa yang ramah lingkungan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya, Seluruhnya",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, Sebagian",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Sama Sekali",
+        "value": "3"
+      }
+    ]
+  },
+  "kp_perlindungan_lingkungan": {
+    "var": "kp_perlindungan_lingkungan",
+    "question": "Apakah perusahaan ini mengeluarkan biaya perlindungan lingkungan dan/atau pembelian barang dan jasa yang ramah lingkungan",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "kp_tk": {
+    "var": "kp_tk",
+    "question": "Tenaga Kerja (per 31 Desember 2025) (orang)",
+    "type": 28
+  },
+  "kp_total_pengeluaran": {
+    "var": "kp_total_pengeluaran",
+    "question": "Pengeluaran Tahun 2025 (Rupiah)",
+    "type": 20
+  },
+  "kp_total_pendapatan": {
+    "var": "kp_total_pendapatan",
+    "question": "Pendapatan Tahun 2025 (Rupiah)",
+    "type": 20
+  },
+  "css_hidden_6": {
+    "var": "css_hidden_6",
+    "question": ".fasih-form-sidebar:nth-child(3) {\n            display:none!important;\n        }",
+    "type": 3
+  },
+  "rt": {
+    "var": "rt",
+    "question": "RT",
+    "type": 25
+  },
+  "rw": {
+    "var": "rw",
+    "question": "RW",
+    "type": 25
+  },
+  "kode_pos": {
+    "var": "kode_pos",
+    "question": "Kode Pos",
+    "type": 4
+  },
+  "head_telp": {
+    "var": "head_telp",
+    "question": "Nomor Telepon",
+    "type": 3
+  },
+  "kode_area": {
+    "var": "kode_area",
+    "question": "Kode Area",
+    "type": 25
+  },
+  "no_telp": {
+    "var": "no_telp",
+    "question": "Nomor Telepon",
+    "type": 25
+  },
+  "eks": {
+    "var": "eks",
+    "question": "Ekstensi",
+    "type": 25
+  },
+  "email": {
+    "var": "email",
+    "question": "Email",
+    "type": 25
+  },
+  "hp": {
+    "var": "hp",
+    "question": "Nomor HP/whatsapp:",
+    "type": 25
+  },
+  "website": {
+    "var": "website",
+    "question": "Homepage/website\n\nAlamat website diawali dengan www. Contoh : www.bps.go.id",
+    "type": 25
+  },
+  "jenis_kawasan": {
+    "var": "jenis_kawasan",
+    "question": "8. d. Jenis kawasan beroperasi",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Kawasan Ekonomi Khusus (KEK)",
+        "value": "01"
+      },
+      {
+        "label": "2. Kawasan Industri (KI)",
+        "value": "02"
+      },
+      {
+        "label": "3. Stasiun",
+        "value": "03"
+      },
+      {
+        "label": "4. Bandara",
+        "value": "04"
+      },
+      {
+        "label": "5. Pelabuhan",
+        "value": "05"
+      },
+      {
+        "label": "6. Terminal",
+        "value": "06"
+      },
+      {
+        "label": "7. Rest area jalan tol",
+        "value": "07"
+      },
+      {
+        "label": "8. Kawasan sentra ekonomi perdesaan/kelurahan",
+        "value": "08"
+      },
+      {
+        "label": "9. Kawasan usaha lainnya",
+        "value": "09"
+      },
+      {
+        "label": "10. Di luar kawasan",
+        "value": "10"
+      }
+    ]
+  },
+  "nama_kek_ki": {
+    "var": "nama_kek_ki",
+    "question": "8. e. Nama KEK/KI",
+    "type": 27
+  },
+  "nama_kawasan": {
+    "var": "nama_kawasan",
+    "question": "8. e. Nama kawasan\n\n\nContoh: KEK Mandalika, Kawasan Industri Jababeka, Stasiun Gambir, Bandara Soekarno-Hatta, Pelabuhan Tanjung Priok, Terminal Pulo Gebang, Rest Area KM 57 Tol Jakarta\u2013Cikampek, Sentra Batik Laweyan, Kompleks Pertokoan ITC Mangga Dua",
+    "type": 25
+  },
+  "ec_usaha_respons": {
+    "var": "ec_usaha_respons",
+    "question": "Enabling Condition Usaha Respons di Roster",
+    "type": 4
+  },
+  "info_usaha_campuran": {
+    "var": "info_usaha_campuran",
+    "question": "Khusus usaha/perusahaan di bangunan campuran atau yang dicatat di tempat tinggal.",
+    "type": 3
+  },
+  "jenis_usaha": {
+    "var": "jenis_usaha",
+    "question": "9. a. Apa jenis usaha/perusahaan ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Usaha di dalam bangunan tempat tinggal",
+        "value": "1"
+      },
+      {
+        "label": "2. Usaha keliling",
+        "value": "2"
+      },
+      {
+        "label": "3. Usaha di luar bangunan tempat tinggal dengan lokasi tetap dan perlengkapan usaha dipindah/dibongkar pasang",
+        "value": "3"
+      },
+      {
+        "label": "4. Usaha konstruksi perorangan, usaha pertambangan dan penggalian perorangan",
+        "value": "4"
+      },
+      {
+        "label": "5. Usaha persewaan rumah/kamar/kantor",
+        "value": "5"
+      },
+      {
+        "label": "6. Usaha pertanian",
+        "value": "6"
+      }
+    ]
+  },
+  "head_lokasi": {
+    "var": "head_lokasi",
+    "question": "[id^=\"alamat_usaha_utama#\"],\n    [id^=\"prov_usaha_utama#\"],\n    [id^=\"kab_usaha_utama#\"],\n    {\n        padding-left: 1.3rem;\n    }\n\n9. b. Lokasi usaha utama",
+    "type": 3
+  },
+  "alamat_usaha_utama": {
+    "var": "alamat_usaha_utama",
+    "question": "9. b1. Alamat/lokasi usaha utama",
+    "type": 30
+  },
+  "prov_usaha_utama": {
+    "var": "prov_usaha_utama",
+    "question": "9. b2. Provinsi",
+    "type": 27
+  },
+  "kab_usaha_utama": {
+    "var": "kab_usaha_utama",
+    "question": "9. b3. Kabupaten/Kota",
+    "type": 27
+  },
+  "punya_nib": {
+    "var": "punya_nib",
+    "question": "10. a. Apakah memiliki Nomor Induk Berusaha (NIB)?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "nib": {
+    "var": "nib",
+    "question": "10. b. Tuliskan NIB:",
+    "type": 25
+  },
+  "banner_cek_nib": {
+    "var": "banner_cek_nib",
+    "question": "Silakan lakukan pengecekan NIB dengan menekan tombol CEK NIB di bawah ini.",
+    "type": 3
+  },
+  "cek_nib": {
+    "var": "cek_nib",
+    "question": "CEK NIB",
+    "type": 6
+  },
+  "hasilCekNIB": {
+    "var": "hasilCekNIB",
+    "question": "\u200b",
+    "type": 4
+  },
+  "htmlHasilCekNIB": {
+    "var": "htmlHasilCekNIB",
+    "question": "Hasil Pengecekan NIB",
+    "type": 4
+  },
+  "result_callnib": {
+    "var": "result_callnib",
+    "question": "result_callnib",
+    "type": 4
+  },
+  "tidak_nib": {
+    "var": "tidak_nib",
+    "question": "10. c. Apa alasan utama tidak memiliki NIB?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Dalam proses pembuatan NIB",
+        "value": "1"
+      },
+      {
+        "label": "2.  Pengurusan NIB rumit",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak memerlukan NIB",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak tahu tentang NIB",
+        "value": "4"
+      },
+      {
+        "label": "5. Lainnya",
+        "value": "5"
+      }
+    ]
+  },
+  "nib_lainnya": {
+    "var": "nib_lainnya",
+    "question": "10. c. Lainnya, tuliskan....",
+    "type": 25
+  },
+  "badan_usaha": {
+    "var": "badan_usaha",
+    "question": "11. a. Apa status badan usaha dari usaha/perusahaan ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1.a. Perseroan (PT/NV, PT Persero, PT Tbk, PT Persero Tbk, Perseroan Daerah",
+        "value": "01a"
+      },
+      {
+        "label": "1.b. Perseroan perorangan",
+        "value": "01b"
+      },
+      {
+        "label": "2. Yayasan",
+        "value": "02"
+      },
+      {
+        "label": "3. Koperasi",
+        "value": "03"
+      },
+      {
+        "label": "4. Dana Pensiun",
+        "value": "04"
+      },
+      {
+        "label": "5. Perum/Perumda",
+        "value": "05"
+      },
+      {
+        "label": "6. BUM Desa",
+        "value": "06"
+      },
+      {
+        "label": "7. Persekutuan Komanditer (CV)",
+        "value": "07"
+      },
+      {
+        "label": "8. Persekutuan Firma (Fa)",
+        "value": "08"
+      },
+      {
+        "label": "9. Persekutuan Perdata (Maatschap)",
+        "value": "09"
+      },
+      {
+        "label": "10. Kantor Perwakilan Luar Negeri",
+        "value": "10"
+      },
+      {
+        "label": "11. Badan Usaha Luar Negeri",
+        "value": "11"
+      },
+      {
+        "label": "12. Badan Usaha Lainnya (Contoh: BLU, PTN-BH)",
+        "value": "12"
+      },
+      {
+        "label": "13. Bukan Badan Usaha",
+        "value": "13"
+      }
+    ]
+  },
+  "koperasi_kdkmp": {
+    "var": "koperasi_kdkmp",
+    "question": "11. b. Apakah koperasi ini merupakan Koperasi Desa/Kelurahan Merah Putih (KDKMP)?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jenis_koperasi": {
+    "var": "jenis_koperasi",
+    "question": "11. c. Apa jenis koperasi ini berdasarkan layanannya?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Open Loop (dapat melayani non-anggota)",
+        "value": "1"
+      },
+      {
+        "label": "2. Close Loop (hanya melayani anggota)",
+        "value": "2"
+      }
+    ]
+  },
+  "lap_keuangan": {
+    "var": "lap_keuangan",
+    "question": "11. d. Apakah mempunyai laporan/catatan keuangan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "pengusaha_var_prelist": {
+    "var": "pengusaha_var_prelist",
+    "question": "pengusaha_var_prelist",
+    "type": 4
+  },
+  "pengusaha_var": {
+    "var": "pengusaha_var",
+    "question": "12. a. Nama Pengusaha / Penanggung Jawab",
+    "type": 27
+  },
+  "set_pengusaha_var": {
+    "var": "set_pengusaha_var",
+    "question": "set_pengusaha_var",
+    "type": 4
+  },
+  "css_hidden_5": {
+    "var": "css_hidden_5",
+    "question": ".fasih-form-sidebar:nth-child(3),\n        .fasih-form-sidebar:nth-child(6),\n        .fasih-form-sidebar:nth-child(7)\n        {\n            display:none!important;\n        }",
+    "type": 3
+  },
+  "set_default_pengusaha_var": {
+    "var": "set_default_pengusaha_var",
+    "question": "set_default_pengusaha_var",
+    "type": 4
+  },
+  "pengusaha": {
+    "var": "pengusaha",
+    "question": "12. a. Nama Pengusaha / Penanggung Jawab",
+    "type": 25
+  },
+  "jk_var": {
+    "var": "jk_var",
+    "question": "12. b. Jenis Kelamin",
+    "type": 4
+  },
+  "jk": {
+    "var": "jk",
+    "question": "12. b. Jenis Kelamin",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Laki-laki",
+        "value": "1"
+      },
+      {
+        "label": "2. Perempuan",
+        "value": "2"
+      }
+    ]
+  },
+  "umur_pj_var": {
+    "var": "umur_pj_var",
+    "question": "12. c. Umur",
+    "type": 4
+  },
+  "umur": {
+    "var": "umur",
+    "question": "12. c. Umur",
+    "type": 28
+  },
+  "nik_pengusaha_var": {
+    "var": "nik_pengusaha_var",
+    "question": "12. d. Nomor Induk Kependudukan (NIK )",
+    "type": 4
+  },
+  "nik_pengusaha": {
+    "var": "nik_pengusaha",
+    "question": "12. d. Nomor Induk Kependudukan (NIK)",
+    "type": 25
+  },
+  "banner_pemadanan_nik_2": {
+    "var": "banner_pemadanan_nik_2",
+    "question": "Silakan lakukan pengecekan NIK dengan menekan tombol CEK NIK di bawah ini.",
+    "type": 3
+  },
+  "callnik_button_l": {
+    "var": "callnik_button_l",
+    "question": "CEK NIK",
+    "type": 6
+  },
+  "hasilPemadananNIK_l": {
+    "var": "hasilPemadananNIK_l",
+    "question": "Hasil Pengecekkan NIK",
+    "type": 4
+  },
+  "htmlHasilPemadananNIK2_l": {
+    "var": "htmlHasilPemadananNIK2_l",
+    "question": "\u200b",
+    "type": 4
+  },
+  "htmlHasilPemadananNIK_l": {
+    "var": "htmlHasilPemadananNIK_l",
+    "question": "Hasil Pengecekan NIK",
+    "type": 4
+  },
+  "result_callnik_l": {
+    "var": "result_callnik_l",
+    "question": "\u200b",
+    "type": 4
+  },
+  "head_keg_utama": {
+    "var": "head_keg_utama",
+    "question": "[id^='keg_utama#'],\n[id^='kegutama_detail#'],\n[id^='jenis_kegiatan#'],\n[id^='usaha_info#'],\n[id^='tampilan_13b#'],\n[id^='lokasi_usaha#'],\n[id^='input#'],\n[id^='proses#'],\n[id^='produk#'],\n[id^='tampilan_13f#'],\n[id^='info_genai#'],\n[id^='genai_button#'],\n[id^='var_kbli#'],\n[id^='result_gen_ai#'],\n[id^='kbli_prelist#'],\n[id^='kbli_genai#'],\n[id^='kbli#'],\n[id^='kbli_akhir#'],\n[id^='kategori#'],\n[id^='msg_error_kategori#'],\n[id^='html_msg_error#'],\n[id^='css_hide_pml_new#'],\n[id^='cek_kbli_pml#'],\n[id^='var_hiden_pml#'],\n[id^='klasifikasi#'],\n[id=^='beli_jasa_non_pddk#']\n{\n  padding-left: 1.3rem;\n}\n\n[id^='produk_sendiri#'],\n[id^='layanan_mamin#'],\n[id^='keg_penjualan#'],\n[id^='keg_jasa#'] {\n  padding-left: 2.4rem;\n}\n\n\n13. Kegiatan utama dan produk utama usaha/perusahaan:",
+    "type": 3
+  },
+  "keg_utama": {
+    "var": "keg_utama",
+    "question": "13. a. Apa kegiatan utama usaha/perusahaan ini? Tuliskan selengkapnya",
+    "type": 25
+  },
+  "kegutama_detail": {
+    "var": "kegutama_detail",
+    "question": "Petunjuk Rincian 13a. Kegiatan Utama\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                            Contoh: \r\n                            o membudidayakan tanaman padi;\r\n                            o membudidayakan cabai;\r\n                            o membudidayakan tanaman tembakau;\r\n                            o membudidayakan udang di air payau;\r\n                            o membibitkan ayam ras;\r\n                            o menangkap ikan konsumsi di sungai;\r\n                            o memungut madu di hutan;\r\n                            o menggiling daging ikan menjadi sosis dan dijual di rumah/online; \r\n                            o membuat kebab di rumah dan dititipkan di warung; \r\n                            o jasa borongan/konstruksi rumah; \r\n                            o menjual mobil bekas di showroom; \r\n                            o menjual kaset video game yang dibeli dari pihak lain di marketplace; \r\n                            o angkutan bus antarkota antarprovinsi; \r\n                            o membuat sosis dari ikan, disajikan dengan pembakaran, dijual di depan rumah/online; \r\n                            o menyewakan kos bulanan;\r\no menyewakan kamar hotel bintang 5; \r\no membuat kebab berdasarkan pesanan langsung di gerobak depan alfamart; \r\no menjual perangkat lunak video gim yang dikembangkan sendiri; \r\no penyediaan telekomunikasi internet tanpa kabel; \r\no membuat rumah kemudian dipasarkan sendiri;\r\no menyewakan rumah dengan periode tahunan; \r\no membuat desain kemasan botol minuman; \r\no sekolah menengah pertama negeri; \r\no rumah sakit pemerintah; \r\no membuat seni lukisan yang dipajang untuk dijual; \r\no membuat kunci duplikat di pinggir jalan; \r\no menulis cerpen; \r\no membuat desain interior rumah; \r\no pengembangan aplikasi video gim; \r\no meracik jamu secara langsung untuk siap konsumsi di sebuah kedai",
+    "type": 3
+  },
+  "jenis_kegiatan": {
+    "var": "jenis_kegiatan",
+    "question": "jenis_kegiatan",
+    "type": 4
+  },
+  "usaha_info": {
+    "var": "usaha_info",
+    "question": "13. b. Pilih yang paling sesuai dengan kegiatan utama usaha/perusahaan ini:",
+    "type": 3
+  },
+  "produk_sendiri": {
+    "var": "produk_sendiri",
+    "question": "13. b1. Apakah memproduksi barang di lokasi ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "layanan_mamin": {
+    "var": "layanan_mamin",
+    "question": "13. b2. Apakah menyediakan layanan makan minum?\n\nCiri: terdapat kegiatan peracikkan, pemanasan ulang, atau pembuatan produk berdasarkan pesanan/permintaan pelanggan",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "keg_penjualan": {
+    "var": "keg_penjualan",
+    "question": "13. b3. Apakah melakukan penjualan barang?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "keg_jasa": {
+    "var": "keg_jasa",
+    "question": "13. b4. Pilih salah satu aktivitas yang dilakukan:",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Jasa",
+        "value": "1"
+      },
+      {
+        "label": "2. Pertanian, Perikanan, dan Kehutanan",
+        "value": "2"
+      }
+    ]
+  },
+  "lokasi_usaha": {
+    "var": "lokasi_usaha",
+    "question": "13. c. Di mana usaha tersebut biasa dilakukan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Apotek",
+        "value": "01"
+      },
+      {
+        "label": "2. Swalayan",
+        "value": "02"
+      },
+      {
+        "label": "3. Los Pasar",
+        "value": "03"
+      },
+      {
+        "label": "4. Toko, ruko, dan sejenisnya",
+        "value": "04"
+      },
+      {
+        "label": "5.  Kedai, stan, tenda",
+        "value": "05"
+      },
+      {
+        "label": "6. Bar",
+        "value": "06"
+      },
+      {
+        "label": "7. Kelab malam, diskotek",
+        "value": "07"
+      },
+      {
+        "label": "8. Kafe",
+        "value": "08"
+      },
+      {
+        "label": "9. Restoran, warung makan, dan sejenisnya",
+        "value": "09"
+      },
+      {
+        "label": "10. Keliling",
+        "value": "10"
+      },
+      {
+        "label": "11. Daring (online)",
+        "value": "11"
+      }
+    ]
+  },
+  "input": {
+    "var": "input",
+    "question": "13. d. Apa input yang digunakan?\nContoh: daging ikan, tepung; daging kebab, kulit kebab, sayuran; bambu; jagung pipil; kaca; kain; kulit sapi; kayu bulat; rotan; kunci polos",
+    "type": 30
+  },
+  "proses": {
+    "var": "proses",
+    "question": "13. e. Bagaimana proses mengubah input tersebut menjadi produk output (beserta alatnya)?\nContoh: menggiling daging ikan menjadi sosis; membuat kebab di rumah dan sudah dikemasi kemudian dititipkan di warung; penggaraman; pengasapan; pemindangan; pembekuan.",
+    "type": 30
+  },
+  "produk": {
+    "var": "produk",
+    "question": "13. f. Apa produk utama yang dihasilkan?",
+    "type": 25
+  },
+  "tampilan_13f": {
+    "var": "tampilan_13f",
+    "question": "Petunjuk Rincian 13f. Produk utama\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                             Contoh: padi; tembakau; udang; ayam ras; ikan segar konsumsi; ayam ras; madu hutan; sosis; kebab yang sudah dikemas; jasa renovasi/ membuat rumah; jasa perdagangan mobil bekas; jasa perdagangan kaset video gim; jasa angkutan bus antarkota antarprovinsi; sosis ikan yang dibakar; jasa sewa kos bulanan; jasa penyediaan akomodasi hotel bintang 5;\r\njasa penyajian kebab; jasa pengembangan perangkat lunak video gim; jasa telekomunikasi internet tanpa kabel; jasa penjualan rumah yang\r\ndibangun sendiri; jasa penyediaan rumah dengan periode tahunan; jasa pendidikan sekolah menengah pertama negeri; jasa kesehatan oleh\r\nrumah sakit pemerintah; jasa pembuatan kunci duplikat; lukisan, patung, kerajinan, musik, tari, foto, film, ilustrasi, animasi, board game, puisi,\r\ncerpen, novel, naskah drama; desain arsitektur, desain produk, desain interior, desain komunikasi visual, desain fesyen, pembuatan perangkat\r\nlunak (software ), aplikasi digital, aplikasi gim, perangkat elektronik, inovasi berbasis kecerdasan buatan; rendang, gudeg; gamelan, angklung.",
+    "type": 3
+  },
+  "info_genai": {
+    "var": "info_genai",
+    "question": "[id^=genai_button] button {\r\n        width: 100%;\r\n        max-width: 768px;\r\n    }\r\n    [id^='kbli#'] {\r\n        padding-left: 1.3rem\r\n    }\r\n    \r\n\r\n\r\n\r\nSilahkan klik \r\nDapatkan Rekomendasi KBLI\r\nuntuk mendapatkan kbli dan kategori rekomendasi \r\ndari GEN AI",
+    "type": 3
+  },
+  "genai_button": {
+    "var": "genai_button",
+    "question": "DAPATKAN REKOMENDASI KBLI",
+    "type": 6
+  },
+  "var_kbli": {
+    "var": "var_kbli",
+    "question": "Pilihan untuk KBLI",
+    "type": 4
+  },
+  "result_gen_ai": {
+    "var": "result_gen_ai",
+    "question": "Result Gen AI",
+    "type": 4
+  },
+  "kbli_prelist": {
+    "var": "kbli_prelist",
+    "question": "kbli_prelist",
+    "type": 4
+  },
+  "kbli_genai": {
+    "var": "kbli_genai",
+    "question": "13. g. Kode KBLI",
+    "type": 26
+  },
+  "kbli": {
+    "var": "kbli",
+    "question": "Pilih dari Master KBLI",
+    "type": 27
+  },
+  "kbli_genai_cawi": {
+    "var": "kbli_genai_cawi",
+    "question": "kbli_genai_cawi",
+    "type": 4
+  },
+  "kbli_cawi": {
+    "var": "kbli_cawi",
+    "question": "kbli_cawi",
+    "type": 4
+  },
+  "set_kbli_cawi": {
+    "var": "set_kbli_cawi",
+    "question": "set_kbli_cawi",
+    "type": 4
+  },
+  "kbli_akhir": {
+    "var": "kbli_akhir",
+    "question": "KBLI Akhir",
+    "type": 4
+  },
+  "kategori_2025": {
+    "var": "kategori_2025",
+    "question": "kategori_2025",
+    "type": 4
+  },
+  "kategori": {
+    "var": "kategori",
+    "question": "13. h. Kategori Lapangan Usaha:",
+    "type": 4
+  },
+  "kat_detail": {
+    "var": "kat_detail",
+    "question": "Petunjuk Rincian 13h. Kategori Lapangan Usaha\r\n    \r\n\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        \r\n\r\n                            Petunjuk:\r\n\r\n                            \r\n                                \r\n                                    KATEGORI KBLI 2025, yang berisikan list kategori usaha.\r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    Kategori A : Pertanian, Kehutanan, dan Perikanan\r\n                                \r\n                                \r\n                                    Kategori B : Pertambangan dan Penggalian\r\n                                \r\n                                \r\n                                    Kategori C : Industri\r\n                                \r\n                                \r\n                                    Kategori D : Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin\r\n                                \r\n                                \r\n                                    Kategori E : Penyediaan Air, Pengelolaan Air Limbah, Penanganan limbah, dan Remediasi\r\n                                \r\n                                \r\n                                    Kategori F : Konstruksi\r\n                                \r\n                                \r\n                                    Kategori G : Perdagangan Besar dan Eceran\r\n                                \r\n                                \r\n                                    Kategori H : Transportasi dan Penyimpanan\r\n                                \r\n                                \r\n                                    Kategori I : Aktivitas Penyediaan Akomodasi dan Makan Minum\r\n                                \r\n                                \r\n                                    Kategori J : Aktivitas Penerbitan, Penyiaran, serta Produksi dan Distribusi Konten\r\n                                \r\n                                \r\n                                    Kategori K : Aktivitas Telekomunikasi, Pemrograman Komputer, Konsultansi, Infrastruktur Komputasi, dan Jasa Informasi Lainnya\r\n                                \r\n                                \r\n                                    Kategori L : Aktivitas Keuangan dan Asuransi\r\n                                \r\n                                \r\n                                    Kategori M : Aktivitas Real Estat\r\n                                \r\n                                \r\n                                    Kategori N : Aktivitas Profesional, Ilmiah dan Teknis\r\n                                \r\n                                \r\n                                    Kategori O : Aktivitas Administratif dan Penunjang Usaha\r\n                                \r\n                                \r\n                                    Kategori P : Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib\r\n                                \r\n                                                                \r\n                                    Kategori Q : Pendidikan\r\n                                \r\n                                \r\n                                    Kategori R : Aktivitas Kesehatan Manusia dan Aktivitas Sosial\r\n                                \r\n                                \r\n                                    Kategori S : Kesenian, Olahraga, dan Rekreasi\r\n                                \r\n                                \r\n                                    Kategori T : Aktivitas Jasa Lainnya\r\n                                \r\n                                \r\n                                    Kategori U : Aktivitas Rumah Tangga Sebagai Pemberi Kerja dan Aktivitas Produksi Barang dan Jasa\r\n                                \r\n                                  \r\n                                    Kategori V : Aktivitas Badan Internasional dan Badan Ekstra Internasional Lainnya",
+    "type": 3
+  },
+  "msg_error_kategori": {
+    "var": "msg_error_kategori",
+    "question": "&nbsp",
+    "type": 4
+  },
+  "html_msg_error": {
+    "var": "html_msg_error",
+    "question": "Error: $ket",
+    "type": 4
+  },
+  "css_hide_pml_new": {
+    "var": "css_hide_pml_new",
+    "question": "#cek_kbli_pml\\#$index {\r\n            display:none!important;\r\n        }\r\n         #cek_tk_jk_pml\\#$index {\r\n            display:none!important;\r\n        }\r\n        \r\n         #cek_tk_bayar_pml\\#$index {\r\n            display:none!important;\r\n        }\r\n         #cek_output26f_pml\\#$index {\r\n            display:none!important;\r\n        }\r\n        \r\n        \r\n         #cek_input27c_pml\\#$index {\r\n            display:none!important;\r\n        }\r\n         #cek_asetThn_pml\\#$index {\r\n            display:none!important;\r\n        }\r\n        \r\n        #cek_output30f_pml\\#$index{\r\n            display:none!important;\r\n        }\r\n         \r\n        #cek_input31c_pml\\#$index{\r\n            display:none!important;\r\n        }\r\n         #cek_asetBln_pml\\#$index{\r\n            display:none!important;\r\n        }",
+    "type": 3
+  },
+  "cek_kbli_pml": {
+    "var": "cek_kbli_pml",
+    "question": "&nbsp;&nbsp;\nCek Kategori & KBLI  (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "var_hiden_pml": {
+    "var": "var_hiden_pml",
+    "question": "New Question",
+    "type": 4
+  },
+  "klasifikasi": {
+    "var": "klasifikasi",
+    "question": "13. i. Jika usaha/perusahaan merupakan akomodasi jangka pendek, apa klasifikasi usaha/perusahaan ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Hotel Bintang 1",
+        "value": "1"
+      },
+      {
+        "label": "2. Hotel Bintang 2",
+        "value": "2"
+      },
+      {
+        "label": "3. Hotel Bintang 3",
+        "value": "3"
+      },
+      {
+        "label": "4. Hotel Bintang 4",
+        "value": "4"
+      },
+      {
+        "label": "5. Hotel Bintang 5",
+        "value": "5"
+      },
+      {
+        "label": "6. Lainnya (hotel non-bintang, vila, dll)",
+        "value": "6"
+      }
+    ]
+  },
+  "jaringan": {
+    "var": "jaringan",
+    "question": "14. a. Apa jaringan usaha dari usaha/perusahaan ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Tunggal",
+        "value": "1"
+      },
+      {
+        "label": "2. Kantor pusat",
+        "value": "2"
+      },
+      {
+        "label": "3. Cabang",
+        "value": "3"
+      },
+      {
+        "label": "4. Perwakilan",
+        "value": "4"
+      },
+      {
+        "label": "5. Pabrik",
+        "value": "5"
+      },
+      {
+        "label": "6. Unit pembantu/penunjang",
+        "value": "6"
+      }
+    ]
+  },
+  "jumlah_kc": {
+    "var": "jumlah_kc",
+    "question": "14. b. Berapa jumlah seluruh kantor cabang dan unit usaha yang berada di bawah kantor pusat?",
+    "type": 28
+  },
+  "kp_header": {
+    "var": "kp_header",
+    "question": "KHUSUS KANTOR PUSAT\n    Apabila perusahaan ini merupakan kantor pusat, lanjutkan pengisian informasi kantor cabang dan\nunit yang berada di bawah kendali kantor pusat melalui kuesioner SE2026-L.KP",
+    "type": 3
+  },
+  "kc_info": {
+    "var": "kc_info",
+    "question": "[id^='nama_kp#'],\n[id^='alamat_kp#'],\n[id^='email_kp#'],\n[id^='negara_kp#'],\n[id^='prov_kp#'],\n[id^='kab_kp#']\n{\n  padding-left: 1.3rem;\n}\n\n15. Informasi Kantor Pusat:",
+    "type": 3
+  },
+  "ec_usaha_lanjutan": {
+    "var": "ec_usaha_lanjutan",
+    "question": "Enabling Condition untuk Usaha Ditemukan selain penunjang dan pusat",
+    "type": 4
+  },
+  "nama_kp": {
+    "var": "nama_kp",
+    "question": "15. a. Nama Kantor Pusat",
+    "type": 25
+  },
+  "alamat_kp": {
+    "var": "alamat_kp",
+    "question": "15. b. Alamat Kantor Pusat",
+    "type": 30
+  },
+  "email_kp": {
+    "var": "email_kp",
+    "question": "15. c. Email",
+    "type": 25
+  },
+  "negara_kp": {
+    "var": "negara_kp",
+    "question": "15. d. Negara",
+    "type": 27
+  },
+  "prov_kp": {
+    "var": "prov_kp",
+    "question": "15. e. Provinsi",
+    "type": 27
+  },
+  "kab_kp": {
+    "var": "kab_kp",
+    "question": "15. f. Kabupaten/Kota",
+    "type": 27
+  },
+  "internet": {
+    "var": "internet",
+    "question": "16. a. Apakah usaha/perusahaan ini menggunakan internet dalam menjalankan usaha?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_info": {
+    "var": "internet_info",
+    "question": "[id^='internet_pesanan#'],\n[id^='internet_produksi#'],\n[id^='internet_distribusi#'],\n[id^='internet_beli#'],\n[id^='internet_promosi#'],\n[id^='internet_lainnya#']\n{\n  padding-left: 1.3rem;\n}\n\n\n16. b. Tujuan penggunaan internet:",
+    "type": 3
+  },
+  "internet_produksi": {
+    "var": "internet_produksi",
+    "question": "16. b2. Produksi barang/jasa",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_pesanan": {
+    "var": "internet_pesanan",
+    "question": "16. b1. Menerima pesanan barang/jasa",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_distribusi": {
+    "var": "internet_distribusi",
+    "question": "16. b3. Distribusi barang/jasa",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_beli": {
+    "var": "internet_beli",
+    "question": "16. b4. Membeli bahan baku online",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_promosi": {
+    "var": "internet_promosi",
+    "question": "16. b5. Promosi",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_lainnya": {
+    "var": "internet_lainnya",
+    "question": "16. b6. Lainnya",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "digital": {
+    "var": "digital",
+    "question": "16. c. Apakah usaha/perusahaan ini memanfaatkan teknologi digital Aritifical Intelligence (AI), Internet of Things (IoT), big data, printer 3D, blockchain, atau cloud computing?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "produksi_lingkungan": {
+    "var": "produksi_lingkungan",
+    "question": "17. a. Apakah usaha/perusahaan ini memproduksi barang/jasa yang ramah lingkungan?\nContoh: Produk efisiensi energi (lampu atau mesin hemat listrik); Energi terbarukan (panel surya, turbin angin, biogas);\nKendaraan ramah lingkungan (kendaraan listrik/ hybrid); Produk berbahan daur ulang (kertas/plastik daur ulang, kemasan \nramah lingkungan); Jasa pengelolaan dan pembersihan limbah dan sampah (pengolahan sampah/ air limbah, daur ulang)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya, seluruhnya",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, sebagian",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak sama sekali",
+        "value": "3"
+      }
+    ]
+  },
+  "perlindungan_lingkungan": {
+    "var": "perlindungan_lingkungan",
+    "question": "17. b.  Apakah usaha/perusahaan ini menggunakan input untuk tujuan perlindungan lingkungan\ndan/atau pembelian barang dan jasa yang ramah lingkungan?\nContoh: Pengeluaran untuk pengelolaan dan pembersihan limbah dan sampah, pengendalian polusi udara, perbaikan tanah/ air tanah, pengurangan kebisingan, pelestarian alam/keanekaragaman hayati, audit/ penilaian lingkungan",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "produk_seni": {
+    "var": "produk_seni",
+    "question": "18. Apakah usaha/perusahaan ini menggunakan produk karya seni, sastra, desain, teknologi atau warisan budaya, baik diproduksi sendiri maupun oleh pihak lain?\n\n\n\nContoh produk karya seni: lukisan, patung, kerajinan, musik, tari, foto, film, ilustrasi, animasi, board game, dll.\nContoh produk sastra: puisi, cerpen, novel, naskah drama, dll.\nContoh produk desain: arsitektur, desain produk, desain interior, desain komunikasi visual, desain fesyen, dll.\nContoh produk teknologi: perangkat lunak (software), aplikasi digital, aplikasi gim, perangkat elektronik, dll.\nContoh produk warisan budaya: makanan tradisional, peralatan tradisional, obat tradisional, dll.",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "ec_halal": {
+    "var": "ec_halal",
+    "question": "ec_halal",
+    "type": 4
+  },
+  "halal": {
+    "var": "halal",
+    "question": "19. a. Apakah usaha/perusahaan ini menghasilkan produk bersertifikat halal?\n\nRincian 19 hanya ditanyakan kepada kategori usaha/perusahaan khusus berdasarkan BPJPH.",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya, oleh BPJPH",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, bukan oleh BPJPH",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak/Belum",
+        "value": "3"
+      },
+      {
+        "label": "4. Dalam proses",
+        "value": "4"
+      }
+    ]
+  },
+  "sudah_halal": {
+    "var": "sudah_halal",
+    "question": "19. b. Berapa jumlah varian produk yang sudah bersertifikat halal BPJPH?",
+    "type": 28
+  },
+  "belum_halal": {
+    "var": "belum_halal",
+    "question": "19. c. Berapa jumlah varian produk yang belum bersertifikat halal BPJPH?",
+    "type": 28
+  },
+  "ec_bpom": {
+    "var": "ec_bpom",
+    "question": "ec_bpom",
+    "type": 4
+  },
+  "izin_edar": {
+    "var": "izin_edar",
+    "question": "20. a. Apakah usaha/perusahaan ini memiliki izin edar?\n\nRincian 20 hanya ditanyakan kepada kategori usaha/perusahaan khusus berdasarkan BPOM.",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya, oleh BPOM",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, bukan oleh BPOM",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak",
+        "value": "3"
+      }
+    ]
+  },
+  "sudah_bpom": {
+    "var": "sudah_bpom",
+    "question": "20. b. Berapa jumlah varian produk yang sudah memiliki izin edar BPOM?",
+    "type": 28
+  },
+  "belum_bpom": {
+    "var": "belum_bpom",
+    "question": "20. c. Berapa jumlah varian produk yang belum memiliki izin edar BPOM?",
+    "type": 28
+  },
+  "mitra_kdkmp": {
+    "var": "mitra_kdkmp",
+    "question": "21. Apakah usaha/perusahaan ini bermitra dengan Koperasi Desa/Kelurahan Merah Putih (KDKMP)?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "peran_mbg": {
+    "var": "peran_mbg",
+    "question": "22. Apakah usaha/perusahaan ini terlibat dalam program Makan Bergizi Gratis (MBG)?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya, sebagai SATUAN PELAYANAN PEMENUHAN GIZI (SPPG)",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, sebagai supplier",
+        "value": "2"
+      },
+      {
+        "label": "3. Ya, sebagai penerima manfaat MBG (Sekolah, Puskesmas)",
+        "value": "3"
+      },
+      {
+        "label": "4. Ya, peran lainnya",
+        "value": "4"
+      },
+      {
+        "label": "5. Tidak terlibat MBG",
+        "value": "5"
+      }
+    ]
+  },
+  "transaksi_non_pddk": {
+    "var": "transaksi_non_pddk",
+    "question": "[id^='barang_non_pddk#'],\n[id^='jasa_non_pddk#'],\n[id^='tampilan_23#'],\n[id^='beli_jasa_non_pddk#']\n{\n  padding-left: 1.3rem;\n}\n\n\n23. Apakah usaha/perusahaan melakukan penjualan/pembelian kepada bukan penduduk Indonesia selama periode 1 Mei 2024 s.d. 31 Agustus 2026?",
+    "type": 3
+  },
+  "barang_non_pddk": {
+    "var": "barang_non_pddk",
+    "question": "23. a.  Penjualan dan/atau pembelian barang",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jasa_non_pddk": {
+    "var": "jasa_non_pddk",
+    "question": "23. b. Penjualan jasa",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "beli_jasa_non_pddk": {
+    "var": "beli_jasa_non_pddk",
+    "question": "23. c. Pembelian jasa",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "tampilan_23": {
+    "var": "tampilan_23",
+    "question": "Petunjuk Rincian 23. Penjualan/pembelian kepada bukan penduduk Indonesia\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                             Bukan penduduk adalah orang atau badan yang pusat kegiatan ekonominya berada di luar Indonesia. Contoh orang yaitu turis wisatawan\r\n  mancanegara yang berwisata kurang dari 1 tahun. \r\n  Contoh badan yaitu usaha/perusahaan yang tidak terdaftar badan usahanya di Indonesia.\r\n Contoh kegiatan:\r\n o Ekspor barang: Pengrajin perak di Bali mengirimkan aksesori dan perhiasan ke pembeli di luar negeri.\r\n o Impor barang: Toko elektronik Indonesia mengimpor smartphone dari Tiongkok untuk dijual kembali.\r\no  Ekspor jasa: Konsultan Indonesia memberikan jasa pelatihan secara online ke perusahaan luar negeri; Hotel di Indonesia melayani\r\n tamu wisatawan mancanegara\r\n o Impor jasa: Usaha/perusahaan Indonesia berlangganan layanan digital berbayar dari perusahaan luar negeri (Canva, Microsoft 365,\r\nGoogle Cloud, Adobe, ChatGPT, dll.); Perusahaan Indonesia menggunakan jasa Konsultan asing",
+    "type": 3
+  },
+  "tk_header": {
+    "var": "tk_header",
+    "question": "[id^='tampilan_24#'],\n[id^='tk_laki#'],\n[id^='tk_pr#'],\n[id^='total_tk_jk#'],\n[id^='cek_tk_jk_pml#'],\n[id^='tk_dibayar#'],\n[id^='tk_tdk_dibayar#'],\n[id^='total_tk_bayar#'],\n[id^='cek_tk_bayar_pml#'],\n[id^='ec_usaha_bulan#'],\n[id^='ec_usaha_tahun#']\n{\n  padding-left: 1.3rem;\n}\n\n\n24. Pekerja",
+    "type": 3
+  },
+  "tampilan_24": {
+    "var": "tampilan_24",
+    "question": "Petunjuk Rincian 24. Pekerja\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                              1. Jika beroperasi tahun 2026, isikan rata-rata pekerja per bulan di tahun 2026. \r\n                              2. Jika beroperasi sebelum tahun 2026:\r\na. isikan pekerja per 31 Desember 2025, atau\r\nb. jika tidak tersedia, isikan rata-rata pekerja per bulan di tahun 2025.",
+    "type": 3
+  },
+  "tk_laki": {
+    "var": "tk_laki",
+    "question": "24. a1. Pekerja laki-laki",
+    "type": 28
+  },
+  "tk_pr": {
+    "var": "tk_pr",
+    "question": "24. b1. Pekerja perempuan",
+    "type": 28
+  },
+  "total_tk_jk": {
+    "var": "total_tk_jk",
+    "question": "24. c1. Total pekerja (a1+b1)",
+    "type": 28
+  },
+  "total_tk_jk_var": {
+    "var": "total_tk_jk_var",
+    "question": "total_tk_jk_var",
+    "type": 4
+  },
+  "cek_tk_jk_pml": {
+    "var": "cek_tk_jk_pml",
+    "question": "&nbsp;&nbsp;\nCek Pekerja (c1) (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "tk_dibayar": {
+    "var": "tk_dibayar",
+    "question": "24. a2. Pekerja dibayar",
+    "type": 28
+  },
+  "tk_tdk_dibayar": {
+    "var": "tk_tdk_dibayar",
+    "question": "24. b2. Pekerja tidak dibayar",
+    "type": 28
+  },
+  "total_tk_bayar": {
+    "var": "total_tk_bayar",
+    "question": "24. c2. Total pekerja (a2+b2)",
+    "type": 28
+  },
+  "total_tk_bayar_var": {
+    "var": "total_tk_bayar_var",
+    "question": "total_tk_bayar_var",
+    "type": 4
+  },
+  "cek_tk_bayar_pml": {
+    "var": "cek_tk_bayar_pml",
+    "question": "&nbsp;&nbsp;\nCek Pekerja (24. c2) (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "ec_usaha_bulan": {
+    "var": "ec_usaha_bulan",
+    "question": "enabling condition pertanyaan 25 s.d 28",
+    "type": 4
+  },
+  "ec_usaha_tahun": {
+    "var": "ec_usaha_tahun",
+    "question": "enabling condition pertanyaan 21s.d 24",
+    "type": 4
+  },
+  "tahun_operasi": {
+    "var": "tahun_operasi",
+    "question": "25. Tahun berapa usaha/perusahaan ini mulai beroperasi secara komersial?\nTahun beroperasi komersial terdiri dari 4 angka. Contoh: 1990; 2025;dsb.",
+    "type": 24
+  },
+  "head_pengeluaran": {
+    "var": "head_pengeluaran",
+    "question": "PENGELUARAN, PENDAPATAN, DAN ASET TAHUN 2025\n  \n              [Rincian 26-29 hanya ditanyakan jika usaha/perusahaan beroperasi secara komersial SEBELUM tahun 2026]",
+    "type": 3
+  },
+  "info_pengeluaran": {
+    "var": "info_pengeluaran",
+    "question": "[id^='gaji#'],\n[id^='biaya_produksi#'],\n[id^='operasional#'],\n[id^='biaya_pembelian#'],\n[id^='non_operasional#'],\n[id^='total_pengeluaran#'],\n[id^='cek_output26f_pml#'],\n[id^='tampilan_26#']\n{\n  padding-left: 1.3rem;\n}\n\n26. Rincian Pengeluaran Tahun 2025",
+    "type": 3
+  },
+  "gaji": {
+    "var": "gaji",
+    "question": "26. a. Total upah dan gaji, serta jaminan sosial pegawai",
+    "type": 20
+  },
+  "biaya_produksi": {
+    "var": "biaya_produksi",
+    "question": "26. b. Biaya produksi",
+    "type": 20
+  },
+  "biaya_pembelian": {
+    "var": "biaya_pembelian",
+    "question": "26. c. Biaya pembelian barang yang terjual",
+    "type": 20
+  },
+  "operasional": {
+    "var": "operasional",
+    "question": "26. d. Biaya operasional (air, listrik, gas, internet, pulsa, pemeliharaan, biaya angkutan, dll.)",
+    "type": 20
+  },
+  "non_operasional": {
+    "var": "non_operasional",
+    "question": "26. e. Biaya non-operasional",
+    "type": 20
+  },
+  "total_pengeluaran_var": {
+    "var": "total_pengeluaran_var",
+    "question": "total_pengeluaran_var",
+    "type": 4
+  },
+  "total_pengeluaran": {
+    "var": "total_pengeluaran",
+    "question": "26. f. Total pengeluaran (a+b+c+d+e)",
+    "type": 20
+  },
+  "cek_output26f_pml": {
+    "var": "cek_output26f_pml",
+    "question": "&nbsp;&nbsp;\nCek Rincian Pengeluaran 2025 (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "tampilan_26": {
+    "var": "tampilan_26",
+    "question": "Petunjuk Rincian 26. Pengeluaran\r\n    \r\n\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        \r\n\r\n                            Petunjuk:\r\n\r\n                            \r\n                                a. Total upah dan gaji, serta jaminan sosial pegawai\r\n                            \r\n\r\n                            Termasuk:\r\n                            \r\n                                \r\n                                    Upah dan gaji pegawai/karyawan yang telah dikeluarkan\r\n                                    ringkasan pembayarannya (group certificate)\r\n                                \r\n                                \r\n                                    Komisi, tips, dan bonus untuk pegawai/karyawan\r\n                                \r\n                                \r\n                                    Pembayaran cuti tahunan dan jenis cuti lainnya\r\n                                \r\n                            \r\n\r\n                            Tidak termasuk:\r\n                            \r\n                                Upah dan gaji yang dikapitalisasi\r\n                                \r\n                                    Pembayaran untuk konsultan dan kontraktor yang berusaha sendiri\r\n                                    (bukan karyawan perusahaan) yang dibayarkan dengan komisi\r\n                                \r\n                            \r\n\r\n                            \r\n                                \r\n                                    b. Biaya produksi (pemakaian bahan baku dan penolong)\r\n                                \r\n                            \r\n\r\n                            Catatan:\r\n                            \r\n                                Mencakup seluruh nilai barang dan jasa yang digunakan sebagai\r\n                                bahan baku dan biaya langsung dalam proses produksi barang dan jasa,\r\n                                tidak termasuk aset tetap.\r\n                            \r\n\r\n                            \r\n                                Pada usaha pertanian, ongkos/biaya yang dicatat adalah biaya dari\r\n                                barang/jasa yang benar-benar dibeli/dibayarkan dan telah digunakan\r\n                                (tidak termasuk yang disimpan, diberikan ke pihak lain, dan sebagainya).\r\n                            \r\n\r\n                            \r\n                                Untuk usaha jasa, biaya produksi yang dimaksud meliputi biaya-biaya\r\n                                yang dikeluarkan secara langsung untuk menghasilkan jasa.\r\n                            \r\n\r\n                            Contoh:\r\n\r\n                            \r\n                                Biaya produksi usaha tanaman pangan, hortikultura, perkebunan,\r\n                                peternakan, kehutanan, dan perikanan meliputi benih, bibit, pupuk,\r\n                                pestisida, vaksin, vitamin, obat-obatan, pakan, umpan, wadah,\r\n                                tali, es, garam, konsumsi, awak kapal, dan lain-lain.\r\n                            \r\n\r\n                            \r\n                                Biaya produksi jasa transportasi meliputi biaya bahan bakar.\r\n                                Biaya produksi usaha perbankan meliputi beban bunga, provisi,\r\n                                dan komisi. Biaya produksi usaha asuransi meliputi klaim asuransi.\r\n                                Biaya produksi usaha sewa kos-kosan atau kontrakan meliputi\r\n                                air bersih dan listrik yang ditanggung pemilik.\r\n                            \r\n\r\n                            \r\n                                c. Biaya pembelian barang yang dijual\r\n                            \r\n\r\n                            \r\n                                Mencakup seluruh nilai pembelian barang perdagangan yang terjual.\r\n                                Contoh: nilai pembelian beras yang terjual, nilai pembelian tepung\r\n                                yang terjual, dan sebagainya.\r\n                            \r\n\r\n                            \r\n                                \r\n                                    d. Biaya operasional (air, listrik, gas, internet, pulsa,\r\n                                    pemeliharaan, biaya angkutan)\r\n                                \r\n                            \r\n\r\n                            Catatan:\r\n\r\n                            \r\n                                Mencakup biaya-biaya yang tidak secara langsung terkait dalam\r\n                                proses produksi seperti air, listrik, gas, pemeliharaan,\r\n                                serta biaya angkutan.\r\n                            \r\n\r\n                            Termasuk:\r\n\r\n                            \r\n                                Pengeluaran listrik, bahan bakar, dan air\r\n                                Pembelian bahan perkantoran umum\r\n                                \r\n                                    Pembelian komponen dan bahan bakar untuk kendaraan bermotor\r\n                                \r\n                                \r\n                                    Pembayaran ke pihak lain untuk kargo, delivery,\r\n                                    dan jasa angkutan\r\n                                \r\n                                \r\n                                    Pembayaran sewa operasi (dengan atau tanpa operator)\r\n                                \r\n                                \r\n                                    Biaya lisensi software komputer yang berumur kurang dari\r\n                                    satu tahun (termasuk biaya instalasi oleh provider eksternal)\r\n                                \r\n                                Biaya bank selain bunga\r\n                            \r\n\r\n                            Tidak termasuk:\r\n\r\n                            \r\n                                Pemeliharaan besar\r\n                            \r\n\r\n                            \r\n                                e. Biaya non-operasional\r\n                            \r\n\r\n                            Catatan:\r\n\r\n                            \r\n                                Mencakup biaya bunga, biaya pajak, biaya administrasi,\r\n                                biaya hukum, biaya donasi, biaya restrukturisasi,\r\n                                biaya kerugian di awal, dan biaya lain-lain yang tidak terkait\r\n                                dengan kegiatan operasional, seperti biaya perjalanan yang\r\n                                tidak terkait dengan bisnis.",
+    "type": 3
+  },
+  "info_pendapatan": {
+    "var": "info_pendapatan",
+    "question": "[id^='var_narasi#'],\n[id^='nilai_pendapatan#'],\n[id^='pendapatan_lain#'],\n[id^='total_pendapatan#'],\n[id^='cek_input27c_pml#'],\n[id^='pendapatan_online#'],\n[id^='tampilan_27#']\n{\n  padding-left: 1.3rem;\n}\n\n27. Rincian Nilai $narasi Tahun 2025",
+    "type": 3
+  },
+  "var_narasi": {
+    "var": "var_narasi",
+    "question": "Narasi Pendapatan",
+    "type": 4
+  },
+  "nilai_pendapatan": {
+    "var": "nilai_pendapatan",
+    "question": "27. a. Nilai $narasi barang dan jasa",
+    "type": 20
+  },
+  "pendapatan_lain": {
+    "var": "pendapatan_lain",
+    "question": "27. b. Pendapatan lainnya yang dihasilkan perusahaan",
+    "type": 20
+  },
+  "total_pendapatan": {
+    "var": "total_pendapatan",
+    "question": "27. c. Total nilai $narasi (a+b)",
+    "type": 20
+  },
+  "total_pendapatan_var": {
+    "var": "total_pendapatan_var",
+    "question": "total_pendapatan_var",
+    "type": 4
+  },
+  "cek_input27c_pml": {
+    "var": "cek_input27c_pml",
+    "question": "&nbsp;&nbsp;\nCek Rincian Pendapatan 2025 (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "pendapatan_online": {
+    "var": "pendapatan_online",
+    "question": "27. d. Berapa persentase pendapatan yang dilakukan secara online ?",
+    "type": 28
+  },
+  "tampilan_27": {
+    "var": "tampilan_27",
+    "question": "Petunjuk Rincian 27. Produksi/Penjualan/Pendapatan\r\n    \r\n\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        \r\n\r\n                            Petunjuk:\r\n\r\n                            \r\n                                \r\n                                    a. Nilai produksi/penjualan/pendapatan barang dan jasa\r\n                                \r\n                            \r\n\r\n                            Termasuk:\r\n\r\n                            \r\n                                \r\n                                    Barang yang dijual baik yang diproduksi sendiri maupun tidak\r\n                                \r\n                                \r\n                                    Penjualan ekspor (FOB - Free On Board)\r\n                                \r\n                                \r\n                                    Penjualan atau transfer ke rekan bisnis/organisasi atau cabang di luar negeri\r\n                                \r\n                                \r\n                                    Pendapatan yang diperoleh dari pengangkutan barang yang tidak dijual perusahaan\r\n                                \r\n                                \r\n                                    Pendapatan jasa perbaikan dan layanan\r\n                                \r\n                                \r\n                                    Pendapatan dari kontrak, subkontrak, dan komisi\r\n                                \r\n                                \r\n                                    Pendapatan manajemen dari perusahaan/organisasi terkait maupun tidak\r\n                                \r\n                                \r\n                                    Pendapatan dari jasa pemasangan\r\n                                \r\n                                \r\n                                    Pendapatan dari jasa berlangganan dan keanggotaan\r\n                                \r\n                                \r\n                                    Pendapatan dari jasa iklan\r\n                                \r\n                                \r\n                                    Pendapatan royalti (hak cipta, hak paten, waralaba, dan lain-lain)\r\n                                \r\n                                \r\n                                    Pendapatan dari sewa operasi\r\n                                \r\n                                \r\n                                    Pendapatan bunga (khusus jasa keuangan)\r\n                                \r\n                            \r\n\r\n                            Tidak termasuk:\r\n\r\n                            \r\n                                Penjualan aset\r\n                                \r\n                                    Royalti dari penggunaan lahan di bawah pengaturan sewa mineral\r\n                                \r\n                            \r\n\r\n                            Catatan:\r\n\r\n                            \r\n                                Pada usaha pertanian, nilai produksi yang dicatat yaitu nilai produksi\r\n                                yang dipanen, dikonsumsi sendiri (termasuk yang digunakan untuk bibit),\r\n                                diolah sendiri, dijual, disimpan, digunakan sebagai upah/gaji pekerja,\r\n                                diberikan kepada pihak lain, hilang, pertambahan bobot ternak,\r\n                                serta nilai pembesaran tanaman kehutanan selama periode tahun 2025\r\n                                sesuai dengan jenis dan satuan produksi pada masing-masing subsektor\r\n                                yang diusahakan.\r\n                            \r\n\r\n                            \r\n                                Nilai produksi yang dicakup termasuk nilai produksi ikutan yang dijual.\r\n                            \r\n\r\n                            \r\n                                b. Pendapatan lainnya yang dihasilkan\r\n                            \r\n\r\n                            Termasuk:\r\n\r\n                            \r\n                                Sewa/royalti sumber daya alam\r\n                                Pendapatan bunga\r\n                                Pendapatan dividen\r\n                                \r\n                                    Pendanaan dari Pemerintah (subsidi, skema magang, dan pelatihan)\r\n                                \r\n                                Donasi\r\n                            \r\n\r\n                            Tidak termasuk:\r\n\r\n                            \r\n                                \r\n                                    Pendanaan yang disediakan khusus untuk barang modal tertentu",
+    "type": 3
+  },
+  "aset_usaha_thn": {
+    "var": "aset_usaha_thn",
+    "question": "28. a. Nilai aset tanah dan bangunan pada 31 Desember 2025",
+    "type": 20
+  },
+  "aset_lain_thn": {
+    "var": "aset_lain_thn",
+    "question": "28. b. Nilai aset selain tanah dan bangunan pada 31 Desember 2025",
+    "type": 20
+  },
+  "total_aset_thn": {
+    "var": "total_aset_thn",
+    "question": "28. c. Nilai total aset pada 31 Desember 2025",
+    "type": 20
+  },
+  "total_aset_thn_var": {
+    "var": "total_aset_thn_var",
+    "question": "total_aset_thn_var",
+    "type": 4
+  },
+  "rentang_aset_thn": {
+    "var": "rentang_aset_thn",
+    "question": "28. c1. Jika tidak dapat mengisikan nilai nominal, pilih nilai total aset dalam rentang berikut",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. s.d. Rp 500 juta",
+        "value": "1"
+      },
+      {
+        "label": "2. Lebih dari Rp 500 juta s.d. Rp 1 miliar",
+        "value": "2"
+      },
+      {
+        "label": "3. Lebih dari Rp 1 miliar s.d. Rp 5 miliar",
+        "value": "3"
+      },
+      {
+        "label": "4. Lebih dari Rp 5 miliar s.d. Rp 10 miliar",
+        "value": "4"
+      },
+      {
+        "label": "5. Lebih dari Rp 10 miliar",
+        "value": "5"
+      }
+    ]
+  },
+  "luas_tanah_thn": {
+    "var": "luas_tanah_thn",
+    "question": "28. d. Berapa luas tanah yang dikuasai dan digunakan untuk kegiatan usaha pada 31 Desember 2025 ? (m2)",
+    "type": 28
+  },
+  "cek_asetThn_pml": {
+    "var": "cek_asetThn_pml",
+    "question": "&nbsp;&nbsp;\nCek Rincian Aset 31 Des 2025 (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "info_modal": {
+    "var": "info_modal",
+    "question": "[id^='pribadi#'],\n[id^='non_profit#'],\n[id^='publik#'],\n[id^='non_publik#'],\n[id^='pemerintah#'],\n[id^='asing#'],\n[id^='info_total#'],\n[id^='head_pengeluaran_bln#']\n{\n  padding-left: 1.3rem;\n}\n\n29. Bagaimana susunan kepemilikan modal di usaha/perusahaan ini pada 31 Desember 2025?",
+    "type": 3
+  },
+  "pribadi": {
+    "var": "pribadi",
+    "question": "29. a. Pribadi/Perorangan",
+    "type": 28
+  },
+  "non_profit": {
+    "var": "non_profit",
+    "question": "29. b. Lembaga Nonprofit yang Melayani Rumah Tangga",
+    "type": 28
+  },
+  "publik": {
+    "var": "publik",
+    "question": "29. c. Korporasi Publik",
+    "type": 28
+  },
+  "non_publik": {
+    "var": "non_publik",
+    "question": "29. d. Korporasi Non Publik",
+    "type": 28
+  },
+  "pemerintah": {
+    "var": "pemerintah",
+    "question": "29. e. Pemerintah",
+    "type": 28
+  },
+  "asing": {
+    "var": "asing",
+    "question": "29. f. Asing",
+    "type": 28
+  },
+  "info_total_var": {
+    "var": "info_total_var",
+    "question": "info_total_var",
+    "type": 4
+  },
+  "info_total": {
+    "var": "info_total",
+    "question": "29. g. Total (a+b+c+d+e+f)    =    100 %",
+    "type": 28
+  },
+  "head_pengeluaran_bln": {
+    "var": "head_pengeluaran_bln",
+    "question": "PENGELUARAN, PENDAPATAN, DAN ASET SATU BULAN TERAKHIR\n  \n  \n      [Rincian 30-33 hanya ditanyakan jika usaha/perusahaan beroperasi secara komersial pada tahun 2026]",
+    "type": 3
+  },
+  "info_pengeluaran_bln": {
+    "var": "info_pengeluaran_bln",
+    "question": "[id^='gaji_bln#'],\n[id^='biaya_produksi_bln#'],\n[id^='biaya_pembelian_bln#'],\n[id^='operasional_bln#'],\n[id^='non_operasional_bln#'],\n[id^='cek_output30f_pml#'],\n[id^='total_pengeluaran_bln#'],\n[id^='tampilan_30#']\n{\n  padding-left: 1.3rem;\n}\n\n\n30. Rincian Pengeluaran Selama Satu Bulan Terakhir\n\n\nContoh: Usaha/perusahaan beroperasi komersial bulan Juni 2026, maka nilai yang dicatat adalah data sebulan penuh tanggal 1-31 Mei 2026.",
+    "type": 3
+  },
+  "gaji_bln": {
+    "var": "gaji_bln",
+    "question": "30. a. Total upah dan gaji, serta jaminan sosial pegawai",
+    "type": 20
+  },
+  "biaya_produksi_bln": {
+    "var": "biaya_produksi_bln",
+    "question": "30. b. Biaya produksi",
+    "type": 20
+  },
+  "biaya_pembelian_bln": {
+    "var": "biaya_pembelian_bln",
+    "question": "30. c. Biaya pembelian barang yang terjual",
+    "type": 20
+  },
+  "operasional_bln": {
+    "var": "operasional_bln",
+    "question": "30. d. Biaya operasional (air, listrik, gas, internet, pulsa, pemeliharaan, biaya angkutan)",
+    "type": 20
+  },
+  "non_operasional_bln": {
+    "var": "non_operasional_bln",
+    "question": "30. e. Biaya non-operasional",
+    "type": 20
+  },
+  "cek_output30f_pml": {
+    "var": "cek_output30f_pml",
+    "question": "&nbsp;&nbsp;\nCek Rincian Pengeluaran di satu bulan terakhir (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "total_pengeluaran_bln": {
+    "var": "total_pengeluaran_bln",
+    "question": "30. f. Total pengeluaran (a+b+c+d+e)",
+    "type": 20
+  },
+  "total_pengeluaran_bln_var": {
+    "var": "total_pengeluaran_bln_var",
+    "question": "total_pengeluaran_bln",
+    "type": 4
+  },
+  "tampilan_30": {
+    "var": "tampilan_30",
+    "question": "Petunjuk 30. Rincian Pengeluaran\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                               Petunjuk:\r\na. Total upah dan gaji, serta jaminan sosial pegawai.\r\nTermasuk: \r\no Upah dan gaji pegawai/karyawan yang telah dikeluarkan ringkasan pembayarannya (group sertificate)\r\no Komisi dan tips untuk pegawai/karyawan Bonus\r\no Pembayaran Cuti tahunan dan jenis cuti lainnya\r\nTidak Termasuk: \r\no Upah dan gaji yang dikapitalisasi\r\no Pembayaran untuk konsultan dan kontraktor yang berusaha sendiri (bukan karyawan perusahaan),\r\nyang dibayarkan dengan komisi\r\n\r\nb. Biaya produksi (pemakaian bahan baku dan penolong)\r\nCatatan: Mencakup seluruh nilai barang dan jasa yang digunakan sebagai bahan baku dalam proses produksi, tidak termasuk aset tetap. \r\nPada usaha pertanian, ongkos/biaya yang dicatat adalah biaya dari barang/jasa yang benar-benar DIBELI/DIBAYARKAN dan \r\nTELAH DIGUNAKAN (tidak termasuk yang disimpan, diberikan ke pihak lain, dsb) untuk usaha tanaman pangan, hortikultura,\r\nperkebunan, peternakan, kehutanan, dan perikanan selama periode tahun 2025. Biaya produksi meliputi benih, bibit, pupuk, \r\npestisida, vaksin, vitamin, obat-obatan, pakan, umpan, wadah, tali, es, garam, konsumsi awak kapal, dll.\r\nTermasuk: Pembelian bahan yang digunakan dalam proses produksi dan pengemasan\r\nTidak Termasuk: Pembelian barang yang dikapitalisasi,Perubahan persediaan\r\n, Pembelian barang jadi untuk dijual kembali\r\n\r\nc. Biaya pembelian barang yang dijual\r\nMencakup seluruh nilai pembelian barang perdagangan yang terjual. Contoh: nilai pembelian beras yang terjual, nilai pembelian tepung yang terjual, dsb.\r\n\r\nd. Biaya operasional (air, listrik, gas, internet, pulsa, pemeliharaan, biaya angkutan)\r\nCatatan: Mencakup biaya-biaya yang tidak secara langsung dalam proses produksi seperti air, listrik, gas, pemeliharaan, serta biaya angkutan \r\nTermasuk: \r\no Pengeluaran listrik, bahan bakar dan air\r\no Pembelian bahan perkantoran umum\r\no Pembelian komponen dan bahan bakar untuk kendaraan bermotor\r\npembayaran ke pihak lain untuk kargo, delivery, dan jasa angkutan\r\no Pembayaran sewa operasi (dengan atau tanpa operator)\r\no Biaya lisensi software komputer yang berumur kurang dari satu tahun (termasuk biaya instalasi oleh provider eksternal) Biaya bank selain bunga\r\nTidak Termasuk: Pemeliharaan besar\r\ne. Biaya non-operasional\r\nCatatan: Mencakup biaya bunga, biaya pajak, biaya administrasi, biaya hukum, biaya donasi, biaya restrukturisasi, biaya kerugian di awal, dan biaya lain-lain yang tidak terkait dengan kegiatan operasional, seperti biaya perjalanan yang tidak terkait dengan bisnis.",
+    "type": 3
+  },
+  "info_pendapatan_bln": {
+    "var": "info_pendapatan_bln",
+    "question": "[id^='nilai_pendapatan_bln#'],\n[id^='pendapatan_lain_bln#'],\n[id^='total_pendapatan_bln#'],\n[id^='cek_input31c_pml#'],\n[id^='pendapatan_online_bln#'],\n[id^='tampilan_31#'],\n[id^='bln_operasi#']\n{\n  padding-left: 1.3rem;\n}\n\n\n31. Rincian Nilai $narasi Selama Satu Bulan Terakhir\n\n\nContoh: Usaha/perusahaan beroperasi komersial bulan Juni 2026, maka nilai yang dicatat adalah data sebulan penuh tanggal 1-31 Mei 2026.",
+    "type": 3
+  },
+  "nilai_pendapatan_bln": {
+    "var": "nilai_pendapatan_bln",
+    "question": "31. a. Nilai $narasi barang dan jasa",
+    "type": 20
+  },
+  "pendapatan_lain_bln": {
+    "var": "pendapatan_lain_bln",
+    "question": "31. b. Pendapatan lainnya yang dihasilkan",
+    "type": 20
+  },
+  "total_pendapatan_bln": {
+    "var": "total_pendapatan_bln",
+    "question": "31. c. Total nilai $narasi (a+b)",
+    "type": 20
+  },
+  "total_pendapatan_bln_var": {
+    "var": "total_pendapatan_bln_var",
+    "question": "total_pendapatan_bln_var",
+    "type": 4
+  },
+  "cek_input31c_pml": {
+    "var": "cek_input31c_pml",
+    "question": "&nbsp;&nbsp;\nCek Rincian Pendapatan di satu bulan terakhir (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "pendapatan_online_bln": {
+    "var": "pendapatan_online_bln",
+    "question": "31. d. Berapa persentase pendapatan yang dilakukan secara online ?",
+    "type": 28
+  },
+  "tampilan_31": {
+    "var": "tampilan_31",
+    "question": "Petunjuk 31. Rincian  Produksi/Penjualan/Pendapatan\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                               Petunjuk:\r\na. Nilai produksi/penjualan/pendapatan barang dan jasa\r\nTermasuk: \r\no Barang yang dijual baik yang diproduksi sendiri maupun tidak\r\no Penjualan ekspor (FOB-Free On Board )\r\no Penjualan atau transfer ke rekan bisnis/ organisasi atau cabang di luar negeri\r\no Pendapatan yang diperoleh dari pengangkutan barang yang tidak dijual perusahaan\r\no Pendapatan jasa perbaikan dan layanan\r\no Pendapatan dari kontrak, subkontrak dan komisi\r\no Pendapatan manajemen dari perusahaan/organisasi terkait maupun tidak\r\no Pendapatan dari jasa pemasangan\r\no Pendapatan dari jasa berlangganan dan keanggotaan\r\no Pendapatan dari jasa iklan\r\no Pendapatan royalti (hak cipta, hak paten, waralaba, dll)\r\no Pendapatan dari sewa operasi\r\nTidak Termasuk: \r\no Penjualan aset\r\no Royalti dari penggunaan lahan di bawah pengaturan sewa mineral\r\nCatatan: Pada usaha pertanian, nilai produksi yang dicatat yaitu nilai produksi yang dipanen, dikonsumsi sendiri (termasuk yang digunakan \r\nuntuk bibit), diolah sendiri, dijual, disimpan, digunakan sebagai upah/gaji pekerja, diberikan kepada pihak lain, hilang, pertambahan \r\nbobot ternak, serta nilai pembesaran tanaman kehutanan selama periode tahun 2025 sesuai dengan jenis dan satuan produksi \r\npada masing-masing subsektor yang diusahakan. Nilai produksi yang dicakup termasuk nilai produksi ikutan yang dijual.\r\n\r\nb. Pendapatan lainnya yang dihasilkan\r\nTermasuk: \r\no Sewa/royalti sumber daya alam\r\no Pendapatan bunga\r\no Pendapatan dividen\r\no Pendanaan dari Pemerintah (subsidi, skema magang dan pelatihan)\r\no Donasi\r\nTidak Termasuk: Pendanaan yang disediakan khusus untuk barang modal tertentu",
+    "type": 3
+  },
+  "bln_operasi": {
+    "var": "bln_operasi",
+    "question": "31. e. Bulan beroperasi selama tahun 2026",
+    "type": 29,
+    "options": [
+      {
+        "label": "JANUARI",
+        "value": "01"
+      },
+      {
+        "label": "FEBRUARI",
+        "value": "02"
+      },
+      {
+        "label": "MARET",
+        "value": "03"
+      },
+      {
+        "label": "APRIL",
+        "value": "04"
+      },
+      {
+        "label": "MEI",
+        "value": "05"
+      },
+      {
+        "label": "JUNI",
+        "value": "06"
+      },
+      {
+        "label": "JULI",
+        "value": "07"
+      },
+      {
+        "label": "AGUSTUS",
+        "value": "08"
+      }
+    ]
+  },
+  "aset_tanah_bln": {
+    "var": "aset_tanah_bln",
+    "question": "32. a. Nilai aset tanah dan bangunan pada akhir bulan yang lalu",
+    "type": 20
+  },
+  "aset_lain_bln": {
+    "var": "aset_lain_bln",
+    "question": "32. b. Nilai aset selain tanah dan bangunan pada akhir bulan yang lalu",
+    "type": 20
+  },
+  "total_aset_bln": {
+    "var": "total_aset_bln",
+    "question": "32. c. Nilai total aset pada akhir bulan yang lalu*",
+    "type": 4
+  },
+  "rentang_aset_bln": {
+    "var": "rentang_aset_bln",
+    "question": "32. c1. Jika tidak dapat mengisikan nilai nominal, pilih nilai total aset dalam rentang berikut:",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. s.d. Rp 500 juta",
+        "value": "1"
+      },
+      {
+        "label": "2. Lebih dari Rp 500 juta s.d. Rp 1 miliar",
+        "value": "2"
+      },
+      {
+        "label": "3. Lebih dari Rp 1 miliar s.d. Rp 5 miliar",
+        "value": "3"
+      },
+      {
+        "label": "4. Lebih dari Rp 5 miliar s.d. Rp 10 miliar",
+        "value": "4"
+      },
+      {
+        "label": "5. Lebih dari Rp 10 miliar",
+        "value": "5"
+      }
+    ]
+  },
+  "luas_tanah_bln": {
+    "var": "luas_tanah_bln",
+    "question": "32. d. Berapa luas tanah yang dikuasai dan digunakan untuk kegiatan usaha\npada akhir bulan yang lalu (m2) ?",
+    "type": 28
+  },
+  "cek_asetBln_pml": {
+    "var": "cek_asetBln_pml",
+    "question": "Cek Rincian aset pada akhir bulan yang lalu (Diisi oleh PML)",
+    "type": 26,
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "info_modal_bln": {
+    "var": "info_modal_bln",
+    "question": "[id^='pribadi_didirikan#'],\n[id^='nonprofit_didirikan#'],\n[id^='publik_didirikan#'],\n[id^='nonpublik_didirikan#'],\n[id^='pemerintah_didirikan#'],\n[id^='asing_didirikan#'],\n[id^='info_total_didirikan#']\n{\n  padding-left: 1.3rem;\n}\n\n\n33. Bagaimana susunan kepemilikan modal di usaha/perusahaan ini pada saat didirikan?",
+    "type": 3
+  },
+  "pribadi_didirikan": {
+    "var": "pribadi_didirikan",
+    "question": "33. a. Pribadi/Perorangan",
+    "type": 28
+  },
+  "nonprofit_didirikan": {
+    "var": "nonprofit_didirikan",
+    "question": "33. b. Lembaga Nonprofit yang Melayani Rumah Tangga",
+    "type": 28
+  },
+  "publik_didirikan": {
+    "var": "publik_didirikan",
+    "question": "33. c. Korporasi publik (%)",
+    "type": 28
+  },
+  "nonpublik_didirikan": {
+    "var": "nonpublik_didirikan",
+    "question": "33. d. Korporasi Non Publik",
+    "type": 28
+  },
+  "pemerintah_didirikan": {
+    "var": "pemerintah_didirikan",
+    "question": "33. e. Pemerintah",
+    "type": 28
+  },
+  "asing_didirikan": {
+    "var": "asing_didirikan",
+    "question": "33. f. Asing",
+    "type": 28
+  },
+  "cek5": {
+    "var": "cek5",
+    "question": "New Question",
+    "type": 4
+  },
+  "info_total_didirikan": {
+    "var": "info_total_didirikan",
+    "question": "33. g. Total (a+b+c+d+e+f)    =    100 %",
+    "type": 28
+  },
+  "info_total_didirikan_var": {
+    "var": "info_total_didirikan_var",
+    "question": "info_total_didirikan_var",
+    "type": 4
+  },
+  "kp_nested_instruction": {
+    "var": "kp_nested_instruction",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    \ud83d\udd0d Untuk melanjutkan pengisian Keterangan Kantor Cabang/Unit, silakan klik tombol Lihat pada bagian di bawah ini.",
+    "type": 3
+  },
+  "css_hide_blok1": {
+    "var": "css_hide_blok1",
+    "question": ".fasih-form-sidebar:nth-child(3),\n        .fasih-form-sidebar:nth-child(6),\n        .fasih-form-sidebar:nth-child(7)\n        {\n            display:none!important;\n        }",
+    "type": 3
+  },
+  "b_ak_lanjutan": {
+    "var": "b_ak_lanjutan",
+    "question": "SE2026 - L BLOK III",
+    "type": 1
+  },
+  "keluarga_head": {
+    "var": "keluarga_head",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN IDENTITAS KELUARGA",
+    "type": 3
+  },
+  "dtsen_nama_kk": {
+    "var": "dtsen_nama_kk",
+    "question": "1. a. Nama Kepala Keluarga",
+    "type": 4
+  },
+  "nik_kk": {
+    "var": "nik_kk",
+    "question": "1. b. NIK Kepala Keluarga",
+    "type": 4
+  },
+  "dtsen_no_kk": {
+    "var": "dtsen_no_kk",
+    "question": "1. c. Nomor kartu keluarga",
+    "type": 4
+  },
+  "jml_kk": {
+    "var": "jml_kk",
+    "question": "2. a. Jumlah anggota keluarga sesuai KK",
+    "type": 4
+  },
+  "jml_kk_asgbaru": {
+    "var": "jml_kk_asgbaru",
+    "question": "2. a. Jumlah anggota keluarga sesuai KK",
+    "type": 25
+  },
+  "jml_kk_update": {
+    "var": "jml_kk_update",
+    "question": "2. b. Jumlah anggota keluarga sesuai hasil pendataan",
+    "type": 4
+  },
+  "inividu_head_new": {
+    "var": "inividu_head_new",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Mengatur tag  di dalam header */\r\n    .blok-header small {\r\n         line-height: 1.2;\r\n         display: inline-block;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN ANGGOTA KELUARGA \r\n    \r\n    \r\n    \r\n        (LANJUTAN)",
+    "type": 3
+  },
+  "nested_dtsen_instruction": {
+    "var": "nested_dtsen_instruction",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    \ud83d\udd0d Untuk melanjutkan pengisian Blok Keterangan Anggota Keluarga Lanjutan, silakan klik tombol Lihat pada bagian di bawah ini.",
+    "type": 3
+  },
+  "prelist_dtsen_var": {
+    "var": "prelist_dtsen_var",
+    "question": "Nama anggota keluarga prelist",
+    "type": 4
+  },
+  "tambah_dtsen_var": {
+    "var": "tambah_dtsen_var",
+    "question": "Nama anggota keluarga tambahan",
+    "type": 4
+  },
+  "gabung_dtsen_var": {
+    "var": "gabung_dtsen_var",
+    "question": "gabung_dtsen",
+    "type": 4
+  },
+  "gabung_dtsen_2": {
+    "var": "gabung_dtsen_2",
+    "question": "gabung_dtsen_2",
+    "type": 4
+  },
+  "total_pendapatan_keluarga_sebulan": {
+    "var": "total_pendapatan_keluarga_sebulan",
+    "question": "total_pendapatan_keluarga_sebulan (sudah dari semua anggota keluarga)",
+    "type": 4
+  },
+  "hidden_blok_3": {
+    "var": "hidden_blok_3",
+    "question": "/* Gaya bawaan sistem Anda untuk menyembunyikan elemen tertentu */\r\n    .tw\\:\\@container\\/form > div:not(#hidden_blok_3) {\r\n        display: none !important;\r\n    }\r\n    \r\n    .fasih-form-sidebar:nth-child(3),\r\n    .fasih-form-sidebar:nth-child(6),\r\n    .fasih-form-sidebar:nth-child(7) {\r\n        display: none !important;\r\n    }\r\n\r\n    /* Default / Light Theme untuk Info Banner */\r\n    .info-banner {\r\n        background-color: #F8FAFC;\r\n        border-left: 5px solid #94A3B8;\r\n        color: #334155;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.6;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .info-banner {\r\n        background-color: #1e293b;  /* Abu-abu kebiruan gelap (slate gelap) */\r\n        color: #e2e8f0;             /* Teks abu-abu terang agar kontras dan mudah dibaca */\r\n        border-left-color: #64748b; /* Warna border sedikit digelapkan agar menyatu dengan tema */\r\n    }\r\n\r\n\r\n\r\n    \u2139\ufe0f Halaman ini tidak memerlukan pengisian karena tidak terdapat pertanyaan yang ditujukan kepada responden pada bagian ini. Silakan lanjutkan ke halaman berikutnya sesuai petunjuk yang tersedia.",
+    "type": 3
+  },
+  "nested_dtsen_var": {
+    "var": "nested_dtsen_var",
+    "question": "Keterangan Anggota Keluarga",
+    "type": 2
+  },
+  "no_urut_kk_var": {
+    "var": "no_urut_kk_var",
+    "question": "Nomor urut anggota keluarga",
+    "type": 4
+  },
+  "nama_dtsen_var": {
+    "var": "nama_dtsen_var",
+    "question": "Nama anggota keluarga",
+    "type": 4
+  },
+  "head_ak_var": {
+    "var": "head_ak_var",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN PENDIDIKAN, KETENAGAKERJAAN, DAN KEPEMILIKAN REKENING",
+    "type": 3
+  },
+  "ec_art_dtsen": {
+    "var": "ec_art_dtsen",
+    "question": "ec_art_dtsen",
+    "type": 4
+  },
+  "ec_art_pendapatan": {
+    "var": "ec_art_pendapatan",
+    "question": "ec_art_pendapatan",
+    "type": 4
+  },
+  "set_sekolah_prelist": {
+    "var": "set_sekolah_prelist",
+    "question": "set_sekolah_prelist",
+    "type": 4
+  },
+  "sekolah_prelist": {
+    "var": "sekolah_prelist",
+    "question": "Sekolah Prelist",
+    "type": 4
+  },
+  "sekolah": {
+    "var": "sekolah",
+    "question": "14. Partisipasi sekolah $NAME$\n(usia 5 tahun ke atas)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Masih sekolah",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak bersekolah lagi",
+        "value": "2"
+      },
+      {
+        "label": "0. Tidak/belum pernah sekolah",
+        "value": "3"
+      }
+    ]
+  },
+  "set_ijazah_prelist": {
+    "var": "set_ijazah_prelist",
+    "question": "set_ijazah_prelist",
+    "type": 4
+  },
+  "ijazah_prelist": {
+    "var": "ijazah_prelist",
+    "question": "Ijazah Prelist",
+    "type": 4
+  },
+  "ijazah": {
+    "var": "ijazah",
+    "question": "15. Ijazah/STTB tertinggi yang dimiliki $NAME$\n(usia 5 tahun ke atas)\nIjazah/STTB tertinggi di prelist: $ijazah",
+    "type": 26,
+    "options": [
+      {
+        "label": "0. Tidak punya ijazah SD",
+        "value": "00"
+      },
+      {
+        "label": "1. SD/sederajat",
+        "value": "01"
+      },
+      {
+        "label": "2. SMP/sederajat",
+        "value": "02"
+      },
+      {
+        "label": "3. SMA/sederajat",
+        "value": "03"
+      },
+      {
+        "label": "4. D1/D2/D3",
+        "value": "04"
+      },
+      {
+        "label": "5. D4/S1/Profesi",
+        "value": "05"
+      },
+      {
+        "label": "6. S2/S3",
+        "value": "06"
+      }
+    ]
+  },
+  "profesi": {
+    "var": "profesi",
+    "question": "16. Profesi Pekerjaan Utama  $NAME$\n(usia 10 tahun ke atas)",
+    "type": 27
+  },
+  "profesi_lainnya": {
+    "var": "profesi_lainnya",
+    "question": "&nbsp;&nbsp;Profesi Pekerjaan Utama lainnya:",
+    "type": 25
+  },
+  "status_kerja": {
+    "var": "status_kerja",
+    "question": "17. Status Kedudukan Dalam Pekerjaan Utama $NAME$\n(usia 10 tahun ke atas)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Berusaha sendiri",
+        "value": "1"
+      },
+      {
+        "label": "2. Berusaha dibantu buruh",
+        "value": "2"
+      },
+      {
+        "label": "3. Buruh/karyawan/pegawai swasta",
+        "value": "3"
+      },
+      {
+        "label": "4. ASN/TNI/Polri/BUMN/BUMD/pejabat negara/kades",
+        "value": "4"
+      },
+      {
+        "label": "5. Pekerja bebas",
+        "value": "5"
+      },
+      {
+        "label": "6. Pekerja keluarga/tidak dibayar",
+        "value": "6"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "pendapatan_dtsen": {
+    "var": "pendapatan_dtsen",
+    "question": "[id^=pendapatan_pekerjaan],\n    [id^=nilai_pend_pekerjaan],\n    [id^=pendapatan_usaha],\n    [id^=pend_usaha],\n    [id^=pend_usaha_lain],\n    [id^=nilai_pend_lain] {\n        padding-left: 1.3rem;\n    }\n    [id^=pend_gaji],\n    [id^=pend_tunjangan],\n    [id^=pend_uangmkn],\n    [id^=pend_honor],\n    [id^=pend_lembur],\n    [id^=pend_lainnya]\n    {\n        padding-left: 2.4rem;\n    }\n\n\n18. Apakah $NAME$ biasanya memiliki pendapatan (tetap maupun tidak tetap dalam\nsebulan) ? \n(usia 5 tahun ke atas)",
+    "type": 3
+  },
+  "pendapatan_pekerjaan": {
+    "var": "pendapatan_pekerjaan",
+    "question": "18. a. Pendapatan dari pekerjaan baik berupa uang maupun barang/jasa (gaji, tunjangan,\nuang makan, honor, lembur, dll)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "pend_gaji": {
+    "var": "pend_gaji",
+    "question": "a. Upah/Gaji",
+    "type": 20
+  },
+  "pend_tunjangan": {
+    "var": "pend_tunjangan",
+    "question": "b. Tunjangan",
+    "type": 20
+  },
+  "pend_uangmkn": {
+    "var": "pend_uangmkn",
+    "question": "c. Uang Makan",
+    "type": 20
+  },
+  "pend_honor": {
+    "var": "pend_honor",
+    "question": "d. Honor",
+    "type": 20
+  },
+  "pend_lembur": {
+    "var": "pend_lembur",
+    "question": "e. Lembur",
+    "type": 20
+  },
+  "pend_lainnya": {
+    "var": "pend_lainnya",
+    "question": "f. Lainnya",
+    "type": 20
+  },
+  "nilai_pend_pekerjaan": {
+    "var": "nilai_pend_pekerjaan",
+    "question": "18. a1. Total Pendapatan (a+b+c+d+e+f)",
+    "type": 4
+  },
+  "pendapatan_usaha": {
+    "var": "pendapatan_usaha",
+    "question": "18. b. Pendapatan dari usaha, baik offline (warung, kos-kosan, dll) maupun\nonline (affiliate, online shop, endorse, youtuber, dll ):",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "pend_usaha": {
+    "var": "pend_usaha",
+    "question": "18. b1. Total Pendapatan",
+    "type": 20
+  },
+  "pend_usaha_lain": {
+    "var": "pend_usaha_lain",
+    "question": "18. c. Penerimaan pendapatan lain (transfer/pemberian/passive income seperti\npensiunan, kupon SBN, Obligasi, dll ):",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "nilai_pend_lain": {
+    "var": "nilai_pend_lain",
+    "question": "18. c1. Total Pendapatan",
+    "type": 20
+  },
+  "rekening": {
+    "var": "rekening",
+    "question": "19. Apakah $NAME$ memiliki rekening aktif atau dompet digital?\n(usia 5 tahun ke atas)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya untuk usaha",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya untuk pribadi",
+        "value": "2"
+      },
+      {
+        "label": "3. Ya untuk usaha dan pribadi",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak ada",
+        "value": "4"
+      },
+      {
+        "label": "9. Tidak tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "head_disabilitas": {
+    "var": "head_disabilitas",
+    "question": "KETERANGAN DISABILITAS DAN PENYAKIT KRONIS",
+    "type": 3
+  },
+  "isdisabilitas": {
+    "var": "isdisabilitas",
+    "question": "[id^='dis_fisik#'],\n[id^='dis_mental#'],\n[id^='dis_intelek#'],\n[id^='dis_netra#'],\n[id^='dis_rungu#'],\n[id^='dis_wicara#']\n{\n  padding-left: 1.3rem;\n}\n\n\n20. Apakah $NAME$ memiliki keterbatasan dalam jangka waktu lama sehingga mengalami kesulitan dalam menjalankan aktivitas sehari-hari (disabilitas)?",
+    "type": 3
+  },
+  "dis_fisik": {
+    "var": "dis_fisik",
+    "question": "a. Disabilitas Fisik",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_mental": {
+    "var": "dis_mental",
+    "question": "b. Disabilitas Mental",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_intelek": {
+    "var": "dis_intelek",
+    "question": "c. Disabilitas Intelektual",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_netra": {
+    "var": "dis_netra",
+    "question": "d. Disabilitas Sensorik Netra",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_rungu": {
+    "var": "dis_rungu",
+    "question": "e. Disabilitas Sensorik Rungu",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_wicara": {
+    "var": "dis_wicara",
+    "question": "f. Disabilitas Sensorik Wicara",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "iskesehatan": {
+    "var": "iskesehatan",
+    "question": "[id^='sakit_hipertensi#'],\n[id^='sakit_rematik#'],\n[id^='sakit_asma#'],\n[id^='sakit_jantung#'],\n[id^='sakit_diabetes#'],\n[id^='sakit_tbc#'],\n[id^='sakit_stroke#'],\n[id^='sakit_kanker#'],\n[id^='sakit_ginjal#'],\n[id^='sakit_hemofilia#'],\n[id^='sakit_hiv#'],\n[id^='sakit_kolestrol#'],\n[id^='sakit_sirosis#'],\n[id^='sakit_talasemia#'],\n[id^='sakit_leukemia#'],\n[id^='sakit_alzheimer#'],\n[id^='sakit_lainnya#']\n{\n  padding-left: 1.3rem;\n}\n\n21. Apakah $NAME$ memiliki keluhan kesehatan\nkronis/menahun?",
+    "type": 3
+  },
+  "sakit_hipertensi": {
+    "var": "sakit_hipertensi",
+    "question": "a. Hipertensi (tekanan darah tinggi)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_rematik": {
+    "var": "sakit_rematik",
+    "question": "b. Rematik",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_asma": {
+    "var": "sakit_asma",
+    "question": "c. Asma",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_jantung": {
+    "var": "sakit_jantung",
+    "question": "d. Masalah jantung",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_diabetes": {
+    "var": "sakit_diabetes",
+    "question": "e. Diabetes (kencing manis)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_tbc": {
+    "var": "sakit_tbc",
+    "question": "f. Tuberkulosis (TBC)",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_stroke": {
+    "var": "sakit_stroke",
+    "question": "g. Stroke",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_kanker": {
+    "var": "sakit_kanker",
+    "question": "h. Kanker atau tumor ganas",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_hemofilia": {
+    "var": "sakit_hemofilia",
+    "question": "j. Hemofilia",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_ginjal": {
+    "var": "sakit_ginjal",
+    "question": "i. Gagal ginjal",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_hiv": {
+    "var": "sakit_hiv",
+    "question": "k. HIV/AIDS",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_kolestrol": {
+    "var": "sakit_kolestrol",
+    "question": "l. Kolestrol",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_sirosis": {
+    "var": "sakit_sirosis",
+    "question": "m. Sirosis hati",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_talasemia": {
+    "var": "sakit_talasemia",
+    "question": "n. Talasemia",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_leukemia": {
+    "var": "sakit_leukemia",
+    "question": "o. Leukemia",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_alzheimer": {
+    "var": "sakit_alzheimer",
+    "question": "p. Alzheimer",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_lainnya": {
+    "var": "sakit_lainnya",
+    "question": "q. Lainnya",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "b_perumahan": {
+    "var": "b_perumahan",
+    "question": "SE2026 - L BLOK IV",
+    "type": 1
+  },
+  "perumahan_head1": {
+    "var": "perumahan_head1",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.5;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        KETERANGAN PERUMAHAN",
+    "type": 3
+  },
+  "total_pengeluaran_keluarga_sebulan": {
+    "var": "total_pengeluaran_keluarga_sebulan",
+    "question": "total_pengeluaran_keluarga_sebulan",
+    "type": 4
+  },
+  "jns_bangunan": {
+    "var": "jns_bangunan",
+    "question": "1. a. Apa jenis bangunan tempat tinggal yang ditempati?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Rumah tunggal",
+        "value": "1"
+      },
+      {
+        "label": "2. Rumah deret",
+        "value": "2"
+      },
+      {
+        "label": "3. Rumah susun",
+        "value": "3"
+      },
+      {
+        "label": "4. Apartemen",
+        "value": "4"
+      },
+      {
+        "label": "5. Lainnya",
+        "value": "5"
+      }
+    ]
+  },
+  "jns_bangunan_lain": {
+    "var": "jns_bangunan_lain",
+    "question": "1. a. Jenis bangunan tempat tinggal kode 5.Lainnya: .................",
+    "type": 25
+  },
+  "nm_apt": {
+    "var": "nm_apt",
+    "question": "1. b. Jika apartemen/rumah susun, sebutkan Nama/Nomor Lantai: .",
+    "type": 25
+  },
+  "jml_ak_tinggal": {
+    "var": "jml_ak_tinggal",
+    "question": "2. a. Berapa jumlah keluarga yang tinggal dalam 1 rumah/tempat tinggal?",
+    "type": 28
+  },
+  "list_ak_tinggal": {
+    "var": "list_ak_tinggal",
+    "question": "2. b. Sebutkan Nomor KK dari keluarga yang tinggal dalam 1 rumah/tempat tinggal! Selain yang disebutkan pada",
+    "type": 21
+  },
+  "status_kepemilikan": {
+    "var": "status_kepemilikan",
+    "question": "3. a. Apa status kepemilikan bangunan tempat tinggal yang ditempati?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Milik sendiri",
+        "value": "1"
+      },
+      {
+        "label": "2. Kontrak/sewa",
+        "value": "2"
+      },
+      {
+        "label": "3. Bebas sewa",
+        "value": "3"
+      },
+      {
+        "label": "4. Dinas",
+        "value": "4"
+      },
+      {
+        "label": "5. Lainnya",
+        "value": "5"
+      }
+    ]
+  },
+  "status_kepemilikan_lain": {
+    "var": "status_kepemilikan_lain",
+    "question": "3. a. Deskripsi status kepemilikan bangunan tempat tinggal yang ditempati lainnya",
+    "type": 25
+  },
+  "bukti_kepemilikan": {
+    "var": "bukti_kepemilikan",
+    "question": "3. b. Jika tempat tinggal milik sendiri, apa jenis bukti kepemilikan tanah bangunan tempat tinggal ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Sertifikat hak milik (SHM)",
+        "value": "1"
+      },
+      {
+        "label": "2. Sertifikat selain SHM (SHGB, SHSRS)",
+        "value": "2"
+      },
+      {
+        "label": "3. Surat bukti lainnya (Girik, Letter C, dll)",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak Punya",
+        "value": "4"
+      }
+    ]
+  },
+  "nilai_sewa": {
+    "var": "nilai_sewa",
+    "question": "4. Perkiraan nilai sewa/kontrak sebulan:",
+    "type": 3
+  },
+  "sewa_sendiri": {
+    "var": "sewa_sendiri",
+    "question": "&nbsp;&nbsp;a. Jika milik sendiri/bebas sewa, perkiraan harga sewa\nsebulan:",
+    "type": 20
+  },
+  "sewa_kontrak": {
+    "var": "sewa_kontrak",
+    "question": "&nbsp;&nbsp;b. Jika kontrak/sewa , nilai kontrak sebulan:",
+    "type": 20
+  },
+  "sewa_dinas": {
+    "var": "sewa_dinas",
+    "question": "&nbsp;&nbsp;c. Jika dinas atau lainnya, perkiraan nilai sewa sebulan:",
+    "type": 20
+  },
+  "luas_lantai": {
+    "var": "luas_lantai",
+    "question": "5. Berapa luas lantai bangunan tempat tinggal? (m\u00b2)",
+    "type": 28
+  },
+  "jns_lantai": {
+    "var": "jns_lantai",
+    "question": "6. a. Apakah bahan bangunan utama lantai rumah terluas?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Marmer/granit",
+        "value": "1"
+      },
+      {
+        "label": "2. Keramik",
+        "value": "2"
+      },
+      {
+        "label": "3. Parket/vinil/permadani",
+        "value": "3"
+      },
+      {
+        "label": "4. Ubin/tegel/traso",
+        "value": "4"
+      },
+      {
+        "label": "5. Kayu/papan",
+        "value": "5"
+      },
+      {
+        "label": "6. Semen/bata merah",
+        "value": "6"
+      },
+      {
+        "label": "7. Bambu",
+        "value": "7"
+      },
+      {
+        "label": "8. Tanah",
+        "value": "8"
+      },
+      {
+        "label": "9. Lainnya",
+        "value": "9"
+      }
+    ]
+  },
+  "kondisi_lantai": {
+    "var": "kondisi_lantai",
+    "question": "6. b. Kondisi Lantai",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Baik",
+        "value": "1"
+      },
+      {
+        "label": "2. Rusak ringan",
+        "value": "2"
+      },
+      {
+        "label": "3. Rusak sedang",
+        "value": "3"
+      },
+      {
+        "label": "4. Rusak berat",
+        "value": "4"
+      }
+    ]
+  },
+  "jns_dinding": {
+    "var": "jns_dinding",
+    "question": "7. a. Apakah bahan bangunan utama dinding rumah terluas?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Tembok",
+        "value": "1"
+      },
+      {
+        "label": "2. Plesteran anyaman bambu/kawat",
+        "value": "2"
+      },
+      {
+        "label": "3. Kayu/Papan/Gypsum/GRC/Calciboard",
+        "value": "3"
+      },
+      {
+        "label": "4. Anyaman bambu",
+        "value": "4"
+      },
+      {
+        "label": "5. Batang kayu",
+        "value": "5"
+      },
+      {
+        "label": "6. Bambu",
+        "value": "6"
+      },
+      {
+        "label": "7. Lainnya",
+        "value": "7"
+      }
+    ]
+  },
+  "kondisi_dinding": {
+    "var": "kondisi_dinding",
+    "question": "7. b. Kondisi Dinding",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Baik",
+        "value": "1"
+      },
+      {
+        "label": "2. Rusak ringan",
+        "value": "2"
+      },
+      {
+        "label": "3. Rusak sedang",
+        "value": "3"
+      },
+      {
+        "label": "4. Rusak berat",
+        "value": "4"
+      }
+    ]
+  },
+  "jns_atap": {
+    "var": "jns_atap",
+    "question": "8. a. Apakah bahan bangunan utama atap rumah terluas?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Beton",
+        "value": "1"
+      },
+      {
+        "label": "2. Genteng",
+        "value": "2"
+      },
+      {
+        "label": "3. Seng",
+        "value": "3"
+      },
+      {
+        "label": "4. Asbes",
+        "value": "4"
+      },
+      {
+        "label": "5. Bambu",
+        "value": "5"
+      },
+      {
+        "label": "6. Kayu/sirap",
+        "value": "6"
+      },
+      {
+        "label": "7. Jerami/ijuk/daun daunan/rumbia",
+        "value": "7"
+      },
+      {
+        "label": "8. Lainnya",
+        "value": "8"
+      }
+    ]
+  },
+  "kondisi_atap": {
+    "var": "kondisi_atap",
+    "question": "8. b. Kondisi Atap",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Baik",
+        "value": "1"
+      },
+      {
+        "label": "2. Rusak ringan",
+        "value": "2"
+      },
+      {
+        "label": "3. Rusak sedang",
+        "value": "3"
+      },
+      {
+        "label": "4. Rusak berat",
+        "value": "4"
+      }
+    ]
+  },
+  "tempat_bab": {
+    "var": "tempat_bab",
+    "question": "9. Apakah memiliki fasilitas tempat buang air besar dan siapa saja yang menggunakan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Ada, digunakan oleh anggota keluarga dalam satu rumah",
+        "value": "1"
+      },
+      {
+        "label": "2. Ada, digunakan bersama oleh anggota keluarga dari beberapa rumah",
+        "value": "2"
+      },
+      {
+        "label": "3. Ada, di MCK komunal",
+        "value": "3"
+      },
+      {
+        "label": "4. Ada, di MCK umum/siapapun menggunakan",
+        "value": "4"
+      },
+      {
+        "label": "5. Ada, anggota keluarga tidak menggunakan",
+        "value": "5"
+      },
+      {
+        "label": "6. Tidak ada",
+        "value": "6"
+      }
+    ]
+  },
+  "jns_closet": {
+    "var": "jns_closet",
+    "question": "10. Apakah jenis kloset yang digunakan?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Leher angsa",
+        "value": "1"
+      },
+      {
+        "label": "2. Plengsengan dengan tutup",
+        "value": "2"
+      },
+      {
+        "label": "3. Plengsengan tanpa tutup",
+        "value": "3"
+      },
+      {
+        "label": "4. Cemplung/cubluk",
+        "value": "4"
+      }
+    ]
+  },
+  "buang_tinja": {
+    "var": "buang_tinja",
+    "question": "11. Di manakah tempat pembuangan akhir tinja?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Tangki septik",
+        "value": "1"
+      },
+      {
+        "label": "2. Instalasi Pengolahan Air Limbah (IPAL)",
+        "value": "2"
+      },
+      {
+        "label": "3. Kolam/sawah/sungai/danau/laut",
+        "value": "3"
+      },
+      {
+        "label": "4. Lubang tanah",
+        "value": "4"
+      },
+      {
+        "label": "5. Pantai/tanah lapang/kebun",
+        "value": "5"
+      },
+      {
+        "label": "6. Lainnya",
+        "value": "6"
+      }
+    ]
+  },
+  "air_minum": {
+    "var": "air_minum",
+    "question": "12.  Apakah sumber air utama yang digunakan keluarga untuk minum?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Air kemasan bermerk",
+        "value": "01"
+      },
+      {
+        "label": "2. Air isi ulang",
+        "value": "02"
+      },
+      {
+        "label": "3. Leding",
+        "value": "03"
+      },
+      {
+        "label": "4. Sumur bor/pompa",
+        "value": "04"
+      },
+      {
+        "label": "5. Sumur terlindung",
+        "value": "05"
+      },
+      {
+        "label": "6. Sumur tak terlindung",
+        "value": "06"
+      },
+      {
+        "label": "7. Mata air terlindung",
+        "value": "07"
+      },
+      {
+        "label": "8. Mata air tak terlindung",
+        "value": "08"
+      },
+      {
+        "label": "9. Air permukaan (sungai/danau/waduk/kolam/irigasi)",
+        "value": "09"
+      },
+      {
+        "label": "10. Air hujan",
+        "value": "10"
+      },
+      {
+        "label": "11. Lainnya",
+        "value": "11"
+      }
+    ]
+  },
+  "sumber_penerangan": {
+    "var": "sumber_penerangan",
+    "question": "13. Apakah sumber utama penerangan rumah tangga ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. Listrik PLN dengan meteran",
+        "value": "1"
+      },
+      {
+        "label": "2. Listrik PLN tanpa meteran",
+        "value": "2"
+      },
+      {
+        "label": "3. Listrik Non-PLN",
+        "value": "3"
+      },
+      {
+        "label": "4. Bukan listrik",
+        "value": "4"
+      }
+    ]
+  },
+  "jml_meteran": {
+    "var": "jml_meteran",
+    "question": "14. a. Jika  listrik PLN dengan meteran, berapa jumlah meteran listrik yang terpasang di rumah ini?",
+    "type": 28
+  },
+  "nested_meteran_instruction": {
+    "var": "nested_meteran_instruction",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n\r\n    \ud83d\udd0d Untuk melanjutkan pengisian Daya Meteran, silakan klik tombol Lihat pada bagian di bawah ini.",
+    "type": 3
+  },
+  "nested_meteran": {
+    "var": "nested_meteran",
+    "question": "14. b. Berapa daya yang terpasang di rumah ini?",
+    "type": 2
+  },
+  "style_meteran": {
+    "var": "style_meteran",
+    "question": "[id='htmlHasilCekIdPel#$index'] {\n        $style_idpel\n    }\n    [id='htmlHasilCekMeteran#$index'] {\n        $style_cekmeteran\n    }\n    [id^='cek_no_meteran'] button, \n    [id^='cek_idpel'] button {\n        width: 100%;\n        max-width: 768px;\n    }",
+    "type": 3
+  },
+  "urutan_meteran_lain": {
+    "var": "urutan_meteran_lain",
+    "question": "Meteran ke-",
+    "type": 4
+  },
+  "daya_terpasang": {
+    "var": "daya_terpasang",
+    "question": "14. b. Berapa daya yang terpasang di rumah ini?",
+    "type": 26,
+    "options": [
+      {
+        "label": "1. 450 watt",
+        "value": "1"
+      },
+      {
+        "label": "2. 900 watt",
+        "value": "2"
+      },
+      {
+        "label": "3. 1.300 watt",
+        "value": "3"
+      },
+      {
+        "label": "4. 2.200 watt",
+        "value": "4"
+      },
+      {
+        "label": "5. &gt; 2.200 watt",
+        "value": "5"
+      }
+    ]
+  },
+  "id_pln_pilih": {
+    "var": "id_pln_pilih",
+    "question": "14. c. Sebutkan ID Pelanggan PLN atau Nomor Meteran",
+    "type": 26,
+    "options": [
+      {
+        "label": "ID Pelanggan PLN",
+        "value": "1"
+      },
+      {
+        "label": "Nomor Meteran",
+        "value": "2"
+      }
+    ]
+  },
+  "id_pelanggan": {
+    "var": "id_pelanggan",
+    "question": "&nbsp;&nbsp;&nbsp;&nbsp;ID Pelanggan PLN",
+    "type": 25
+  },
+  "banner_cek_idpel": {
+    "var": "banner_cek_idpel",
+    "question": "Silakan lakukan pengecekan ID Pelanggan dengan menekan tombol CEK ID PELANGGAN di bawah ini.",
+    "type": 3
+  },
+  "cek_idpel": {
+    "var": "cek_idpel",
+    "question": "CEK ID PELANGGAN",
+    "type": 6
+  },
+  "hasilCekIdPel": {
+    "var": "hasilCekIdPel",
+    "question": "\u200b",
+    "type": 4
+  },
+  "htmlHasilCekIdPel": {
+    "var": "htmlHasilCekIdPel",
+    "question": "\u200b",
+    "type": 4
+  },
+  "no_meteran": {
+    "var": "no_meteran",
+    "question": "&nbsp;&nbsp;&nbsp;&nbsp;Nomor Meteran",
+    "type": 25
+  },
+  "result_cekidpel": {
+    "var": "result_cekidpel",
+    "question": "\u200b",
+    "type": 4
+  },
+  "banner_cek_no_meteran": {
+    "var": "banner_cek_no_meteran",
+    "question": "Silakan lakukan pengecekan nomor meteran dengan menekan tombol CEK NOMOR METERAN di bawah ini.",
+    "type": 3
+  },
+  "cek_no_meteran": {
+    "var": "cek_no_meteran",
+    "question": "CEK NOMOR METERAN",
+    "type": 6
+  },
+  "htmlHasilCekMeteran": {
+    "var": "htmlHasilCekMeteran",
+    "question": "\u200b",
+    "type": 4
+  },
+  "hasilCekMeteran": {
+    "var": "hasilCekMeteran",
+    "question": "\u200b",
+    "type": 4
+  },
+  "result_cekmeteran": {
+    "var": "result_cekmeteran",
+    "question": "result_cekmeteran",
+    "type": 4
+  },
+  "listrik_sebulan": {
+    "var": "listrik_sebulan",
+    "question": "15. a. Berapa nilai pengeluaran listrik sebulan? \n (Dapat menggunakan pertanyaan seperti: biasanya, rata-rata, atau sebulan terakhir)",
+    "type": 20
+  },
+  "pulsa_sebulan": {
+    "var": "pulsa_sebulan",
+    "question": "15. b. Berapa pengeluaran pulsa dan internet seluruh anggota keluarga sebulan?\n (Dapat menggunakan pertanyaan seperti: biasanya, rata-rata, atau sebulan terakhir)",
+    "type": 20
+  },
+  "pengeluaran_makanan_mingguan": {
+    "var": "pengeluaran_makanan_mingguan",
+    "question": "16. a. Berapa rata-rata pengeluaran makanan keluarga seminggu?",
+    "type": 20
+  },
+  "jml_meteran_var": {
+    "var": "jml_meteran_var",
+    "question": "jml_meteran_var",
+    "type": 4
+  },
+  "pengeluaran_non_makan_bulanan": {
+    "var": "pengeluaran_non_makan_bulanan",
+    "question": "16. b. Berapa rata-rata pengeluaran bukan makanan rutin keluarga bulanan?",
+    "type": 20
+  },
+  "pengeluaran_non_makan_tahunan": {
+    "var": "pengeluaran_non_makan_tahunan",
+    "question": "16. c. Berapa rata-rata pengeluaran bukan makanan rutin keluarga tahunan?",
+    "type": 20
+  },
+  "aset_head": {
+    "var": "aset_head",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    KETERANGAN KEPEMILIKAN ASET",
+    "type": 3
+  },
+  "aset_bergerak": {
+    "var": "aset_bergerak",
+    "question": "[id^='jumlah_tabung3kg_new'],\n[id^='jumlah_tabung5kg_new'],\n[id^='jumlah_kulkas_new'],\n[id^='jumlah_ac_new'],\n[id^='jumlah_emas_new'],\n[id^='jumlah_laptop_new'],\n[id^='jumlah_motor_new'],\n[id^='nilai_motor'],\n[id^='jumlah_mobil_new'],\n[id^='nilai_mobil']\n{\n  padding-left: 1.3rem;\n}\n\n17. Apakah keluarga ini memiliki barang-barang sebagai berikut? Berapa jumlahnya? :",
+    "type": 3
+  },
+  "jumlah_tabung3kg": {
+    "var": "jumlah_tabung3kg",
+    "question": "jumlah_tabung3kg_prelist",
+    "type": 4
+  },
+  "jumlah_tabung3kg_new": {
+    "var": "jumlah_tabung3kg_new",
+    "question": "a. Tabung gas 3 kg (unit)",
+    "type": 28
+  },
+  "jumlah_tabung5kg": {
+    "var": "jumlah_tabung5kg",
+    "question": "jumlah_tabung5kg_prelist",
+    "type": 4
+  },
+  "jumlah_tabung5kg_new": {
+    "var": "jumlah_tabung5kg_new",
+    "question": "b. Tabung gas 5,5 kg atau lebih (unit)",
+    "type": 28
+  },
+  "jumlah_kulkas": {
+    "var": "jumlah_kulkas",
+    "question": "jumlah_kulkas_prelist",
+    "type": 4
+  },
+  "jumlah_kulkas_new": {
+    "var": "jumlah_kulkas_new",
+    "question": "c. Lemari es/kulkas (unit)",
+    "type": 28
+  },
+  "jumlah_ac": {
+    "var": "jumlah_ac",
+    "question": "jumlah_ac_prelist",
+    "type": 4
+  },
+  "jumlah_ac_new": {
+    "var": "jumlah_ac_new",
+    "question": "d. Air Conditioner (AC) (unit)",
+    "type": 28
+  },
+  "jumlah_emas": {
+    "var": "jumlah_emas",
+    "question": "jumlah_emas_prelist",
+    "type": 4
+  },
+  "jumlah_emas_new": {
+    "var": "jumlah_emas_new",
+    "question": "e. Emas/perhiasan (gram)",
+    "type": 28
+  },
+  "jumlah_laptop": {
+    "var": "jumlah_laptop",
+    "question": "jumlah_laptop_prelist",
+    "type": 4
+  },
+  "jumlah_laptop_new": {
+    "var": "jumlah_laptop_new",
+    "question": "f. Komputer/laptop/tablet: (unit)",
+    "type": 28
+  },
+  "jumlah_motor": {
+    "var": "jumlah_motor",
+    "question": "jumlah_motor_prelist",
+    "type": 4
+  },
+  "jumlah_motor_new": {
+    "var": "jumlah_motor_new",
+    "question": "g. i. Sepeda motor (termasuk sepeda motor listrik):",
+    "type": 28
+  },
+  "nilai_motor": {
+    "var": "nilai_motor",
+    "question": "g. ii. Total nilai aset sepeda motor (rupiah)",
+    "type": 20
+  },
+  "jumlah_mobil": {
+    "var": "jumlah_mobil",
+    "question": "jumlah_mobil_prelist",
+    "type": 4
+  },
+  "jumlah_mobil_new": {
+    "var": "jumlah_mobil_new",
+    "question": "h. i. Mobil (termasuk mobil listrik):",
+    "type": 28
+  },
+  "nilai_mobil": {
+    "var": "nilai_mobil",
+    "question": "h. ii. Total nilai aset mobil (rupiah)",
+    "type": 20
+  },
+  "aset_tidak_bergerak": {
+    "var": "aset_tidak_bergerak",
+    "question": "[id^='nilai_lahan'],\n[id^='jumlah_lahan'],\n[id^='jumlah_rumah'],\n[id^='nilai_rumah']\n{\n  padding-left: 1.3rem;\n}\n\n18. Apakah Keluarga ini memiliki aset tidak bergerak sebagai berikut?",
+    "type": 3
+  },
+  "jumlah_lahan": {
+    "var": "jumlah_lahan",
+    "question": "jumlah_lahan_prelist",
+    "type": 4
+  },
+  "jumlah_lahan_new": {
+    "var": "jumlah_lahan_new",
+    "question": "a. i. Jumlah tanah/lahan di tempat lain (selain yang ditempati):",
+    "type": 28
+  },
+  "nilai_lahan": {
+    "var": "nilai_lahan",
+    "question": "a. ii. Total nilai harga jual tanah/lahan di tempat lain (selain yang ditempati):",
+    "type": 20
+  },
+  "jumlah_rumah": {
+    "var": "jumlah_rumah",
+    "question": "jumlah_rumah_prelist",
+    "type": 4
+  },
+  "jumlah_rumah_new": {
+    "var": "jumlah_rumah_new",
+    "question": "b. i. Jumlah rumah/bangunan di tempat lain (selain yang ditempati):",
+    "type": 28
+  },
+  "nilai_rumah": {
+    "var": "nilai_rumah",
+    "question": "b. ii. Total nilai harga jual rumah/bangunan di tempat lain (selain yang ditempati):",
+    "type": 20
+  },
+  "foto_rumah": {
+    "var": "foto_rumah",
+    "question": "#foto_depan,\n    #foto_ruang_tamu,\n    #foto_dapur {\n        padding-left: 1.3rem;\n    }\n\n19. Foto rumah (2 buah yang mencerminkan kualitas bangunan)",
+    "type": 3
+  },
+  "foto_depan": {
+    "var": "foto_depan",
+    "question": "Foto tampak depan (harus mencakup atap dan dinding)",
+    "type": 32
+  },
+  "foto_ruang_tamu": {
+    "var": "foto_ruang_tamu",
+    "question": "Foto ruang tamu (harus mencakup dinding dan lantai)",
+    "type": 32
+  },
+  "hidden_blok_4": {
+    "var": "hidden_blok_4",
+    "question": ".tw\\:\\@container\\/form > div:not(#hidden_blok_4) {\n        display: none !important;\n    }\n    \n    .fasih-form-sidebar:nth-child(3),\n    .fasih-form-sidebar:nth-child(6),\n    .fasih-form-sidebar:nth-child(7)\n    {\n        display:none!important;\n    }\n\n\n\n  \u2139\ufe0f Halaman ini tidak memerlukan pengisian karena tidak terdapat pertanyaan yang ditujukan kepada responden pada bagian ini. Silakan lanjutkan ke halaman berikutnya sesuai petunjuk yang tersedia.",
+    "type": 3
+  },
+  "set_default_aset": {
+    "var": "set_default_aset",
+    "question": "set_default_aset",
+    "type": 4
+  },
+  "ket_jawaban": {
+    "var": "ket_jawaban",
+    "question": "KETERANGAN PEMBERI JAWABAN",
+    "type": 1
+  },
+  "jawaban_head": {
+    "var": "jawaban_head",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    KETERANGAN PEMBERI JAWABAN",
+    "type": 3
+  },
+  "nama_info_list": {
+    "var": "nama_info_list",
+    "question": "Nama Pemberi Informasi",
+    "type": 27
+  },
+  "nama_info": {
+    "var": "nama_info",
+    "question": "nama_info_cawi",
+    "type": 4
+  },
+  "ak_info": {
+    "var": "ak_info",
+    "question": "ak_info",
+    "type": 4
+  },
+  "nama_lain": {
+    "var": "nama_lain",
+    "question": "Nama Lain",
+    "type": 25
+  },
+  "telp_info": {
+    "var": "telp_info",
+    "question": "Nomor HP/Telepon",
+    "type": 25
+  },
+  "email_info": {
+    "var": "email_info",
+    "question": "E-mail",
+    "type": 25
+  },
+  "tanda_info": {
+    "var": "tanda_info",
+    "question": "Tanda Tangan",
+    "type": 36
+  },
+  "css_hidden_4": {
+    "var": "css_hidden_4",
+    "question": ".fasih-form-sidebar:nth-child(3),\n        .fasih-form-sidebar:nth-child(6),\n        .fasih-form-sidebar:nth-child(7)\n        {\n            display:none!important;\n        }",
+    "type": 3
+  },
+  "cat": {
+    "var": "cat",
+    "question": "CATATAN",
+    "type": 1
+  },
+  "catatan_head": {
+    "var": "catatan_head",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    CATATAN",
+    "type": 3
+  },
+  "catatan": {
+    "var": "catatan",
+    "question": "Catatan",
+    "type": 30
+  },
+  "idsbr_keluarga": {
+    "var": "idsbr_keluarga",
+    "question": "ID SBR keluarga",
+    "type": 4
+  },
+  "idsbr_match": {
+    "var": "idsbr_match",
+    "question": "ID SBR Match",
+    "type": 4
+  },
+  "id_l1_umkm": {
+    "var": "id_l1_umkm",
+    "question": "New Question",
+    "type": 4
+  },
+  "id_l2_umkm": {
+    "var": "id_l2_umkm",
+    "question": "New Question",
+    "type": 4
+  },
+  "id_keluarga": {
+    "var": "id_keluarga",
+    "question": "New Question",
+    "type": 4
+  },
+  "css_hidden_3": {
+    "var": "css_hidden_3",
+    "question": ".fasih-form-sidebar:nth-child(3),\n        .fasih-form-sidebar:nth-child(6),\n        .fasih-form-sidebar:nth-child(7)\n        {\n            display:none!important;\n        }",
+    "type": 3
+  },
+  "id_regsosek": {
+    "var": "id_regsosek",
+    "question": "New Question",
+    "type": 4
+  },
+  "waktu_selesai": {
+    "var": "waktu_selesai",
+    "question": "Waktu Selesai",
+    "type": 35
+  },
+  "daftar_anomali": {
+    "var": "daftar_anomali",
+    "question": "daftar_anomali",
+    "type": 4
+  },
+  "anomali_section": {
+    "var": "anomali_section",
+    "question": "ANOMALI",
+    "type": 1
+  },
+  "anomali_head": {
+    "var": "anomali_head",
+    "question": "/* Default / Light Theme untuk Header Blok */\r\n    .blok-header {\r\n         font-size: 16px;\r\n         font-weight: 500;\r\n         color: #5A2E00;\r\n         margin-bottom: 14px;\r\n         padding: 24px 24px;\r\n         background-color: #FFF4E6;\r\n         border-bottom: 4px solid #FF8C00;\r\n         border-radius: 6px 6px 0 0;\r\n         line-height: 1.4;\r\n         text-align: center;\r\n         transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .blok-header {\r\n         background-color: #2b211a; /* Latar belakang cokelat gelap */\r\n         color: #fce8d5;            /* Teks krem terang */\r\n         border-bottom: 4px solid #cc7000; /* Warna oranye sedikit diredupkan */\r\n    }\r\n\r\n\r\n\r\n    \r\n        PENGECEKAN ANOMALI",
+    "type": 3
+  },
+  "banner_anomali": {
+    "var": "banner_anomali",
+    "question": "/* Default / Light Theme untuk Instruction Banner */\r\n    .instruction-banner {\r\n        background-color: #E8F1FF;\r\n        border-left: 5px solid #3B82F6;\r\n        color: #1E3A8A;\r\n        padding: 12px 16px;\r\n        border-radius: 6px;\r\n        margin: 12px 0;\r\n        font-family: Arial, sans-serif;\r\n        font-size: 14px;\r\n        line-height: 1.5;\r\n        transition: background-color 0.3s, color 0.3s, border-color 0.3s;\r\n    }\r\n    \r\n    /* Mengembalikan tampilan list angka (ordered list) yang ter-override */\r\n    .instruction-banner ol {\r\n        list-style-type: decimal !important; /* Memaksa angka muncul */\r\n        padding-left: 24px !important;       /* Memberi jarak indentasi */\r\n        margin-top: 10px !important;\r\n        margin-bottom: 0 !important;\r\n    }\r\n    \r\n    /* Mengatur jarak antar teks di dalam list */\r\n    .instruction-banner ol li {\r\n        display: list-item !important;       /* Memastikan elemen tampil sebagai list */\r\n        margin-bottom: 6px !important;       /* Memberi jarak antar poin */\r\n        line-height: 1.5;\r\n    }\r\n    \r\n    /* Menghilangkan margin bawah pada poin terakhir agar rapi */\r\n    .instruction-banner ol li:last-child {\r\n        margin-bottom: 0 !important;\r\n    }\r\n\r\n    /* Dark Theme (ketika class 'dark' ada di tag html) */\r\n    html.dark .instruction-banner {\r\n        background-color: #1e293b;  /* Latar belakang biru gelap / slate */\r\n        color: #dbeafe;             /* Teks biru muda terang agar mudah dibaca */\r\n        border-left-color: #60a5fa; /* Warna border diterangkan agar terlihat jelas di layar gelap */\r\n    }\r\n\r\n\r\n    \u26a0\ufe0f Langkah Pengecekan Anomali:\r\n    \r\n        Periksa setiap jenis anomali, silakan lakukan perbaikan data sampai usaha/keluarga hilang dari daftar anomali.\r\n        Apabila data memang sesuai kondisi lapangan, berikan centang \"Ya, Sesuai Kondisi Lapangan\" lalu berikan penjelasan.",
+    "type": 3
+  },
+  "banner_no_anomali": {
+    "var": "banner_no_anomali",
+    "question": "\u2705 Tidak Ditemukan Anomali\r\n    \r\n\r\n    \r\n        Hasil pemeriksaan menunjukkan bahwa data usaha/perusahaan pada assignment ini tidak memiliki anomali berdasarkan aturan validasi yang diterapkan pada kuesioner SE2026.",
+    "type": 3
+  },
+  "cek_anomali": {
+    "var": "cek_anomali",
+    "question": "CEK ANOMALI",
+    "type": 4
+  },
+  "custom_script_table": {
+    "var": "custom_script_table",
+    "question": "custom_script_table",
+    "type": 4
+  },
+  "tanggal_anomali": {
+    "var": "tanggal_anomali",
+    "question": "tanggal_anomali",
+    "type": 4
+  },
+  "tanggal_selesai_anomali": {
+    "var": "tanggal_selesai_anomali",
+    "question": "tanggal_selesai_anomali",
+    "type": 4
+  },
+  "anomali_1_deskripsi": {
+    "var": "anomali_1_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_1_check": {
+    "var": "anomali_1_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_1_penjelasan": {
+    "var": "anomali_1_penjelasan",
+    "question": "Penjelasan Anomali 1",
+    "type": 30
+  },
+  "anomali_2_deskripsi": {
+    "var": "anomali_2_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_2_check": {
+    "var": "anomali_2_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_2_penjelasan": {
+    "var": "anomali_2_penjelasan",
+    "question": "Penjelasan Anomali 2",
+    "type": 30
+  },
+  "anomali_3_deskripsi": {
+    "var": "anomali_3_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_3_check": {
+    "var": "anomali_3_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_3_penjelasan": {
+    "var": "anomali_3_penjelasan",
+    "question": "Penjelasan Anomali 3",
+    "type": 30
+  },
+  "anomali_4_deskripsi": {
+    "var": "anomali_4_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_4_check": {
+    "var": "anomali_4_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_4_penjelasan": {
+    "var": "anomali_4_penjelasan",
+    "question": "Penjelasan Anomali 4",
+    "type": 30
+  },
+  "anomali_5_deskripsi": {
+    "var": "anomali_5_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_5_check": {
+    "var": "anomali_5_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_5_penjelasan": {
+    "var": "anomali_5_penjelasan",
+    "question": "Penjelasan Anomali 5",
+    "type": 30
+  },
+  "anomali_6_deskripsi": {
+    "var": "anomali_6_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_6_check": {
+    "var": "anomali_6_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_6_penjelasan": {
+    "var": "anomali_6_penjelasan",
+    "question": "Penjelasan Anomali 6",
+    "type": 30
+  },
+  "anomali_7_deskripsi": {
+    "var": "anomali_7_deskripsi",
+    "question": "$tabel",
+    "type": 3
+  },
+  "anomali_7_check": {
+    "var": "anomali_7_check",
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type": 29,
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_7_penjelasan": {
+    "var": "anomali_7_penjelasan",
+    "question": "Penjelasan Anomali 7",
+    "type": 30
+  },
+  "anomali_css": {
+    "var": "anomali_css",
+    "question": "#anomali_css {\n        height: 0 !important;\n    }\n    #cek_anomali button {\n        width: 100%;\n        max-width: 768px;\n    }",
+    "type": 3
+  }
+}

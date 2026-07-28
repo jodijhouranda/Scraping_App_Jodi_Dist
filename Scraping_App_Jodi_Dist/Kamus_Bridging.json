@@ -1,0 +1,4746 @@
+{
+  "mulai": {
+    "question": "Waktu Mulai",
+    "type_str": "Upload File",
+    "options": []
+  },
+  "cawi_identifier": {
+    "question": "cawi_identifier",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_cawi": {
+    "question": "is_cawi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_from_cawi": {
+    "question": "is_from_cawi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kunjungan_1": {
+    "question": "Waktu Kunjungan I",
+    "type_str": "Upload File",
+    "options": []
+  },
+  "catatan_1": {
+    "question": "Catatan Kunjungan I",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "kunjungan_2": {
+    "question": "Waktu Kunjungan II",
+    "type_str": "Upload File",
+    "options": []
+  },
+  "catatan_2": {
+    "question": "Catatan Kunjungan II",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "kunjungan_3": {
+    "question": "Waktu Kunjungan III",
+    "type_str": "Upload File",
+    "options": []
+  },
+  "alasan_nr": {
+    "question": "Alasan Nonrespon",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Tidak dapat ditemui",
+        "value": "1"
+      },
+      {
+        "label": "2. Menolak",
+        "value": "2"
+      },
+      {
+        "label": "3. Lanjutkan pendataan",
+        "value": "3"
+      }
+    ]
+  },
+  "catatan_3": {
+    "question": "Catatan Kunjungan III",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "kunjungan_pml": {
+    "question": "Waktu Kunjungan PML",
+    "type_str": "Upload File",
+    "options": []
+  },
+  "geotag_pml": {
+    "question": "Geotaging oleh PML",
+    "type_str": "Geotag / GPS",
+    "options": []
+  },
+  "catatan_pml": {
+    "question": "Catatan Kunjungan PML",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "ec_mulai": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "mode": {
+    "question": "Mode",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_principal": {
+    "question": "Nama Keluarga/Bangunan/Usaha untuk principal",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "prov": {
+    "question": "1. Provinsi",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kab": {
+    "question": "2. Kabupaten/Kota",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kec": {
+    "question": "3. Kecamatan",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "desa": {
+    "question": "4. Desa/Kelurahan",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "ubah_wilayah": {
+    "question": "Apakah Terdapat Perubahan Wilayah?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Ya",
+        "value": "1"
+      },
+      {
+        "label": "Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "kab_baru": {
+    "question": "2. Kabupaten/Kota",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kec_baru": {
+    "question": "3. Kecamatan",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "desa_baru": {
+    "question": "4. Desa/Kelurahan",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kode_prov": {
+    "question": "kode_prov",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "prov_kab": {
+    "question": "prov_kab",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "klas_desa": {
+    "question": "5. Klasifikasi Desa/Kelurahan",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kode_sls": {
+    "question": "6. Kode SLS/Non-SLS/Sub-SLS",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "nama_sls": {
+    "question": "7. Nama SLS/Non-SLS",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "ubah_sls": {
+    "question": "8. Apakah mengalami perubahan SLS (pemekaran/penggabungan/perubahan nama?)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "sudah": {
+    "question": "sudah",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_sls_lap": {
+    "question": "9. Nama SLS/Non-SLS Lapangan",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "tahun_survei": {
+    "question": "Tahun Survei",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kodepos": {
+    "question": "10. Kodepos",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "has_kodepos": {
+    "question": "has_kodepos",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "has_ubah_sls": {
+    "question": "has_ubah_sls",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tahun_lalu": {
+    "question": "Tahun survei minus 1",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "var_desa": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_keluarga": {
+    "question": "Flag keluarga yang  berasal dari prelist\nTerisi 1 Jika merupakan prelist keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik_anggta_lain_prelist": {
+    "question": "nik_anggta_lain_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_usaha": {
+    "question": "Flag usaha yang  berasal dari prelist\nTerisi 1 Jika merupakan prelist usaha/ umkm",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_prelist": {
+    "question": "Flag prelist yang diisikan pada proses pembuatan prelist\nTerisi 1 jika merupakan prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "set_is_prelist": {
+    "question": "set_is_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_non_keluarga": {
+    "question": "Enabling Untuk Rincian Bangunan/Usaha Lainnya mencakup :\nUsaha prelist, Bangunan Lainnya ditemukan dan Usaha/ Bangunan Baru",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ket_editable": {
+    "question": "Keterangan/Catatan Kaki untuk predefined editable",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ub_prelist": {
+    "question": "Status UB Prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ub": {
+    "question": "Status UB umkm",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jenis_prelist": {
+    "question": "Jenis Prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "flag_pbi": {
+    "question": "PBI",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_new": {
+    "question": "Tambah :\nPilih jenis assignment yang akan ditambahkan",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Keluarga",
+        "value": "1"
+      },
+      {
+        "label": "Bangunan Lainnya  (Selain Tempat Tinggal dan Campuran)",
+        "value": "2"
+      }
+    ]
+  },
+  "pilih_umkm": {
+    "question": "Daftar Usaha Non Prelist\nPilih \"Tidak Ditemukan\"  jika nama usaha tidak ada di daftar usaha",
+    "type_str": "Tipe 27",
+    "options": [
+      {
+        "label": "Tidak Ditemukan",
+        "value": "999"
+      }
+    ]
+  },
+  "no_kk_prelist": {
+    "question": "Nomor KK prelist untuk pembanding",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik_prelist": {
+    "question": "NIK prelist untuk pembanding",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_lookup_umkm": {
+    "question": "Nama dari Lookup",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_usaha_bang": {
+    "question": "Nama Bangunan/ Usaha/ Perusahaan\n$ket",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "set_nama_usaha_bang": {
+    "question": "set_nama_usaha_bang",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_kk": {
+    "question": "Nomor KK\n$ket",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "alsan_tidak_kk": {
+    "question": "Alasan Kode KK tidak dapat diberikan:",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik": {
+    "question": "NIK\n$ket",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "nama_kk": {
+    "question": "Nama Kepala Keluarga (KK)\n$ket",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "callnik_button_p": {
+    "question": "CEK NIK",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "hasilPemadananNIK_p": {
+    "question": "Hasil Pengecekkan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilPemadananNIK2_p": {
+    "question": "Hasil Pengecekan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilPemadananNIK_p": {
+    "question": "‎ Hasil Pengecekan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "result_callnik_p": {
+    "question": "‎",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_ak_lain": {
+    "question": "Nama Anggota Keluarga Lainnya\n$ket",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "alamat_lookup_umkm": {
+    "question": "Alamat dari lookup",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "alamat_klrg": {
+    "question": "Alamat\n$ket",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_usaha_prelist": {
+    "question": "Jumlah Usaha yang Dimiliki Seluruh Anggota Keluarga  (Sumber: UMKM dan ST2023)",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kode_keberedaan_keluarga": {
+    "question": "Pilihan kode keberadaan keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kode_keluarga_new": {
+    "question": "Pilihan Keberadaan Keluarga (new)",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kode_bangunan_new": {
+    "question": "Pilihan Keberadaan Bangunan (new)",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ada_keluarga": {
+    "question": "Keberadaan Keluarga",
+    "type_str": "Pilihan Radio",
+    "options": []
+  },
+  "ada_bang_usaha": {
+    "question": "Keberadaan Bangunan Lainnya/ Usaha",
+    "type_str": "Pilihan Radio",
+    "options": []
+  },
+  "set_ada_bang_usaha": {
+    "question": "set_ada_bang_usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "alamat_prelist": {
+    "question": "Alamat  (Prelist)",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "domisili": {
+    "question": "Apakah alamat tersebut sesuai dengan alamat pada Kartu Keluarga?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya Sesuai KK",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak Sesuai KK",
+        "value": "2"
+      }
+    ]
+  },
+  "alamat_domisili": {
+    "question": "Alamat",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "jalan_domisili": {
+    "question": "Nama Jalan/Gang/Komplek/Gedung/dll (Tuliskan dengan rinci)",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "nomor_domisili": {
+    "question": "Blok/Nomor Rumah\n(Jika tidak ada nomor rumah, tulis strip (-))",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "ec_keluarga": {
+    "question": "Enabling Untuk Rincian Keluarga mencakup :\nKeluarga prelist ditemukan dan Keluarga Baru",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_keluarga_terbesar": {
+    "question": "NOMOR URUT KELUARGA TERBESAR:",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_keluarga": {
+    "question": "Nomor Urut Keluarga",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "no_bangunan_terbesar": {
+    "question": "NOMOR URUT BANGUNAN TERBESAR:",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_bang": {
+    "question": "Nomor Urut Bangunan",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "kode_bang": {
+    "question": "Kode Penggunaan Bangunan",
+    "type_str": "Pilihan Radio",
+    "options": []
+  },
+  "pilihan_kode_bang": {
+    "question": "Options untuk kode_bang disesuaikan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "geotag": {
+    "question": "Geotagging",
+    "type_str": "Geotag / GPS",
+    "options": []
+  },
+  "foto_depan_p": {
+    "question": "Foto tampak depan (harus mencakup atap dan dinding)",
+    "type_str": "Tipe 32",
+    "options": []
+  },
+  "jumlah_ak_kk": {
+    "question": "Jumlah Anggota Keluarga Berdasarkan Kartu Keluarga",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_ak": {
+    "question": "Jumlah Anggota Keluarga Yang menetap di dalam bangunan tempat tinggal minimal 1 tahun, atau kurang dari 1 tahun dan berniat menetap",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "usaha_kos": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK memiliki usaha penyewaan lahan atau kontrakan atau kos kosan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_keliling": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK memiliki usaha keliling (pedagang sayur keliling, ojek keliling, tukang becak keliling, supir",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_online": {
+    "question": "Apakah $namaKK  atau anggota keluarga dari $namaKK  memiliki usaha online contoh: menjual barang melalui tokopedia/ shopee/website/ instagram tanpa memiliki toko?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_bongkar": {
+    "question": "Apakah $namaKK  atau anggota keluarga dari $namaKK   memiliki usaha di luar tempat tinggal, yang lokasi usahanya tetap tetapi peralatan/ perlengkapan usahanya dipindah/ dibawa pulang/ dibongkar pasang (misal: usaha kaki lima/ tenda seafood yang jika sudah tutup semua peralatan akan dibawa pulang, usaha dagang martabak gerobakan yang mangkal di pinggir jalan namun jika sudah selesai gerobak akan dibawa pulang, dan usaha lain yang sejenis)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_konstruksi": {
+    "question": "Apakah  $namaKK atau anggota keluarga dari $namaKK memiliki usaha sebagai pemborong konstruksi/perusahaan konstruksi yang berlokasi di tempat tinggal ini atau penggalian perorangan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "usaha_lain": {
+    "question": "Apakah  $namaKK atau anggota keluarga dari $namaKK memiliki usaha lain? Seperti mengajar privat dari rumah ke rumah, Freelance, YouTuber, Konten Kreator, Afiliator, dan semua usaha lainnya yang dilakukan dalam bangunan ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "pertanian_head": {
+    "question": "Identifikasi Usaha Pertanian yang Dilakukan Keluarga",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "tanaman_pangan": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Tanaman Pangan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?\n\ntermasuk yang seluruhnya dikonsumsi sendiri (padi, jagung, kedelai, kacang tanah, kacang hijau, ubi kayu, ubi jalar, talas, ganyong, dan palawija lainnya)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "hortikultura": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Hortikultura dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "perkebunan": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Perkebunan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "peternakan": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Peternakan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "kehutanan": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Kehutanan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "perikanan": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Perikanan dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jasa_pertanian": {
+    "question": "Apakah $namaKK atau anggota keluarga dari $namaKK selama setahun yang lalu mengelola usaha pertanian Jasa Pertanian dengan tujuan sebagian atau seluruh hasilnya untuk dijual/ditukar?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jumlah_usaha_ditemukan": {
+    "question": "Jumlah usaha yang ditemukan\nJumlah usaha akan terisi dengan meng-update keberadaan usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "daftar_nik_pengusaha": {
+    "question": "daftar_nik_pengusaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "usaha_gabung": {
+    "question": "List yang ditampilkan di se2026_nested",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_ada_usaha": {
+    "question": "Enabling Condition Keberadaan Usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_usaha_prelist": {
+    "question": "Nama Usaha Prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "list_individu_dtsen_prelist": {
+    "question": "List Individu Prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "status_pegawai": {
+    "question": "status_pegawai",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "idsbr_all": {
+    "question": "idsbr_all",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nib_all": {
+    "question": "nib_all",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "email_all": {
+    "question": "email_all",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "skala_usaha_all": {
+    "question": "skala_usaha_all",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "idunik_MSSD": {
+    "question": "idunik_MSSD",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_usaha": {
+    "question": "jumlah_usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ya_pertanian": {
+    "question": "Jumlah Usaha Pertanian",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ya_nonpertanian": {
+    "question": "Jumlah Usaha Non-Pertanian",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ya_gabung": {
+    "question": "jum usaha gabung",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "skala_usaha_prelist": {
+    "question": "skala_usaha_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "set_nik_kk": {
+    "question": "Set NIK KK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "label_usaha": {
+    "question": "Label Usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "prelist_dtsen": {
+    "question": "Nama anggota keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tambah_dtsen": {
+    "question": "Nama anggota keluarga",
+    "type_str": "Geotag / GPS",
+    "options": []
+  },
+  "gabung_dtsen": {
+    "question": "gabung_dtsen",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "art_pengusaha": {
+    "question": "art_pengusaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "art_keberadaan15": {
+    "question": "art yg keberadaan kode 1 dan 5",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "cek1": {
+    "question": "cek jum art 15",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jk_krt": {
+    "question": "jk_krt",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "umur_krt": {
+    "question": "umur krt",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_anakmantucucu": {
+    "question": "Jumlah anak mantu cucu",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_pasangan": {
+    "question": "Jumlah pasangan suami / istri",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_art_semua": {
+    "question": "jum_art_semua",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_art_1345": {
+    "question": "jum_art_1345",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_art_1345_umurkur10": {
+    "question": "jum_art_1345_umurkur10",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_kk_lebihdr10th": {
+    "question": "jum_kk_lebihdr10th",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jum_kk": {
+    "question": "jum_kk",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nested_dtsen": {
+    "question": "Keterangan Anggota Keluarga",
+    "type_str": "Tipe 2",
+    "options": []
+  },
+  "isprelistart": {
+    "question": "Apakah prelist art",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_urut_kk": {
+    "question": "5. Nomor urut anggota keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_dtsen": {
+    "question": "6. Nama anggota keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik_dtsen": {
+    "question": "7. Nomor Induk Kependudukan (NIK) $NAME$\n\n(Tulis sesuai yang tercantum di KK atau KTP paling mutakhir)",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "set_nik_dtsen_prelist": {
+    "question": "set_nik_dtsen_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik_dtsen_prelist": {
+    "question": "nik_dtsen_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "callnik_button": {
+    "question": "CEK NIK",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "hasilPemadananNIK": {
+    "question": "Hasil Pengecekkan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilPemadananNIK2": {
+    "question": ".",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilPemadananNIK": {
+    "question": "Hasil Pengecekan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "result_callnik": {
+    "question": ".",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_anggota_keluarga": {
+    "question": "Enabling anggota keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "hubungan": {
+    "question": "8. Hubungan $NAME$ dengan Kepala Keluarga",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Kepala Keluarga",
+        "value": "1"
+      },
+      {
+        "label": "2. Istri/Suami",
+        "value": "2"
+      },
+      {
+        "label": "3. Anak",
+        "value": "3"
+      },
+      {
+        "label": "4. Menantu",
+        "value": "4"
+      },
+      {
+        "label": "5. Cucu",
+        "value": "5"
+      },
+      {
+        "label": "6. Orang Tua",
+        "value": "6"
+      },
+      {
+        "label": "7. Mertua",
+        "value": "7"
+      },
+      {
+        "label": "8. Famili",
+        "value": "8"
+      },
+      {
+        "label": "9. Lainnya",
+        "value": "9"
+      }
+    ]
+  },
+  "keberadaan_dtsen": {
+    "question": "9. a. Keberadaan anggota keluarga",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Tinggal di rumah/tempat tinggal ini",
+        "value": "1"
+      },
+      {
+        "label": "2. Meninggal",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak tinggal bersama keluarga/pindah ke wilayah/daerah lain di Indonesia",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak tinggal bersama keluarga/pindah ke luar negeri",
+        "value": "4"
+      },
+      {
+        "label": "5. Anggota keluarga baru",
+        "value": "5"
+      },
+      {
+        "label": "6. Sudah pisah KK",
+        "value": "6"
+      },
+      {
+        "label": "7. Tidak ditemukan/Tidak dikenal",
+        "value": "7"
+      }
+    ]
+  },
+  "alamat_dn": {
+    "question": "9. b. Alamat domisili:",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Sesuai KK dan KTP",
+        "value": "1"
+      },
+      {
+        "label": "2. Hanya sesuai KK",
+        "value": "2"
+      },
+      {
+        "label": "3. Hanya sesuai KTP",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak sesuai KK dan KTP",
+        "value": "4"
+      }
+    ]
+  },
+  "prov_dn": {
+    "question": "a. Provinsi",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kab_dn": {
+    "question": "b. Kabupaten/Kota",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "domisili_ln": {
+    "question": "10LN.  Negara domisili Individu (luar negeri)",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "status_kawin": {
+    "question": "11. Apakah status perkawinan $NAME$",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Belum kawin",
+        "value": "1"
+      },
+      {
+        "label": "2. Kawin/nikah",
+        "value": "2"
+      },
+      {
+        "label": "3. Cerai hidup",
+        "value": "3"
+      },
+      {
+        "label": "4. Cerai mati",
+        "value": "4"
+      }
+    ]
+  },
+  "set_jk_prelist": {
+    "question": "set_jk_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jk_prelist": {
+    "question": "jk_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jk_dtsen": {
+    "question": "12. Jenis Kelamin $NAME$",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Laki-laki",
+        "value": "1"
+      },
+      {
+        "label": "2. Perempuan",
+        "value": "2"
+      }
+    ]
+  },
+  "tgl_lahir": {
+    "question": "Tanggal Lahir",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "bln_lahir": {
+    "question": "Bulan Lahir",
+    "type_str": "Tipe 27",
+    "options": [
+      {
+        "label": "01 - JANUARI",
+        "value": "01"
+      },
+      {
+        "label": "02 - FEBRUARI",
+        "value": "02"
+      },
+      {
+        "label": "03 - MARET",
+        "value": "03"
+      },
+      {
+        "label": "04 - APRIL",
+        "value": "04"
+      },
+      {
+        "label": "05 - MEI",
+        "value": "05"
+      },
+      {
+        "label": "06 - JUNI",
+        "value": "06"
+      },
+      {
+        "label": "07 - JULI",
+        "value": "07"
+      },
+      {
+        "label": "08 - AGUSTUS",
+        "value": "08"
+      },
+      {
+        "label": "09 - SEPTEMBER",
+        "value": "09"
+      },
+      {
+        "label": "10 - OKTOBER",
+        "value": "10"
+      },
+      {
+        "label": "11 - NOVEMBER",
+        "value": "11"
+      },
+      {
+        "label": "12 - DESEMBER",
+        "value": "12"
+      },
+      {
+        "label": "98 - TIDAK TAHU",
+        "value": "98"
+      }
+    ]
+  },
+  "thn_lahir": {
+    "question": "Tahun Lahir",
+    "type_str": "Tipe 24",
+    "options": []
+  },
+  "set_umur_ak": {
+    "question": "set_umur_ak",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "umur_ak": {
+    "question": "13. b. Umur $NAME$",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "art_ada_usaha": {
+    "question": "Apakah $NAME$ memiliki usaha berikut? \n\n$daftar_usaha",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Ya",
+        "value": "1"
+      },
+      {
+        "label": "Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "nama_usaha_tambahan": {
+    "question": "Nama Usaha Tambahan",
+    "type_str": "Geotag / GPS",
+    "options": []
+  },
+  "se2026_nested": {
+    "question": "Keterangan Usaha/Perusahaan",
+    "type_str": "Tipe 2",
+    "options": []
+  },
+  "pilih_umkm_options": {
+    "question": "Opsi Pilih UMKM dalam satu SLS yang sama",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "pilih_umkm_sls": {
+    "question": "Pilih UMKM dalam satu SLS yang sama",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "prov_l": {
+    "question": "1. Provinsi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kab_l": {
+    "question": "2. Kabupaten/Kota",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kec_l": {
+    "question": "3. Kecamatan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "desa_l": {
+    "question": "4. Kelurahan/Desa/Nagari",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kodesls_l": {
+    "question": "Kode SLS/Sub-SLS",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "sls_l": {
+    "question": "Nama SLS/Sub-SLS",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_bang_l": {
+    "question": "6. Nomor Bangunan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_usaha": {
+    "question": "7. Nomor Urut Usaha/Perusahaan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_mulai_L": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_usaha": {
+    "question": "8. a. Nama usaha/perusahaan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "keberadaan_usaha": {
+    "question": "Keberadaan Usaha",
+    "type_str": "Pilihan Radio",
+    "options": []
+  },
+  "set_keberadaan_usaha": {
+    "question": "set_keberadaan_usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_usaha_edit": {
+    "question": "8. a. Nama usaha/perusahaan\nTulis perbaikan nama usaha, jika tidak ada perubahan tulis  ulang nama usaha/perusahaan",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "skala_usaha": {
+    "question": "skala_usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "is_prelist2": {
+    "question": "Is_Prelist2",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "id_pmss": {
+    "question": "id_pmss",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "idsbr": {
+    "question": "ID SBR",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kode_keberadaan_usaha": {
+    "question": "Pilihan untuk keberadaan Usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_komersial": {
+    "question": "8. b. Nama komersial usaha/perusahaan\n\nJika tidak memiliki nama komersial, maka tuliskan nama usaha/perusahaan.",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "alamat_usaha_view": {
+    "question": "8.c. Alamat usaha/perusahaan",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "alamat_usaha_var": {
+    "question": "8. c. Alamat usaha/perusahaan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "alamat_usaha": {
+    "question": "alamat_usaha",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tampilan_alamat": {
+    "question": "Petunjuk Rincian 8c. Alamat usaha/perusahaan\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                            Khusus usaha: \r\n                            1) di dalam bangunan tempat tinggal (contoh: usaha online , catering , les privat, dsb, yang dilakukan di tempat tinggal); \r\n                            2) keliling; \r\n                            3) usaha di luar bangunan tempat tinggal dengan lokasi tetap dan perlengkapan usaha dipindah/dibongkar pasang;\r\n4) konstruksi perorangan, pertambangan dan penggalian perorangan; \r\n5) persewaan rumah/kamar/kantor;\r\n→ yang dicatat adalah alamat tempat tinggal pemilik usaha.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "kp_nested": {
+    "question": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daftar Kantor Cabang",
+    "type_str": "Tipe 2",
+    "options": []
+  },
+  "kp_unit": {
+    "question": "Nama Kantor/\nUnit",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kp_jenis": {
+    "question": "Jenis Unit",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Kantor Cabang",
+        "value": "1"
+      },
+      {
+        "label": "2. Kantor Perwakilan",
+        "value": "2"
+      },
+      {
+        "label": "3. Pabrik",
+        "value": "3"
+      },
+      {
+        "label": "4. Unit Pembantu/Penunjang",
+        "value": "4"
+      }
+    ]
+  },
+  "kp_prov": {
+    "question": "Provinsi",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kp_kab": {
+    "question": "Kabupaten",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kp_produksi_lingkungan": {
+    "question": "Apakah perusahaan ini memproduksi barang/jasa yang ramah lingkungan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya, Seluruhnya",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, Sebagian",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Sama Sekali",
+        "value": "3"
+      }
+    ]
+  },
+  "kp_perlindungan_lingkungan": {
+    "question": "Apakah perusahaan ini mengeluarkan biaya perlindungan lingkungan dan/atau pembelian barang dan jasa yang ramah lingkungan",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "kp_tk": {
+    "question": "Tenaga Kerja (per 31 Desember 2025) (orang)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "kp_total_pengeluaran": {
+    "question": "Pengeluaran Tahun 2025 (Rupiah)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "kp_total_pendapatan": {
+    "question": "Pendapatan Tahun 2025 (Rupiah)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "rt": {
+    "question": "RT",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "rw": {
+    "question": "RW",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kode_pos": {
+    "question": "Kode Pos",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "head_telp": {
+    "question": "Nomor Telepon",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "kode_area": {
+    "question": "Kode Area",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "no_telp": {
+    "question": "Nomor Telepon",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "eks": {
+    "question": "Ekstensi",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "email": {
+    "question": "Email",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "hp": {
+    "question": "Nomor HP/whatsapp:",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "website": {
+    "question": "Homepage/website\n\nAlamat website diawali dengan www. Contoh : www.bps.go.id",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "jenis_kawasan": {
+    "question": "8. d. Jenis kawasan beroperasi",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Kawasan Ekonomi Khusus (KEK)",
+        "value": "01"
+      },
+      {
+        "label": "2. Kawasan Industri (KI)",
+        "value": "02"
+      },
+      {
+        "label": "3. Stasiun",
+        "value": "03"
+      },
+      {
+        "label": "4. Bandara",
+        "value": "04"
+      },
+      {
+        "label": "5. Pelabuhan",
+        "value": "05"
+      },
+      {
+        "label": "6. Terminal",
+        "value": "06"
+      },
+      {
+        "label": "7. Rest area jalan tol",
+        "value": "07"
+      },
+      {
+        "label": "8. Kawasan sentra ekonomi perdesaan/kelurahan",
+        "value": "08"
+      },
+      {
+        "label": "9. Kawasan usaha lainnya",
+        "value": "09"
+      },
+      {
+        "label": "10. Di luar kawasan",
+        "value": "10"
+      }
+    ]
+  },
+  "nama_kek_ki": {
+    "question": "8. e. Nama KEK/KI",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "nama_kawasan": {
+    "question": "8. e. Nama kawasan\n\n\nContoh: KEK Mandalika, Kawasan Industri Jababeka, Stasiun Gambir, Bandara Soekarno-Hatta, Pelabuhan Tanjung Priok, Terminal Pulo Gebang, Rest Area KM 57 Tol Jakarta–Cikampek, Sentra Batik Laweyan, Kompleks Pertokoan ITC Mangga Dua",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "ec_usaha_respons": {
+    "question": "Enabling Condition Usaha Respons di Roster",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "info_usaha_campuran": {
+    "question": "Khusus usaha/perusahaan di bangunan campuran atau yang dicatat di tempat tinggal.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "jenis_usaha": {
+    "question": "9. a. Apa jenis usaha/perusahaan ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Usaha di dalam bangunan tempat tinggal",
+        "value": "1"
+      },
+      {
+        "label": "2. Usaha keliling",
+        "value": "2"
+      },
+      {
+        "label": "3. Usaha di luar bangunan tempat tinggal dengan lokasi tetap dan perlengkapan usaha dipindah/dibongkar pasang",
+        "value": "3"
+      },
+      {
+        "label": "4. Usaha konstruksi perorangan, usaha pertambangan dan penggalian perorangan",
+        "value": "4"
+      },
+      {
+        "label": "5. Usaha persewaan rumah/kamar/kantor",
+        "value": "5"
+      },
+      {
+        "label": "6. Usaha pertanian",
+        "value": "6"
+      }
+    ]
+  },
+  "alamat_usaha_utama": {
+    "question": "9. b1. Alamat/lokasi usaha utama",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "prov_usaha_utama": {
+    "question": "9. b2. Provinsi",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kab_usaha_utama": {
+    "question": "9. b3. Kabupaten/Kota",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "punya_nib": {
+    "question": "10. a. Apakah memiliki Nomor Induk Berusaha (NIB)?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "nib": {
+    "question": "10. b. Tuliskan NIB:",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "banner_cek_nib": {
+    "question": "Silakan lakukan pengecekan NIB dengan menekan tombol CEK NIB di bawah ini.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "cek_nib": {
+    "question": "CEK NIB",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "hasilCekNIB": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilCekNIB": {
+    "question": "Hasil Pengecekan NIB",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "result_callnib": {
+    "question": "result_callnib",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tidak_nib": {
+    "question": "10. c. Apa alasan utama tidak memiliki NIB?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Dalam proses pembuatan NIB",
+        "value": "1"
+      },
+      {
+        "label": "2.  Pengurusan NIB rumit",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak memerlukan NIB",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak tahu tentang NIB",
+        "value": "4"
+      },
+      {
+        "label": "5. Lainnya",
+        "value": "5"
+      }
+    ]
+  },
+  "nib_lainnya": {
+    "question": "10. c. Lainnya, tuliskan....",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "badan_usaha": {
+    "question": "11. a. Apa status badan usaha dari usaha/perusahaan ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1.a. Perseroan (PT/NV, PT Persero, PT Tbk, PT Persero Tbk, Perseroan Daerah",
+        "value": "01a"
+      },
+      {
+        "label": "1.b. Perseroan perorangan",
+        "value": "01b"
+      },
+      {
+        "label": "2. Yayasan",
+        "value": "02"
+      },
+      {
+        "label": "3. Koperasi",
+        "value": "03"
+      },
+      {
+        "label": "4. Dana Pensiun",
+        "value": "04"
+      },
+      {
+        "label": "5. Perum/Perumda",
+        "value": "05"
+      },
+      {
+        "label": "6. BUM Desa",
+        "value": "06"
+      },
+      {
+        "label": "7. Persekutuan Komanditer (CV)",
+        "value": "07"
+      },
+      {
+        "label": "8. Persekutuan Firma (Fa)",
+        "value": "08"
+      },
+      {
+        "label": "9. Persekutuan Perdata (Maatschap)",
+        "value": "09"
+      },
+      {
+        "label": "10. Kantor Perwakilan Luar Negeri",
+        "value": "10"
+      },
+      {
+        "label": "11. Badan Usaha Luar Negeri",
+        "value": "11"
+      },
+      {
+        "label": "12. Badan Usaha Lainnya (Contoh: BLU, PTN-BH)",
+        "value": "12"
+      },
+      {
+        "label": "13. Bukan Badan Usaha",
+        "value": "13"
+      }
+    ]
+  },
+  "koperasi_kdkmp": {
+    "question": "11. b. Apakah koperasi ini merupakan Koperasi Desa/Kelurahan Merah Putih (KDKMP)?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jenis_koperasi": {
+    "question": "11. c. Apa jenis koperasi ini berdasarkan layanannya?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Open Loop (dapat melayani non-anggota)",
+        "value": "1"
+      },
+      {
+        "label": "2. Close Loop (hanya melayani anggota)",
+        "value": "2"
+      }
+    ]
+  },
+  "lap_keuangan": {
+    "question": "11. d. Apakah mempunyai laporan/catatan keuangan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "pengusaha_var_prelist": {
+    "question": "pengusaha_var_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "pengusaha_var": {
+    "question": "12. a. Nama Pengusaha / Penanggung Jawab",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "set_pengusaha_var": {
+    "question": "set_pengusaha_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "set_default_pengusaha_var": {
+    "question": "set_default_pengusaha_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "pengusaha": {
+    "question": "12. a. Nama Pengusaha / Penanggung Jawab",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "jk_var": {
+    "question": "12. b. Jenis Kelamin",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jk": {
+    "question": "12. b. Jenis Kelamin",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Laki-laki",
+        "value": "1"
+      },
+      {
+        "label": "2. Perempuan",
+        "value": "2"
+      }
+    ]
+  },
+  "umur_pj_var": {
+    "question": "12. c. Umur",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "umur": {
+    "question": "12. c. Umur",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nik_pengusaha_var": {
+    "question": "12. d. Nomor Induk Kependudukan (NIK )",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik_pengusaha": {
+    "question": "12. d. Nomor Induk Kependudukan (NIK)",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "banner_pemadanan_nik_2": {
+    "question": "Silakan lakukan pengecekan NIK dengan menekan tombol CEK NIK di bawah ini.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "callnik_button_l": {
+    "question": "CEK NIK",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "hasilPemadananNIK_l": {
+    "question": "Hasil Pengecekkan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilPemadananNIK2_l": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilPemadananNIK_l": {
+    "question": "Hasil Pengecekan NIK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "result_callnik_l": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "keg_utama": {
+    "question": "13. a. Apa kegiatan utama usaha/perusahaan ini? Tuliskan selengkapnya",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "kegutama_detail": {
+    "question": "Petunjuk Rincian 13a. Kegiatan Utama\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                            Contoh: \r\n                            o membudidayakan tanaman padi;\r\n                            o membudidayakan cabai;\r\n                            o membudidayakan tanaman tembakau;\r\n                            o membudidayakan udang di air payau;\r\n                            o membibitkan ayam ras;\r\n                            o menangkap ikan konsumsi di sungai;\r\n                            o memungut madu di hutan;\r\n                            o menggiling daging ikan menjadi sosis dan dijual di rumah/online; \r\n                            o membuat kebab di rumah dan dititipkan di warung; \r\n                            o jasa borongan/konstruksi rumah; \r\n                            o menjual mobil bekas di showroom; \r\n                            o menjual kaset video game yang dibeli dari pihak lain di marketplace; \r\n                            o angkutan bus antarkota antarprovinsi; \r\n                            o membuat sosis dari ikan, disajikan dengan pembakaran, dijual di depan rumah/online; \r\n                            o menyewakan kos bulanan;\r\no menyewakan kamar hotel bintang 5; \r\no membuat kebab berdasarkan pesanan langsung di gerobak depan alfamart; \r\no menjual perangkat lunak video gim yang dikembangkan sendiri; \r\no penyediaan telekomunikasi internet tanpa kabel; \r\no membuat rumah kemudian dipasarkan sendiri;\r\no menyewakan rumah dengan periode tahunan; \r\no membuat desain kemasan botol minuman; \r\no sekolah menengah pertama negeri; \r\no rumah sakit pemerintah; \r\no membuat seni lukisan yang dipajang untuk dijual; \r\no membuat kunci duplikat di pinggir jalan; \r\no menulis cerpen; \r\no membuat desain interior rumah; \r\no pengembangan aplikasi video gim; \r\no meracik jamu secara langsung untuk siap konsumsi di sebuah kedai",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "jenis_kegiatan": {
+    "question": "jenis_kegiatan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "usaha_info": {
+    "question": "13. b. Pilih yang paling sesuai dengan kegiatan utama usaha/perusahaan ini:",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "produk_sendiri": {
+    "question": "13. b1. Apakah memproduksi barang di lokasi ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "layanan_mamin": {
+    "question": "13. b2. Apakah menyediakan layanan makan minum?\n\nCiri: terdapat kegiatan peracikkan, pemanasan ulang, atau pembuatan produk berdasarkan pesanan/permintaan pelanggan",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "keg_penjualan": {
+    "question": "13. b3. Apakah melakukan penjualan barang?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "keg_jasa": {
+    "question": "13. b4. Pilih salah satu aktivitas yang dilakukan:",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Jasa",
+        "value": "1"
+      },
+      {
+        "label": "2. Pertanian, Perikanan, dan Kehutanan",
+        "value": "2"
+      }
+    ]
+  },
+  "lokasi_usaha": {
+    "question": "13. c. Di mana usaha tersebut biasa dilakukan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Apotek",
+        "value": "01"
+      },
+      {
+        "label": "2. Swalayan",
+        "value": "02"
+      },
+      {
+        "label": "3. Los Pasar",
+        "value": "03"
+      },
+      {
+        "label": "4. Toko, ruko, dan sejenisnya",
+        "value": "04"
+      },
+      {
+        "label": "5.  Kedai, stan, tenda",
+        "value": "05"
+      },
+      {
+        "label": "6. Bar",
+        "value": "06"
+      },
+      {
+        "label": "7. Kelab malam, diskotek",
+        "value": "07"
+      },
+      {
+        "label": "8. Kafe",
+        "value": "08"
+      },
+      {
+        "label": "9. Restoran, warung makan, dan sejenisnya",
+        "value": "09"
+      },
+      {
+        "label": "10. Keliling",
+        "value": "10"
+      },
+      {
+        "label": "11. Daring (online)",
+        "value": "11"
+      }
+    ]
+  },
+  "input": {
+    "question": "13. d. Apa input yang digunakan?\nContoh: daging ikan, tepung; daging kebab, kulit kebab, sayuran; bambu; jagung pipil; kaca; kain; kulit sapi; kayu bulat; rotan; kunci polos",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "proses": {
+    "question": "13. e. Bagaimana proses mengubah input tersebut menjadi produk output (beserta alatnya)?\nContoh: menggiling daging ikan menjadi sosis; membuat kebab di rumah dan sudah dikemasi kemudian dititipkan di warung; penggaraman; pengasapan; pemindangan; pembekuan.",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "produk": {
+    "question": "13. f. Apa produk utama yang dihasilkan?",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "tampilan_13f": {
+    "question": "Petunjuk Rincian 13f. Produk utama\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                             Contoh: padi; tembakau; udang; ayam ras; ikan segar konsumsi; ayam ras; madu hutan; sosis; kebab yang sudah dikemas; jasa renovasi/ membuat rumah; jasa perdagangan mobil bekas; jasa perdagangan kaset video gim; jasa angkutan bus antarkota antarprovinsi; sosis ikan yang dibakar; jasa sewa kos bulanan; jasa penyediaan akomodasi hotel bintang 5;\r\njasa penyajian kebab; jasa pengembangan perangkat lunak video gim; jasa telekomunikasi internet tanpa kabel; jasa penjualan rumah yang\r\ndibangun sendiri; jasa penyediaan rumah dengan periode tahunan; jasa pendidikan sekolah menengah pertama negeri; jasa kesehatan oleh\r\nrumah sakit pemerintah; jasa pembuatan kunci duplikat; lukisan, patung, kerajinan, musik, tari, foto, film, ilustrasi, animasi, board game, puisi,\r\ncerpen, novel, naskah drama; desain arsitektur, desain produk, desain interior, desain komunikasi visual, desain fesyen, pembuatan perangkat\r\nlunak (software ), aplikasi digital, aplikasi gim, perangkat elektronik, inovasi berbasis kecerdasan buatan; rendang, gudeg; gamelan, angklung.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "genai_button": {
+    "question": "DAPATKAN REKOMENDASI KBLI",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "var_kbli": {
+    "question": "Pilihan untuk KBLI",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "result_gen_ai": {
+    "question": "Result Gen AI",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kbli_prelist": {
+    "question": "kbli_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kbli_genai": {
+    "question": "13. g. Kode KBLI",
+    "type_str": "Pilihan Radio",
+    "options": []
+  },
+  "kbli": {
+    "question": "Pilih dari Master KBLI",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kbli_genai_cawi": {
+    "question": "kbli_genai_cawi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kbli_cawi": {
+    "question": "kbli_cawi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "set_kbli_cawi": {
+    "question": "set_kbli_cawi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kbli_akhir": {
+    "question": "KBLI Akhir",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kategori_2025": {
+    "question": "kategori_2025",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kategori": {
+    "question": "13. h. Kategori Lapangan Usaha:",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "kat_detail": {
+    "question": "Petunjuk Rincian 13h. Kategori Lapangan Usaha\r\n    \r\n\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        \r\n\r\n                            Petunjuk:\r\n\r\n                            \r\n                                \r\n                                    KATEGORI KBLI 2025, yang berisikan list kategori usaha.\r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    Kategori A : Pertanian, Kehutanan, dan Perikanan\r\n                                \r\n                                \r\n                                    Kategori B : Pertambangan dan Penggalian\r\n                                \r\n                                \r\n                                    Kategori C : Industri\r\n                                \r\n                                \r\n                                    Kategori D : Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin\r\n                                \r\n                                \r\n                                    Kategori E : Penyediaan Air, Pengelolaan Air Limbah, Penanganan limbah, dan Remediasi\r\n                                \r\n                                \r\n                                    Kategori F : Konstruksi\r\n                                \r\n                                \r\n                                    Kategori G : Perdagangan Besar dan Eceran\r\n                                \r\n                                \r\n                                    Kategori H : Transportasi dan Penyimpanan\r\n                                \r\n                                \r\n                                    Kategori I : Aktivitas Penyediaan Akomodasi dan Makan Minum\r\n                                \r\n                                \r\n                                    Kategori J : Aktivitas Penerbitan, Penyiaran, serta Produksi dan Distribusi Konten\r\n                                \r\n                                \r\n                                    Kategori K : Aktivitas Telekomunikasi, Pemrograman Komputer, Konsultansi, Infrastruktur Komputasi, dan Jasa Informasi Lainnya\r\n                                \r\n                                \r\n                                    Kategori L : Aktivitas Keuangan dan Asuransi\r\n                                \r\n                                \r\n                                    Kategori M : Aktivitas Real Estat\r\n                                \r\n                                \r\n                                    Kategori N : Aktivitas Profesional, Ilmiah dan Teknis\r\n                                \r\n                                \r\n                                    Kategori O : Aktivitas Administratif dan Penunjang Usaha\r\n                                \r\n                                \r\n                                    Kategori P : Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib\r\n                                \r\n                                                                \r\n                                    Kategori Q : Pendidikan\r\n                                \r\n                                \r\n                                    Kategori R : Aktivitas Kesehatan Manusia dan Aktivitas Sosial\r\n                                \r\n                                \r\n                                    Kategori S : Kesenian, Olahraga, dan Rekreasi\r\n                                \r\n                                \r\n                                    Kategori T : Aktivitas Jasa Lainnya\r\n                                \r\n                                \r\n                                    Kategori U : Aktivitas Rumah Tangga Sebagai Pemberi Kerja dan Aktivitas Produksi Barang dan Jasa\r\n                                \r\n                                  \r\n                                    Kategori V : Aktivitas Badan Internasional dan Badan Ekstra Internasional Lainnya",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "msg_error_kategori": {
+    "question": "&nbsp",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "html_msg_error": {
+    "question": "Error: $ket",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "cek_kbli_pml": {
+    "question": "&nbsp;&nbsp;\nCek Kategori & KBLI  (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "var_hiden_pml": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "klasifikasi": {
+    "question": "13. i. Jika usaha/perusahaan merupakan akomodasi jangka pendek, apa klasifikasi usaha/perusahaan ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Hotel Bintang 1",
+        "value": "1"
+      },
+      {
+        "label": "2. Hotel Bintang 2",
+        "value": "2"
+      },
+      {
+        "label": "3. Hotel Bintang 3",
+        "value": "3"
+      },
+      {
+        "label": "4. Hotel Bintang 4",
+        "value": "4"
+      },
+      {
+        "label": "5. Hotel Bintang 5",
+        "value": "5"
+      },
+      {
+        "label": "6. Lainnya (hotel non-bintang, vila, dll)",
+        "value": "6"
+      }
+    ]
+  },
+  "jaringan": {
+    "question": "14. a. Apa jaringan usaha dari usaha/perusahaan ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Tunggal",
+        "value": "1"
+      },
+      {
+        "label": "2. Kantor pusat",
+        "value": "2"
+      },
+      {
+        "label": "3. Cabang",
+        "value": "3"
+      },
+      {
+        "label": "4. Perwakilan",
+        "value": "4"
+      },
+      {
+        "label": "5. Pabrik",
+        "value": "5"
+      },
+      {
+        "label": "6. Unit pembantu/penunjang",
+        "value": "6"
+      }
+    ]
+  },
+  "jumlah_kc": {
+    "question": "14. b. Berapa jumlah seluruh kantor cabang dan unit usaha yang berada di bawah kantor pusat?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "kp_header": {
+    "question": "KHUSUS KANTOR PUSAT\n    Apabila perusahaan ini merupakan kantor pusat, lanjutkan pengisian informasi kantor cabang dan\nunit yang berada di bawah kendali kantor pusat melalui kuesioner SE2026-L.KP",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "ec_usaha_lanjutan": {
+    "question": "Enabling Condition untuk Usaha Ditemukan selain penunjang dan pusat",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_kp": {
+    "question": "15. a. Nama Kantor Pusat",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "alamat_kp": {
+    "question": "15. b. Alamat Kantor Pusat",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "email_kp": {
+    "question": "15. c. Email",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "negara_kp": {
+    "question": "15. d. Negara",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "prov_kp": {
+    "question": "15. e. Provinsi",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "kab_kp": {
+    "question": "15. f. Kabupaten/Kota",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "internet": {
+    "question": "16. a. Apakah usaha/perusahaan ini menggunakan internet dalam menjalankan usaha?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_produksi": {
+    "question": "16. b2. Produksi barang/jasa",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_pesanan": {
+    "question": "16. b1. Menerima pesanan barang/jasa",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_distribusi": {
+    "question": "16. b3. Distribusi barang/jasa",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_beli": {
+    "question": "16. b4. Membeli bahan baku online",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_promosi": {
+    "question": "16. b5. Promosi",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "internet_lainnya": {
+    "question": "16. b6. Lainnya",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "digital": {
+    "question": "16. c. Apakah usaha/perusahaan ini memanfaatkan teknologi digital Aritifical Intelligence (AI), Internet of Things (IoT), big data, printer 3D, blockchain, atau cloud computing?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "produksi_lingkungan": {
+    "question": "17. a. Apakah usaha/perusahaan ini memproduksi barang/jasa yang ramah lingkungan?\nContoh: Produk efisiensi energi (lampu atau mesin hemat listrik); Energi terbarukan (panel surya, turbin angin, biogas);\nKendaraan ramah lingkungan (kendaraan listrik/ hybrid); Produk berbahan daur ulang (kertas/plastik daur ulang, kemasan \nramah lingkungan); Jasa pengelolaan dan pembersihan limbah dan sampah (pengolahan sampah/ air limbah, daur ulang)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya, seluruhnya",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, sebagian",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak sama sekali",
+        "value": "3"
+      }
+    ]
+  },
+  "perlindungan_lingkungan": {
+    "question": "17. b.  Apakah usaha/perusahaan ini menggunakan input untuk tujuan perlindungan lingkungan\ndan/atau pembelian barang dan jasa yang ramah lingkungan?\nContoh: Pengeluaran untuk pengelolaan dan pembersihan limbah dan sampah, pengendalian polusi udara, perbaikan tanah/ air tanah, pengurangan kebisingan, pelestarian alam/keanekaragaman hayati, audit/ penilaian lingkungan",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "produk_seni": {
+    "question": "18. Apakah usaha/perusahaan ini menggunakan produk karya seni, sastra, desain, teknologi atau warisan budaya, baik diproduksi sendiri maupun oleh pihak lain?\n\n\n\nContoh produk karya seni: lukisan, patung, kerajinan, musik, tari, foto, film, ilustrasi, animasi, board game, dll.\nContoh produk sastra: puisi, cerpen, novel, naskah drama, dll.\nContoh produk desain: arsitektur, desain produk, desain interior, desain komunikasi visual, desain fesyen, dll.\nContoh produk teknologi: perangkat lunak (software), aplikasi digital, aplikasi gim, perangkat elektronik, dll.\nContoh produk warisan budaya: makanan tradisional, peralatan tradisional, obat tradisional, dll.",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "ec_halal": {
+    "question": "ec_halal",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "halal": {
+    "question": "19. a. Apakah usaha/perusahaan ini menghasilkan produk bersertifikat halal?\n\nRincian 19 hanya ditanyakan kepada kategori usaha/perusahaan khusus berdasarkan BPJPH.",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya, oleh BPJPH",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, bukan oleh BPJPH",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak/Belum",
+        "value": "3"
+      },
+      {
+        "label": "4. Dalam proses",
+        "value": "4"
+      }
+    ]
+  },
+  "sudah_halal": {
+    "question": "19. b. Berapa jumlah varian produk yang sudah bersertifikat halal BPJPH?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "belum_halal": {
+    "question": "19. c. Berapa jumlah varian produk yang belum bersertifikat halal BPJPH?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "ec_bpom": {
+    "question": "ec_bpom",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "izin_edar": {
+    "question": "20. a. Apakah usaha/perusahaan ini memiliki izin edar?\n\nRincian 20 hanya ditanyakan kepada kategori usaha/perusahaan khusus berdasarkan BPOM.",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya, oleh BPOM",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, bukan oleh BPOM",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak",
+        "value": "3"
+      }
+    ]
+  },
+  "sudah_bpom": {
+    "question": "20. b. Berapa jumlah varian produk yang sudah memiliki izin edar BPOM?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "belum_bpom": {
+    "question": "20. c. Berapa jumlah varian produk yang belum memiliki izin edar BPOM?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "mitra_kdkmp": {
+    "question": "21. Apakah usaha/perusahaan ini bermitra dengan Koperasi Desa/Kelurahan Merah Putih (KDKMP)?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "peran_mbg": {
+    "question": "22. Apakah usaha/perusahaan ini terlibat dalam program Makan Bergizi Gratis (MBG)?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya, sebagai SATUAN PELAYANAN PEMENUHAN GIZI (SPPG)",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya, sebagai supplier",
+        "value": "2"
+      },
+      {
+        "label": "3. Ya, sebagai penerima manfaat MBG (Sekolah, Puskesmas)",
+        "value": "3"
+      },
+      {
+        "label": "4. Ya, peran lainnya",
+        "value": "4"
+      },
+      {
+        "label": "5. Tidak terlibat MBG",
+        "value": "5"
+      }
+    ]
+  },
+  "barang_non_pddk": {
+    "question": "23. a.  Penjualan dan/atau pembelian barang",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "jasa_non_pddk": {
+    "question": "23. b. Penjualan jasa",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "beli_jasa_non_pddk": {
+    "question": "23. c. Pembelian jasa",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      }
+    ]
+  },
+  "tampilan_23": {
+    "question": "Petunjuk Rincian 23. Penjualan/pembelian kepada bukan penduduk Indonesia\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                             Bukan penduduk adalah orang atau badan yang pusat kegiatan ekonominya berada di luar Indonesia. Contoh orang yaitu turis wisatawan\r\n  mancanegara yang berwisata kurang dari 1 tahun. \r\n  Contoh badan yaitu usaha/perusahaan yang tidak terdaftar badan usahanya di Indonesia.\r\n Contoh kegiatan:\r\n o Ekspor barang: Pengrajin perak di Bali mengirimkan aksesori dan perhiasan ke pembeli di luar negeri.\r\n o Impor barang: Toko elektronik Indonesia mengimpor smartphone dari Tiongkok untuk dijual kembali.\r\no  Ekspor jasa: Konsultan Indonesia memberikan jasa pelatihan secara online ke perusahaan luar negeri; Hotel di Indonesia melayani\r\n tamu wisatawan mancanegara\r\n o Impor jasa: Usaha/perusahaan Indonesia berlangganan layanan digital berbayar dari perusahaan luar negeri (Canva, Microsoft 365,\r\nGoogle Cloud, Adobe, ChatGPT, dll.); Perusahaan Indonesia menggunakan jasa Konsultan asing",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "tampilan_24": {
+    "question": "Petunjuk Rincian 24. Pekerja\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                              1. Jika beroperasi tahun 2026, isikan rata-rata pekerja per bulan di tahun 2026. \r\n                              2. Jika beroperasi sebelum tahun 2026:\r\na. isikan pekerja per 31 Desember 2025, atau\r\nb. jika tidak tersedia, isikan rata-rata pekerja per bulan di tahun 2025.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "tk_laki": {
+    "question": "24. a1. Pekerja laki-laki",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "tk_pr": {
+    "question": "24. b1. Pekerja perempuan",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "total_tk_jk": {
+    "question": "24. c1. Total pekerja (a1+b1)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "total_tk_jk_var": {
+    "question": "total_tk_jk_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "cek_tk_jk_pml": {
+    "question": "&nbsp;&nbsp;\nCek Pekerja (c1) (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "tk_dibayar": {
+    "question": "24. a2. Pekerja dibayar",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "tk_tdk_dibayar": {
+    "question": "24. b2. Pekerja tidak dibayar",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "total_tk_bayar": {
+    "question": "24. c2. Total pekerja (a2+b2)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "total_tk_bayar_var": {
+    "question": "total_tk_bayar_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "cek_tk_bayar_pml": {
+    "question": "&nbsp;&nbsp;\nCek Pekerja (24. c2) (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "ec_usaha_bulan": {
+    "question": "enabling condition pertanyaan 25 s.d 28",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_usaha_tahun": {
+    "question": "enabling condition pertanyaan 21s.d 24",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tahun_operasi": {
+    "question": "25. Tahun berapa usaha/perusahaan ini mulai beroperasi secara komersial?\nTahun beroperasi komersial terdiri dari 4 angka. Contoh: 1990; 2025;dsb.",
+    "type_str": "Tipe 24",
+    "options": []
+  },
+  "head_pengeluaran": {
+    "question": "PENGELUARAN, PENDAPATAN, DAN ASET TAHUN 2025\n  \n              [Rincian 26-29 hanya ditanyakan jika usaha/perusahaan beroperasi secara komersial SEBELUM tahun 2026]",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "gaji": {
+    "question": "26. a. Total upah dan gaji, serta jaminan sosial pegawai",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "biaya_produksi": {
+    "question": "26. b. Biaya produksi",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "biaya_pembelian": {
+    "question": "26. c. Biaya pembelian barang yang terjual",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "operasional": {
+    "question": "26. d. Biaya operasional (air, listrik, gas, internet, pulsa, pemeliharaan, biaya angkutan, dll.)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "non_operasional": {
+    "question": "26. e. Biaya non-operasional",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_pengeluaran_var": {
+    "question": "total_pengeluaran_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "total_pengeluaran": {
+    "question": "26. f. Total pengeluaran (a+b+c+d+e)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "cek_output26f_pml": {
+    "question": "&nbsp;&nbsp;\nCek Rincian Pengeluaran 2025 (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "tampilan_26": {
+    "question": "Petunjuk Rincian 26. Pengeluaran\r\n    \r\n\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        \r\n\r\n                            Petunjuk:\r\n\r\n                            \r\n                                a. Total upah dan gaji, serta jaminan sosial pegawai\r\n                            \r\n\r\n                            Termasuk:\r\n                            \r\n                                \r\n                                    Upah dan gaji pegawai/karyawan yang telah dikeluarkan\r\n                                    ringkasan pembayarannya (group certificate)\r\n                                \r\n                                \r\n                                    Komisi, tips, dan bonus untuk pegawai/karyawan\r\n                                \r\n                                \r\n                                    Pembayaran cuti tahunan dan jenis cuti lainnya\r\n                                \r\n                            \r\n\r\n                            Tidak termasuk:\r\n                            \r\n                                Upah dan gaji yang dikapitalisasi\r\n                                \r\n                                    Pembayaran untuk konsultan dan kontraktor yang berusaha sendiri\r\n                                    (bukan karyawan perusahaan) yang dibayarkan dengan komisi\r\n                                \r\n                            \r\n\r\n                            \r\n                                \r\n                                    b. Biaya produksi (pemakaian bahan baku dan penolong)\r\n                                \r\n                            \r\n\r\n                            Catatan:\r\n                            \r\n                                Mencakup seluruh nilai barang dan jasa yang digunakan sebagai\r\n                                bahan baku dan biaya langsung dalam proses produksi barang dan jasa,\r\n                                tidak termasuk aset tetap.\r\n                            \r\n\r\n                            \r\n                                Pada usaha pertanian, ongkos/biaya yang dicatat adalah biaya dari\r\n                                barang/jasa yang benar-benar dibeli/dibayarkan dan telah digunakan\r\n                                (tidak termasuk yang disimpan, diberikan ke pihak lain, dan sebagainya).\r\n                            \r\n\r\n                            \r\n                                Untuk usaha jasa, biaya produksi yang dimaksud meliputi biaya-biaya\r\n                                yang dikeluarkan secara langsung untuk menghasilkan jasa.\r\n                            \r\n\r\n                            Contoh:\r\n\r\n                            \r\n                                Biaya produksi usaha tanaman pangan, hortikultura, perkebunan,\r\n                                peternakan, kehutanan, dan perikanan meliputi benih, bibit, pupuk,\r\n                                pestisida, vaksin, vitamin, obat-obatan, pakan, umpan, wadah,\r\n                                tali, es, garam, konsumsi, awak kapal, dan lain-lain.\r\n                            \r\n\r\n                            \r\n                                Biaya produksi jasa transportasi meliputi biaya bahan bakar.\r\n                                Biaya produksi usaha perbankan meliputi beban bunga, provisi,\r\n                                dan komisi. Biaya produksi usaha asuransi meliputi klaim asuransi.\r\n                                Biaya produksi usaha sewa kos-kosan atau kontrakan meliputi\r\n                                air bersih dan listrik yang ditanggung pemilik.\r\n                            \r\n\r\n                            \r\n                                c. Biaya pembelian barang yang dijual\r\n                            \r\n\r\n                            \r\n                                Mencakup seluruh nilai pembelian barang perdagangan yang terjual.\r\n                                Contoh: nilai pembelian beras yang terjual, nilai pembelian tepung\r\n                                yang terjual, dan sebagainya.\r\n                            \r\n\r\n                            \r\n                                \r\n                                    d. Biaya operasional (air, listrik, gas, internet, pulsa,\r\n                                    pemeliharaan, biaya angkutan)\r\n                                \r\n                            \r\n\r\n                            Catatan:\r\n\r\n                            \r\n                                Mencakup biaya-biaya yang tidak secara langsung terkait dalam\r\n                                proses produksi seperti air, listrik, gas, pemeliharaan,\r\n                                serta biaya angkutan.\r\n                            \r\n\r\n                            Termasuk:\r\n\r\n                            \r\n                                Pengeluaran listrik, bahan bakar, dan air\r\n                                Pembelian bahan perkantoran umum\r\n                                \r\n                                    Pembelian komponen dan bahan bakar untuk kendaraan bermotor\r\n                                \r\n                                \r\n                                    Pembayaran ke pihak lain untuk kargo, delivery,\r\n                                    dan jasa angkutan\r\n                                \r\n                                \r\n                                    Pembayaran sewa operasi (dengan atau tanpa operator)\r\n                                \r\n                                \r\n                                    Biaya lisensi software komputer yang berumur kurang dari\r\n                                    satu tahun (termasuk biaya instalasi oleh provider eksternal)\r\n                                \r\n                                Biaya bank selain bunga\r\n                            \r\n\r\n                            Tidak termasuk:\r\n\r\n                            \r\n                                Pemeliharaan besar\r\n                            \r\n\r\n                            \r\n                                e. Biaya non-operasional\r\n                            \r\n\r\n                            Catatan:\r\n\r\n                            \r\n                                Mencakup biaya bunga, biaya pajak, biaya administrasi,\r\n                                biaya hukum, biaya donasi, biaya restrukturisasi,\r\n                                biaya kerugian di awal, dan biaya lain-lain yang tidak terkait\r\n                                dengan kegiatan operasional, seperti biaya perjalanan yang\r\n                                tidak terkait dengan bisnis.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "var_narasi": {
+    "question": "Narasi Pendapatan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nilai_pendapatan": {
+    "question": "27. a. Nilai $narasi barang dan jasa",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pendapatan_lain": {
+    "question": "27. b. Pendapatan lainnya yang dihasilkan perusahaan",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_pendapatan": {
+    "question": "27. c. Total nilai $narasi (a+b)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_pendapatan_var": {
+    "question": "total_pendapatan_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "cek_input27c_pml": {
+    "question": "&nbsp;&nbsp;\nCek Rincian Pendapatan 2025 (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "pendapatan_online": {
+    "question": "27. d. Berapa persentase pendapatan yang dilakukan secara online ?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "tampilan_27": {
+    "question": "Petunjuk Rincian 27. Produksi/Penjualan/Pendapatan\r\n    \r\n\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        \r\n\r\n                            Petunjuk:\r\n\r\n                            \r\n                                \r\n                                    a. Nilai produksi/penjualan/pendapatan barang dan jasa\r\n                                \r\n                            \r\n\r\n                            Termasuk:\r\n\r\n                            \r\n                                \r\n                                    Barang yang dijual baik yang diproduksi sendiri maupun tidak\r\n                                \r\n                                \r\n                                    Penjualan ekspor (FOB - Free On Board)\r\n                                \r\n                                \r\n                                    Penjualan atau transfer ke rekan bisnis/organisasi atau cabang di luar negeri\r\n                                \r\n                                \r\n                                    Pendapatan yang diperoleh dari pengangkutan barang yang tidak dijual perusahaan\r\n                                \r\n                                \r\n                                    Pendapatan jasa perbaikan dan layanan\r\n                                \r\n                                \r\n                                    Pendapatan dari kontrak, subkontrak, dan komisi\r\n                                \r\n                                \r\n                                    Pendapatan manajemen dari perusahaan/organisasi terkait maupun tidak\r\n                                \r\n                                \r\n                                    Pendapatan dari jasa pemasangan\r\n                                \r\n                                \r\n                                    Pendapatan dari jasa berlangganan dan keanggotaan\r\n                                \r\n                                \r\n                                    Pendapatan dari jasa iklan\r\n                                \r\n                                \r\n                                    Pendapatan royalti (hak cipta, hak paten, waralaba, dan lain-lain)\r\n                                \r\n                                \r\n                                    Pendapatan dari sewa operasi\r\n                                \r\n                                \r\n                                    Pendapatan bunga (khusus jasa keuangan)\r\n                                \r\n                            \r\n\r\n                            Tidak termasuk:\r\n\r\n                            \r\n                                Penjualan aset\r\n                                \r\n                                    Royalti dari penggunaan lahan di bawah pengaturan sewa mineral\r\n                                \r\n                            \r\n\r\n                            Catatan:\r\n\r\n                            \r\n                                Pada usaha pertanian, nilai produksi yang dicatat yaitu nilai produksi\r\n                                yang dipanen, dikonsumsi sendiri (termasuk yang digunakan untuk bibit),\r\n                                diolah sendiri, dijual, disimpan, digunakan sebagai upah/gaji pekerja,\r\n                                diberikan kepada pihak lain, hilang, pertambahan bobot ternak,\r\n                                serta nilai pembesaran tanaman kehutanan selama periode tahun 2025\r\n                                sesuai dengan jenis dan satuan produksi pada masing-masing subsektor\r\n                                yang diusahakan.\r\n                            \r\n\r\n                            \r\n                                Nilai produksi yang dicakup termasuk nilai produksi ikutan yang dijual.\r\n                            \r\n\r\n                            \r\n                                b. Pendapatan lainnya yang dihasilkan\r\n                            \r\n\r\n                            Termasuk:\r\n\r\n                            \r\n                                Sewa/royalti sumber daya alam\r\n                                Pendapatan bunga\r\n                                Pendapatan dividen\r\n                                \r\n                                    Pendanaan dari Pemerintah (subsidi, skema magang, dan pelatihan)\r\n                                \r\n                                Donasi\r\n                            \r\n\r\n                            Tidak termasuk:\r\n\r\n                            \r\n                                \r\n                                    Pendanaan yang disediakan khusus untuk barang modal tertentu",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "aset_usaha_thn": {
+    "question": "28. a. Nilai aset tanah dan bangunan pada 31 Desember 2025",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "aset_lain_thn": {
+    "question": "28. b. Nilai aset selain tanah dan bangunan pada 31 Desember 2025",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_aset_thn": {
+    "question": "28. c. Nilai total aset pada 31 Desember 2025",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_aset_thn_var": {
+    "question": "total_aset_thn_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "rentang_aset_thn": {
+    "question": "28. c1. Jika tidak dapat mengisikan nilai nominal, pilih nilai total aset dalam rentang berikut",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. s.d. Rp 500 juta",
+        "value": "1"
+      },
+      {
+        "label": "2. Lebih dari Rp 500 juta s.d. Rp 1 miliar",
+        "value": "2"
+      },
+      {
+        "label": "3. Lebih dari Rp 1 miliar s.d. Rp 5 miliar",
+        "value": "3"
+      },
+      {
+        "label": "4. Lebih dari Rp 5 miliar s.d. Rp 10 miliar",
+        "value": "4"
+      },
+      {
+        "label": "5. Lebih dari Rp 10 miliar",
+        "value": "5"
+      }
+    ]
+  },
+  "luas_tanah_thn": {
+    "question": "28. d. Berapa luas tanah yang dikuasai dan digunakan untuk kegiatan usaha pada 31 Desember 2025 ? (m2)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "cek_asetThn_pml": {
+    "question": "&nbsp;&nbsp;\nCek Rincian Aset 31 Des 2025 (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "pribadi": {
+    "question": "29. a. Pribadi/Perorangan",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "non_profit": {
+    "question": "29. b. Lembaga Nonprofit yang Melayani Rumah Tangga",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "publik": {
+    "question": "29. c. Korporasi Publik",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "non_publik": {
+    "question": "29. d. Korporasi Non Publik",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "pemerintah": {
+    "question": "29. e. Pemerintah",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "asing": {
+    "question": "29. f. Asing",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "info_total_var": {
+    "question": "info_total_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "info_total": {
+    "question": "29. g. Total (a+b+c+d+e+f)    =    100 %",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "head_pengeluaran_bln": {
+    "question": "PENGELUARAN, PENDAPATAN, DAN ASET SATU BULAN TERAKHIR\n  \n  \n      [Rincian 30-33 hanya ditanyakan jika usaha/perusahaan beroperasi secara komersial pada tahun 2026]",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "gaji_bln": {
+    "question": "30. a. Total upah dan gaji, serta jaminan sosial pegawai",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "biaya_produksi_bln": {
+    "question": "30. b. Biaya produksi",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "biaya_pembelian_bln": {
+    "question": "30. c. Biaya pembelian barang yang terjual",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "operasional_bln": {
+    "question": "30. d. Biaya operasional (air, listrik, gas, internet, pulsa, pemeliharaan, biaya angkutan)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "non_operasional_bln": {
+    "question": "30. e. Biaya non-operasional",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "cek_output30f_pml": {
+    "question": "&nbsp;&nbsp;\nCek Rincian Pengeluaran di satu bulan terakhir (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "total_pengeluaran_bln": {
+    "question": "30. f. Total pengeluaran (a+b+c+d+e)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_pengeluaran_bln_var": {
+    "question": "total_pengeluaran_bln",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tampilan_30": {
+    "question": "Petunjuk 30. Rincian Pengeluaran\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                               Petunjuk:\r\na. Total upah dan gaji, serta jaminan sosial pegawai.\r\nTermasuk: \r\no Upah dan gaji pegawai/karyawan yang telah dikeluarkan ringkasan pembayarannya (group sertificate)\r\no Komisi dan tips untuk pegawai/karyawan Bonus\r\no Pembayaran Cuti tahunan dan jenis cuti lainnya\r\nTidak Termasuk: \r\no Upah dan gaji yang dikapitalisasi\r\no Pembayaran untuk konsultan dan kontraktor yang berusaha sendiri (bukan karyawan perusahaan),\r\nyang dibayarkan dengan komisi\r\n\r\nb. Biaya produksi (pemakaian bahan baku dan penolong)\r\nCatatan: Mencakup seluruh nilai barang dan jasa yang digunakan sebagai bahan baku dalam proses produksi, tidak termasuk aset tetap. \r\nPada usaha pertanian, ongkos/biaya yang dicatat adalah biaya dari barang/jasa yang benar-benar DIBELI/DIBAYARKAN dan \r\nTELAH DIGUNAKAN (tidak termasuk yang disimpan, diberikan ke pihak lain, dsb) untuk usaha tanaman pangan, hortikultura,\r\nperkebunan, peternakan, kehutanan, dan perikanan selama periode tahun 2025. Biaya produksi meliputi benih, bibit, pupuk, \r\npestisida, vaksin, vitamin, obat-obatan, pakan, umpan, wadah, tali, es, garam, konsumsi awak kapal, dll.\r\nTermasuk: Pembelian bahan yang digunakan dalam proses produksi dan pengemasan\r\nTidak Termasuk: Pembelian barang yang dikapitalisasi,Perubahan persediaan\r\n, Pembelian barang jadi untuk dijual kembali\r\n\r\nc. Biaya pembelian barang yang dijual\r\nMencakup seluruh nilai pembelian barang perdagangan yang terjual. Contoh: nilai pembelian beras yang terjual, nilai pembelian tepung yang terjual, dsb.\r\n\r\nd. Biaya operasional (air, listrik, gas, internet, pulsa, pemeliharaan, biaya angkutan)\r\nCatatan: Mencakup biaya-biaya yang tidak secara langsung dalam proses produksi seperti air, listrik, gas, pemeliharaan, serta biaya angkutan \r\nTermasuk: \r\no Pengeluaran listrik, bahan bakar dan air\r\no Pembelian bahan perkantoran umum\r\no Pembelian komponen dan bahan bakar untuk kendaraan bermotor\r\npembayaran ke pihak lain untuk kargo, delivery, dan jasa angkutan\r\no Pembayaran sewa operasi (dengan atau tanpa operator)\r\no Biaya lisensi software komputer yang berumur kurang dari satu tahun (termasuk biaya instalasi oleh provider eksternal) Biaya bank selain bunga\r\nTidak Termasuk: Pemeliharaan besar\r\ne. Biaya non-operasional\r\nCatatan: Mencakup biaya bunga, biaya pajak, biaya administrasi, biaya hukum, biaya donasi, biaya restrukturisasi, biaya kerugian di awal, dan biaya lain-lain yang tidak terkait dengan kegiatan operasional, seperti biaya perjalanan yang tidak terkait dengan bisnis.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "nilai_pendapatan_bln": {
+    "question": "31. a. Nilai $narasi barang dan jasa",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pendapatan_lain_bln": {
+    "question": "31. b. Pendapatan lainnya yang dihasilkan",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_pendapatan_bln": {
+    "question": "31. c. Total nilai $narasi (a+b)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_pendapatan_bln_var": {
+    "question": "total_pendapatan_bln_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "cek_input31c_pml": {
+    "question": "&nbsp;&nbsp;\nCek Rincian Pendapatan di satu bulan terakhir (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "pendapatan_online_bln": {
+    "question": "31. d. Berapa persentase pendapatan yang dilakukan secara online ?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "tampilan_31": {
+    "question": "Petunjuk 31. Rincian  Produksi/Penjualan/Pendapatan\r\n    \r\n    \r\n        \r\n            -->\r\n            -->\r\n            Termasuk:-->\r\n            Tidak termasuk:-->\r\n            -->\r\n            -->\r\n            \r\n                \r\n                    \r\n                        \r\n                               Petunjuk:\r\na. Nilai produksi/penjualan/pendapatan barang dan jasa\r\nTermasuk: \r\no Barang yang dijual baik yang diproduksi sendiri maupun tidak\r\no Penjualan ekspor (FOB-Free On Board )\r\no Penjualan atau transfer ke rekan bisnis/ organisasi atau cabang di luar negeri\r\no Pendapatan yang diperoleh dari pengangkutan barang yang tidak dijual perusahaan\r\no Pendapatan jasa perbaikan dan layanan\r\no Pendapatan dari kontrak, subkontrak dan komisi\r\no Pendapatan manajemen dari perusahaan/organisasi terkait maupun tidak\r\no Pendapatan dari jasa pemasangan\r\no Pendapatan dari jasa berlangganan dan keanggotaan\r\no Pendapatan dari jasa iklan\r\no Pendapatan royalti (hak cipta, hak paten, waralaba, dll)\r\no Pendapatan dari sewa operasi\r\nTidak Termasuk: \r\no Penjualan aset\r\no Royalti dari penggunaan lahan di bawah pengaturan sewa mineral\r\nCatatan: Pada usaha pertanian, nilai produksi yang dicatat yaitu nilai produksi yang dipanen, dikonsumsi sendiri (termasuk yang digunakan \r\nuntuk bibit), diolah sendiri, dijual, disimpan, digunakan sebagai upah/gaji pekerja, diberikan kepada pihak lain, hilang, pertambahan \r\nbobot ternak, serta nilai pembesaran tanaman kehutanan selama periode tahun 2025 sesuai dengan jenis dan satuan produksi \r\npada masing-masing subsektor yang diusahakan. Nilai produksi yang dicakup termasuk nilai produksi ikutan yang dijual.\r\n\r\nb. Pendapatan lainnya yang dihasilkan\r\nTermasuk: \r\no Sewa/royalti sumber daya alam\r\no Pendapatan bunga\r\no Pendapatan dividen\r\no Pendanaan dari Pemerintah (subsidi, skema magang dan pelatihan)\r\no Donasi\r\nTidak Termasuk: Pendanaan yang disediakan khusus untuk barang modal tertentu",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "bln_operasi": {
+    "question": "31. e. Bulan beroperasi selama tahun 2026",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "JANUARI",
+        "value": "01"
+      },
+      {
+        "label": "FEBRUARI",
+        "value": "02"
+      },
+      {
+        "label": "MARET",
+        "value": "03"
+      },
+      {
+        "label": "APRIL",
+        "value": "04"
+      },
+      {
+        "label": "MEI",
+        "value": "05"
+      },
+      {
+        "label": "JUNI",
+        "value": "06"
+      },
+      {
+        "label": "JULI",
+        "value": "07"
+      },
+      {
+        "label": "AGUSTUS",
+        "value": "08"
+      }
+    ]
+  },
+  "aset_tanah_bln": {
+    "question": "32. a. Nilai aset tanah dan bangunan pada akhir bulan yang lalu",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "aset_lain_bln": {
+    "question": "32. b. Nilai aset selain tanah dan bangunan pada akhir bulan yang lalu",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "total_aset_bln": {
+    "question": "32. c. Nilai total aset pada akhir bulan yang lalu*",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "rentang_aset_bln": {
+    "question": "32. c1. Jika tidak dapat mengisikan nilai nominal, pilih nilai total aset dalam rentang berikut:",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. s.d. Rp 500 juta",
+        "value": "1"
+      },
+      {
+        "label": "2. Lebih dari Rp 500 juta s.d. Rp 1 miliar",
+        "value": "2"
+      },
+      {
+        "label": "3. Lebih dari Rp 1 miliar s.d. Rp 5 miliar",
+        "value": "3"
+      },
+      {
+        "label": "4. Lebih dari Rp 5 miliar s.d. Rp 10 miliar",
+        "value": "4"
+      },
+      {
+        "label": "5. Lebih dari Rp 10 miliar",
+        "value": "5"
+      }
+    ]
+  },
+  "luas_tanah_bln": {
+    "question": "32. d. Berapa luas tanah yang dikuasai dan digunakan untuk kegiatan usaha\npada akhir bulan yang lalu (m2) ?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "cek_asetBln_pml": {
+    "question": "Cek Rincian aset pada akhir bulan yang lalu (Diisi oleh PML)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "Sudah dicek",
+        "value": "1"
+      }
+    ]
+  },
+  "pribadi_didirikan": {
+    "question": "33. a. Pribadi/Perorangan",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nonprofit_didirikan": {
+    "question": "33. b. Lembaga Nonprofit yang Melayani Rumah Tangga",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "publik_didirikan": {
+    "question": "33. c. Korporasi publik (%)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nonpublik_didirikan": {
+    "question": "33. d. Korporasi Non Publik",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "pemerintah_didirikan": {
+    "question": "33. e. Pemerintah",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "asing_didirikan": {
+    "question": "33. f. Asing",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "cek5": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "info_total_didirikan": {
+    "question": "33. g. Total (a+b+c+d+e+f)    =    100 %",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "info_total_didirikan_var": {
+    "question": "info_total_didirikan_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "dtsen_nama_kk": {
+    "question": "1. a. Nama Kepala Keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nik_kk": {
+    "question": "1. b. NIK Kepala Keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "dtsen_no_kk": {
+    "question": "1. c. Nomor kartu keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jml_kk": {
+    "question": "2. a. Jumlah anggota keluarga sesuai KK",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jml_kk_asgbaru": {
+    "question": "2. a. Jumlah anggota keluarga sesuai KK",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "jml_kk_update": {
+    "question": "2. b. Jumlah anggota keluarga sesuai hasil pendataan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "prelist_dtsen_var": {
+    "question": "Nama anggota keluarga prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tambah_dtsen_var": {
+    "question": "Nama anggota keluarga tambahan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "gabung_dtsen_var": {
+    "question": "gabung_dtsen",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "gabung_dtsen_2": {
+    "question": "gabung_dtsen_2",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "total_pendapatan_keluarga_sebulan": {
+    "question": "total_pendapatan_keluarga_sebulan (sudah dari semua anggota keluarga)",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nested_dtsen_var": {
+    "question": "Keterangan Anggota Keluarga",
+    "type_str": "Tipe 2",
+    "options": []
+  },
+  "no_urut_kk_var": {
+    "question": "Nomor urut anggota keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_dtsen_var": {
+    "question": "Nama anggota keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_art_dtsen": {
+    "question": "ec_art_dtsen",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ec_art_pendapatan": {
+    "question": "ec_art_pendapatan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "set_sekolah_prelist": {
+    "question": "set_sekolah_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "sekolah_prelist": {
+    "question": "Sekolah Prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "sekolah": {
+    "question": "14. Partisipasi sekolah $NAME$\n(usia 5 tahun ke atas)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Masih sekolah",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak bersekolah lagi",
+        "value": "2"
+      },
+      {
+        "label": "0. Tidak/belum pernah sekolah",
+        "value": "3"
+      }
+    ]
+  },
+  "set_ijazah_prelist": {
+    "question": "set_ijazah_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ijazah_prelist": {
+    "question": "Ijazah Prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ijazah": {
+    "question": "15. Ijazah/STTB tertinggi yang dimiliki $NAME$\n(usia 5 tahun ke atas)\nIjazah/STTB tertinggi di prelist: $ijazah",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "0. Tidak punya ijazah SD",
+        "value": "00"
+      },
+      {
+        "label": "1. SD/sederajat",
+        "value": "01"
+      },
+      {
+        "label": "2. SMP/sederajat",
+        "value": "02"
+      },
+      {
+        "label": "3. SMA/sederajat",
+        "value": "03"
+      },
+      {
+        "label": "4. D1/D2/D3",
+        "value": "04"
+      },
+      {
+        "label": "5. D4/S1/Profesi",
+        "value": "05"
+      },
+      {
+        "label": "6. S2/S3",
+        "value": "06"
+      }
+    ]
+  },
+  "profesi": {
+    "question": "16. Profesi Pekerjaan Utama  $NAME$\n(usia 10 tahun ke atas)",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "profesi_lainnya": {
+    "question": "&nbsp;&nbsp;Profesi Pekerjaan Utama lainnya:",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "status_kerja": {
+    "question": "17. Status Kedudukan Dalam Pekerjaan Utama $NAME$\n(usia 10 tahun ke atas)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Berusaha sendiri",
+        "value": "1"
+      },
+      {
+        "label": "2. Berusaha dibantu buruh",
+        "value": "2"
+      },
+      {
+        "label": "3. Buruh/karyawan/pegawai swasta",
+        "value": "3"
+      },
+      {
+        "label": "4. ASN/TNI/Polri/BUMN/BUMD/pejabat negara/kades",
+        "value": "4"
+      },
+      {
+        "label": "5. Pekerja bebas",
+        "value": "5"
+      },
+      {
+        "label": "6. Pekerja keluarga/tidak dibayar",
+        "value": "6"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "pendapatan_pekerjaan": {
+    "question": "18. a. Pendapatan dari pekerjaan baik berupa uang maupun barang/jasa (gaji, tunjangan,\nuang makan, honor, lembur, dll)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "pend_gaji": {
+    "question": "a. Upah/Gaji",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pend_tunjangan": {
+    "question": "b. Tunjangan",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pend_uangmkn": {
+    "question": "c. Uang Makan",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pend_honor": {
+    "question": "d. Honor",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pend_lembur": {
+    "question": "e. Lembur",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pend_lainnya": {
+    "question": "f. Lainnya",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "nilai_pend_pekerjaan": {
+    "question": "18. a1. Total Pendapatan (a+b+c+d+e+f)",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "pendapatan_usaha": {
+    "question": "18. b. Pendapatan dari usaha, baik offline (warung, kos-kosan, dll) maupun\nonline (affiliate, online shop, endorse, youtuber, dll ):",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "pend_usaha": {
+    "question": "18. b1. Total Pendapatan",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pend_usaha_lain": {
+    "question": "18. c. Penerimaan pendapatan lain (transfer/pemberian/passive income seperti\npensiunan, kupon SBN, Obligasi, dll ):",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "9. Tidak Tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "nilai_pend_lain": {
+    "question": "18. c1. Total Pendapatan",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "rekening": {
+    "question": "19. Apakah $NAME$ memiliki rekening aktif atau dompet digital?\n(usia 5 tahun ke atas)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya untuk usaha",
+        "value": "1"
+      },
+      {
+        "label": "2. Ya untuk pribadi",
+        "value": "2"
+      },
+      {
+        "label": "3. Ya untuk usaha dan pribadi",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak ada",
+        "value": "4"
+      },
+      {
+        "label": "9. Tidak tahu",
+        "value": "9"
+      }
+    ]
+  },
+  "head_disabilitas": {
+    "question": "KETERANGAN DISABILITAS DAN PENYAKIT KRONIS",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "dis_fisik": {
+    "question": "a. Disabilitas Fisik",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_mental": {
+    "question": "b. Disabilitas Mental",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_intelek": {
+    "question": "c. Disabilitas Intelektual",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_netra": {
+    "question": "d. Disabilitas Sensorik Netra",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_rungu": {
+    "question": "e. Disabilitas Sensorik Rungu",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "dis_wicara": {
+    "question": "f. Disabilitas Sensorik Wicara",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_hipertensi": {
+    "question": "a. Hipertensi (tekanan darah tinggi)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_rematik": {
+    "question": "b. Rematik",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_asma": {
+    "question": "c. Asma",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_jantung": {
+    "question": "d. Masalah jantung",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_diabetes": {
+    "question": "e. Diabetes (kencing manis)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_tbc": {
+    "question": "f. Tuberkulosis (TBC)",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_stroke": {
+    "question": "g. Stroke",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_kanker": {
+    "question": "h. Kanker atau tumor ganas",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_hemofilia": {
+    "question": "j. Hemofilia",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_ginjal": {
+    "question": "i. Gagal ginjal",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_hiv": {
+    "question": "k. HIV/AIDS",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_kolestrol": {
+    "question": "l. Kolestrol",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_sirosis": {
+    "question": "m. Sirosis hati",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_talasemia": {
+    "question": "n. Talasemia",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_leukemia": {
+    "question": "o. Leukemia",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_alzheimer": {
+    "question": "p. Alzheimer",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "sakit_lainnya": {
+    "question": "q. Lainnya",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ya",
+        "value": "1"
+      },
+      {
+        "label": "2. Tidak",
+        "value": "2"
+      },
+      {
+        "label": "3. Tidak Tahu",
+        "value": "3"
+      }
+    ]
+  },
+  "total_pengeluaran_keluarga_sebulan": {
+    "question": "total_pengeluaran_keluarga_sebulan",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jns_bangunan": {
+    "question": "1. a. Apa jenis bangunan tempat tinggal yang ditempati?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Rumah tunggal",
+        "value": "1"
+      },
+      {
+        "label": "2. Rumah deret",
+        "value": "2"
+      },
+      {
+        "label": "3. Rumah susun",
+        "value": "3"
+      },
+      {
+        "label": "4. Apartemen",
+        "value": "4"
+      },
+      {
+        "label": "5. Lainnya",
+        "value": "5"
+      }
+    ]
+  },
+  "jns_bangunan_lain": {
+    "question": "1. a. Jenis bangunan tempat tinggal kode 5.Lainnya: .................",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "nm_apt": {
+    "question": "1. b. Jika apartemen/rumah susun, sebutkan Nama/Nomor Lantai: .",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "jml_ak_tinggal": {
+    "question": "2. a. Berapa jumlah keluarga yang tinggal dalam 1 rumah/tempat tinggal?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "list_ak_tinggal": {
+    "question": "2. b. Sebutkan Nomor KK dari keluarga yang tinggal dalam 1 rumah/tempat tinggal! Selain yang disebutkan pada",
+    "type_str": "Geotag / GPS",
+    "options": []
+  },
+  "status_kepemilikan": {
+    "question": "3. a. Apa status kepemilikan bangunan tempat tinggal yang ditempati?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Milik sendiri",
+        "value": "1"
+      },
+      {
+        "label": "2. Kontrak/sewa",
+        "value": "2"
+      },
+      {
+        "label": "3. Bebas sewa",
+        "value": "3"
+      },
+      {
+        "label": "4. Dinas",
+        "value": "4"
+      },
+      {
+        "label": "5. Lainnya",
+        "value": "5"
+      }
+    ]
+  },
+  "status_kepemilikan_lain": {
+    "question": "3. a. Deskripsi status kepemilikan bangunan tempat tinggal yang ditempati lainnya",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "bukti_kepemilikan": {
+    "question": "3. b. Jika tempat tinggal milik sendiri, apa jenis bukti kepemilikan tanah bangunan tempat tinggal ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Sertifikat hak milik (SHM)",
+        "value": "1"
+      },
+      {
+        "label": "2. Sertifikat selain SHM (SHGB, SHSRS)",
+        "value": "2"
+      },
+      {
+        "label": "3. Surat bukti lainnya (Girik, Letter C, dll)",
+        "value": "3"
+      },
+      {
+        "label": "4. Tidak Punya",
+        "value": "4"
+      }
+    ]
+  },
+  "nilai_sewa": {
+    "question": "4. Perkiraan nilai sewa/kontrak sebulan:",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "sewa_sendiri": {
+    "question": "&nbsp;&nbsp;a. Jika milik sendiri/bebas sewa, perkiraan harga sewa\nsebulan:",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "sewa_kontrak": {
+    "question": "&nbsp;&nbsp;b. Jika kontrak/sewa , nilai kontrak sebulan:",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "sewa_dinas": {
+    "question": "&nbsp;&nbsp;c. Jika dinas atau lainnya, perkiraan nilai sewa sebulan:",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "luas_lantai": {
+    "question": "5. Berapa luas lantai bangunan tempat tinggal? (m²)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jns_lantai": {
+    "question": "6. a. Apakah bahan bangunan utama lantai rumah terluas?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Marmer/granit",
+        "value": "1"
+      },
+      {
+        "label": "2. Keramik",
+        "value": "2"
+      },
+      {
+        "label": "3. Parket/vinil/permadani",
+        "value": "3"
+      },
+      {
+        "label": "4. Ubin/tegel/traso",
+        "value": "4"
+      },
+      {
+        "label": "5. Kayu/papan",
+        "value": "5"
+      },
+      {
+        "label": "6. Semen/bata merah",
+        "value": "6"
+      },
+      {
+        "label": "7. Bambu",
+        "value": "7"
+      },
+      {
+        "label": "8. Tanah",
+        "value": "8"
+      },
+      {
+        "label": "9. Lainnya",
+        "value": "9"
+      }
+    ]
+  },
+  "kondisi_lantai": {
+    "question": "6. b. Kondisi Lantai",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Baik",
+        "value": "1"
+      },
+      {
+        "label": "2. Rusak ringan",
+        "value": "2"
+      },
+      {
+        "label": "3. Rusak sedang",
+        "value": "3"
+      },
+      {
+        "label": "4. Rusak berat",
+        "value": "4"
+      }
+    ]
+  },
+  "jns_dinding": {
+    "question": "7. a. Apakah bahan bangunan utama dinding rumah terluas?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Tembok",
+        "value": "1"
+      },
+      {
+        "label": "2. Plesteran anyaman bambu/kawat",
+        "value": "2"
+      },
+      {
+        "label": "3. Kayu/Papan/Gypsum/GRC/Calciboard",
+        "value": "3"
+      },
+      {
+        "label": "4. Anyaman bambu",
+        "value": "4"
+      },
+      {
+        "label": "5. Batang kayu",
+        "value": "5"
+      },
+      {
+        "label": "6. Bambu",
+        "value": "6"
+      },
+      {
+        "label": "7. Lainnya",
+        "value": "7"
+      }
+    ]
+  },
+  "kondisi_dinding": {
+    "question": "7. b. Kondisi Dinding",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Baik",
+        "value": "1"
+      },
+      {
+        "label": "2. Rusak ringan",
+        "value": "2"
+      },
+      {
+        "label": "3. Rusak sedang",
+        "value": "3"
+      },
+      {
+        "label": "4. Rusak berat",
+        "value": "4"
+      }
+    ]
+  },
+  "jns_atap": {
+    "question": "8. a. Apakah bahan bangunan utama atap rumah terluas?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Beton",
+        "value": "1"
+      },
+      {
+        "label": "2. Genteng",
+        "value": "2"
+      },
+      {
+        "label": "3. Seng",
+        "value": "3"
+      },
+      {
+        "label": "4. Asbes",
+        "value": "4"
+      },
+      {
+        "label": "5. Bambu",
+        "value": "5"
+      },
+      {
+        "label": "6. Kayu/sirap",
+        "value": "6"
+      },
+      {
+        "label": "7. Jerami/ijuk/daun daunan/rumbia",
+        "value": "7"
+      },
+      {
+        "label": "8. Lainnya",
+        "value": "8"
+      }
+    ]
+  },
+  "kondisi_atap": {
+    "question": "8. b. Kondisi Atap",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Baik",
+        "value": "1"
+      },
+      {
+        "label": "2. Rusak ringan",
+        "value": "2"
+      },
+      {
+        "label": "3. Rusak sedang",
+        "value": "3"
+      },
+      {
+        "label": "4. Rusak berat",
+        "value": "4"
+      }
+    ]
+  },
+  "tempat_bab": {
+    "question": "9. Apakah memiliki fasilitas tempat buang air besar dan siapa saja yang menggunakan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Ada, digunakan oleh anggota keluarga dalam satu rumah",
+        "value": "1"
+      },
+      {
+        "label": "2. Ada, digunakan bersama oleh anggota keluarga dari beberapa rumah",
+        "value": "2"
+      },
+      {
+        "label": "3. Ada, di MCK komunal",
+        "value": "3"
+      },
+      {
+        "label": "4. Ada, di MCK umum/siapapun menggunakan",
+        "value": "4"
+      },
+      {
+        "label": "5. Ada, anggota keluarga tidak menggunakan",
+        "value": "5"
+      },
+      {
+        "label": "6. Tidak ada",
+        "value": "6"
+      }
+    ]
+  },
+  "jns_closet": {
+    "question": "10. Apakah jenis kloset yang digunakan?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Leher angsa",
+        "value": "1"
+      },
+      {
+        "label": "2. Plengsengan dengan tutup",
+        "value": "2"
+      },
+      {
+        "label": "3. Plengsengan tanpa tutup",
+        "value": "3"
+      },
+      {
+        "label": "4. Cemplung/cubluk",
+        "value": "4"
+      }
+    ]
+  },
+  "buang_tinja": {
+    "question": "11. Di manakah tempat pembuangan akhir tinja?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Tangki septik",
+        "value": "1"
+      },
+      {
+        "label": "2. Instalasi Pengolahan Air Limbah (IPAL)",
+        "value": "2"
+      },
+      {
+        "label": "3. Kolam/sawah/sungai/danau/laut",
+        "value": "3"
+      },
+      {
+        "label": "4. Lubang tanah",
+        "value": "4"
+      },
+      {
+        "label": "5. Pantai/tanah lapang/kebun",
+        "value": "5"
+      },
+      {
+        "label": "6. Lainnya",
+        "value": "6"
+      }
+    ]
+  },
+  "air_minum": {
+    "question": "12.  Apakah sumber air utama yang digunakan keluarga untuk minum?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Air kemasan bermerk",
+        "value": "01"
+      },
+      {
+        "label": "2. Air isi ulang",
+        "value": "02"
+      },
+      {
+        "label": "3. Leding",
+        "value": "03"
+      },
+      {
+        "label": "4. Sumur bor/pompa",
+        "value": "04"
+      },
+      {
+        "label": "5. Sumur terlindung",
+        "value": "05"
+      },
+      {
+        "label": "6. Sumur tak terlindung",
+        "value": "06"
+      },
+      {
+        "label": "7. Mata air terlindung",
+        "value": "07"
+      },
+      {
+        "label": "8. Mata air tak terlindung",
+        "value": "08"
+      },
+      {
+        "label": "9. Air permukaan (sungai/danau/waduk/kolam/irigasi)",
+        "value": "09"
+      },
+      {
+        "label": "10. Air hujan",
+        "value": "10"
+      },
+      {
+        "label": "11. Lainnya",
+        "value": "11"
+      }
+    ]
+  },
+  "sumber_penerangan": {
+    "question": "13. Apakah sumber utama penerangan rumah tangga ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. Listrik PLN dengan meteran",
+        "value": "1"
+      },
+      {
+        "label": "2. Listrik PLN tanpa meteran",
+        "value": "2"
+      },
+      {
+        "label": "3. Listrik Non-PLN",
+        "value": "3"
+      },
+      {
+        "label": "4. Bukan listrik",
+        "value": "4"
+      }
+    ]
+  },
+  "jml_meteran": {
+    "question": "14. a. Jika  listrik PLN dengan meteran, berapa jumlah meteran listrik yang terpasang di rumah ini?",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nested_meteran": {
+    "question": "14. b. Berapa daya yang terpasang di rumah ini?",
+    "type_str": "Tipe 2",
+    "options": []
+  },
+  "urutan_meteran_lain": {
+    "question": "Meteran ke-",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "daya_terpasang": {
+    "question": "14. b. Berapa daya yang terpasang di rumah ini?",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "1. 450 watt",
+        "value": "1"
+      },
+      {
+        "label": "2. 900 watt",
+        "value": "2"
+      },
+      {
+        "label": "3. 1.300 watt",
+        "value": "3"
+      },
+      {
+        "label": "4. 2.200 watt",
+        "value": "4"
+      },
+      {
+        "label": "5. &gt; 2.200 watt",
+        "value": "5"
+      }
+    ]
+  },
+  "id_pln_pilih": {
+    "question": "14. c. Sebutkan ID Pelanggan PLN atau Nomor Meteran",
+    "type_str": "Pilihan Radio",
+    "options": [
+      {
+        "label": "ID Pelanggan PLN",
+        "value": "1"
+      },
+      {
+        "label": "Nomor Meteran",
+        "value": "2"
+      }
+    ]
+  },
+  "id_pelanggan": {
+    "question": "&nbsp;&nbsp;&nbsp;&nbsp;ID Pelanggan PLN",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "banner_cek_idpel": {
+    "question": "Silakan lakukan pengecekan ID Pelanggan dengan menekan tombol CEK ID PELANGGAN di bawah ini.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "cek_idpel": {
+    "question": "CEK ID PELANGGAN",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "hasilCekIdPel": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "htmlHasilCekIdPel": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "no_meteran": {
+    "question": "&nbsp;&nbsp;&nbsp;&nbsp;Nomor Meteran",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "result_cekidpel": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "banner_cek_no_meteran": {
+    "question": "Silakan lakukan pengecekan nomor meteran dengan menekan tombol CEK NOMOR METERAN di bawah ini.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "cek_no_meteran": {
+    "question": "CEK NOMOR METERAN",
+    "type_str": "Isian Teks Panjang",
+    "options": []
+  },
+  "htmlHasilCekMeteran": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "hasilCekMeteran": {
+    "question": "​",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "result_cekmeteran": {
+    "question": "result_cekmeteran",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "listrik_sebulan": {
+    "question": "15. a. Berapa nilai pengeluaran listrik sebulan? \n (Dapat menggunakan pertanyaan seperti: biasanya, rata-rata, atau sebulan terakhir)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pulsa_sebulan": {
+    "question": "15. b. Berapa pengeluaran pulsa dan internet seluruh anggota keluarga sebulan?\n (Dapat menggunakan pertanyaan seperti: biasanya, rata-rata, atau sebulan terakhir)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pengeluaran_makanan_mingguan": {
+    "question": "16. a. Berapa rata-rata pengeluaran makanan keluarga seminggu?",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "jml_meteran_var": {
+    "question": "jml_meteran_var",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "pengeluaran_non_makan_bulanan": {
+    "question": "16. b. Berapa rata-rata pengeluaran bukan makanan rutin keluarga bulanan?",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "pengeluaran_non_makan_tahunan": {
+    "question": "16. c. Berapa rata-rata pengeluaran bukan makanan rutin keluarga tahunan?",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "jumlah_tabung3kg": {
+    "question": "jumlah_tabung3kg_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_tabung3kg_new": {
+    "question": "a. Tabung gas 3 kg (unit)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_tabung5kg": {
+    "question": "jumlah_tabung5kg_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_tabung5kg_new": {
+    "question": "b. Tabung gas 5,5 kg atau lebih (unit)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_kulkas": {
+    "question": "jumlah_kulkas_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_kulkas_new": {
+    "question": "c. Lemari es/kulkas (unit)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_ac": {
+    "question": "jumlah_ac_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_ac_new": {
+    "question": "d. Air Conditioner (AC) (unit)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_emas": {
+    "question": "jumlah_emas_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_emas_new": {
+    "question": "e. Emas/perhiasan (gram)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_laptop": {
+    "question": "jumlah_laptop_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_laptop_new": {
+    "question": "f. Komputer/laptop/tablet: (unit)",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "jumlah_motor": {
+    "question": "jumlah_motor_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_motor_new": {
+    "question": "g. i. Sepeda motor (termasuk sepeda motor listrik):",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nilai_motor": {
+    "question": "g. ii. Total nilai aset sepeda motor (rupiah)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "jumlah_mobil": {
+    "question": "jumlah_mobil_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_mobil_new": {
+    "question": "h. i. Mobil (termasuk mobil listrik):",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nilai_mobil": {
+    "question": "h. ii. Total nilai aset mobil (rupiah)",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "jumlah_lahan": {
+    "question": "jumlah_lahan_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_lahan_new": {
+    "question": "a. i. Jumlah tanah/lahan di tempat lain (selain yang ditempati):",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nilai_lahan": {
+    "question": "a. ii. Total nilai harga jual tanah/lahan di tempat lain (selain yang ditempati):",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "jumlah_rumah": {
+    "question": "jumlah_rumah_prelist",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "jumlah_rumah_new": {
+    "question": "b. i. Jumlah rumah/bangunan di tempat lain (selain yang ditempati):",
+    "type_str": "Tipe 28",
+    "options": []
+  },
+  "nilai_rumah": {
+    "question": "b. ii. Total nilai harga jual rumah/bangunan di tempat lain (selain yang ditempati):",
+    "type_str": "Tipe 20",
+    "options": []
+  },
+  "foto_depan": {
+    "question": "Foto tampak depan (harus mencakup atap dan dinding)",
+    "type_str": "Tipe 32",
+    "options": []
+  },
+  "foto_ruang_tamu": {
+    "question": "Foto ruang tamu (harus mencakup dinding dan lantai)",
+    "type_str": "Tipe 32",
+    "options": []
+  },
+  "set_default_aset": {
+    "question": "set_default_aset",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_info_list": {
+    "question": "Nama Pemberi Informasi",
+    "type_str": "Tipe 27",
+    "options": []
+  },
+  "nama_info": {
+    "question": "nama_info_cawi",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "ak_info": {
+    "question": "ak_info",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "nama_lain": {
+    "question": "Nama Lain",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "telp_info": {
+    "question": "Nomor HP/Telepon",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "email_info": {
+    "question": "E-mail",
+    "type_str": "Isian Angka",
+    "options": []
+  },
+  "tanda_info": {
+    "question": "Tanda Tangan",
+    "type_str": "Tipe 36",
+    "options": []
+  },
+  "catatan": {
+    "question": "Catatan",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "idsbr_keluarga": {
+    "question": "ID SBR keluarga",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "idsbr_match": {
+    "question": "ID SBR Match",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "id_l1_umkm": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "id_l2_umkm": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "id_keluarga": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "id_regsosek": {
+    "question": "New Question",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "waktu_selesai": {
+    "question": "Waktu Selesai",
+    "type_str": "Upload File",
+    "options": []
+  },
+  "daftar_anomali": {
+    "question": "daftar_anomali",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "banner_no_anomali": {
+    "question": "✅ Tidak Ditemukan Anomali\r\n    \r\n\r\n    \r\n        Hasil pemeriksaan menunjukkan bahwa data usaha/perusahaan pada assignment ini tidak memiliki anomali berdasarkan aturan validasi yang diterapkan pada kuesioner SE2026.",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "cek_anomali": {
+    "question": "CEK ANOMALI",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "custom_script_table": {
+    "question": "custom_script_table",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tanggal_anomali": {
+    "question": "tanggal_anomali",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "tanggal_selesai_anomali": {
+    "question": "tanggal_selesai_anomali",
+    "type_str": "Angka / Tersembunyi",
+    "options": []
+  },
+  "anomali_1_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_1_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_1_penjelasan": {
+    "question": "Penjelasan Anomali 1",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "anomali_2_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_2_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_2_penjelasan": {
+    "question": "Penjelasan Anomali 2",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "anomali_3_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_3_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_3_penjelasan": {
+    "question": "Penjelasan Anomali 3",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "anomali_4_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_4_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_4_penjelasan": {
+    "question": "Penjelasan Anomali 4",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "anomali_5_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_5_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_5_penjelasan": {
+    "question": "Penjelasan Anomali 5",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "anomali_6_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_6_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_6_penjelasan": {
+    "question": "Penjelasan Anomali 6",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  },
+  "anomali_7_deskripsi": {
+    "question": "$tabel",
+    "type_str": "Tipe 3",
+    "options": []
+  },
+  "anomali_7_check": {
+    "question": "Apakah data di atas sesuai kondisi lapangan?",
+    "type_str": "Tipe 29",
+    "options": [
+      {
+        "label": "Ya, Sesuai Kondisi Lapangan",
+        "value": "1"
+      }
+    ]
+  },
+  "anomali_7_penjelasan": {
+    "question": "Penjelasan Anomali 7",
+    "type_str": "Pilihan Dropdown",
+    "options": []
+  }
+}

@@ -1,0 +1,5 @@
+pandas
+openpyxl
+tqdm
+playwright
+python-dotenv
