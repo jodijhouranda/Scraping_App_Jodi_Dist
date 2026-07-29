@@ -334,6 +334,54 @@ async def scrape_usaha_datatable_jodi(page, xsrf_token, template_file, custom_na
                     else:
                         tqdm.write(f"  [DEBUG] SLS {sls_asli} Gagal (Rate Limit 429) setelah {max_retries} percobaan.")
                         break
+                elif status == 401:
+                    tqdm.write(f"\n[!] ERROR 401: Sesi login tidak valid/kedaluwarsa.")
+                    tqdm.write("    >>> TINDAKAN DIBUTUHKAN <<<")
+                    tqdm.write("    1. Buka browser Chrome yang sedang dikendalikan script ini.")
+                    tqdm.write("    2. Silakan Login ke akun FASIH Anda (jika belum).")
+                    tqdm.write("    3. Setelah berhasil masuk ke Dashboard FASIH, klik tombol 'Resume'")
+                    tqdm.write("       (ikon Play biru) di jendela 'Playwright Inspector'.")
+                    
+                    await page.pause()
+                    
+                    tqdm.write("    Memuat ulang halaman analitik untuk menyegarkan sesi API...")
+                    try:
+                        await page.goto("https://fasih-sm.bps.go.id/app/analytic/assignment", wait_until="domcontentloaded", timeout=20000)
+                        await page.wait_for_timeout(3000)
+                    except Exception as e:
+                        tqdm.write(f"    Gagal memuat ulang halaman: {e}")
+                        
+                    # Simpan sesi terbaru
+                    state_file = os.path.join(os.path.dirname(dir_path), "state.json")
+                    try:
+                        await page.context.storage_state(path=state_file)
+                    except:
+                        pass
+                        
+                    # Perbarui xsrf_token
+                    new_token = ""
+                    for c in await page.context.cookies():
+                        if c["name"] == "XSRF-TOKEN":
+                            new_token = c["value"]
+                            break
+                            
+                    if new_token:
+                        xsrf_token = new_token
+                        tqdm.write(f"    Sesi diperbarui. Mencoba ulang SLS {sls_asli}...")
+                        # Jangan break, lanjut ke iterasi berikutnya di while/for (retry attempt)
+                        continue
+                    else:
+                        tqdm.write(f"    [ERROR] Token masih tidak ditemukan. Tetap mencoba...")
+                        continue
+                        
+                elif status in [405, 500, 502, 503, 504]:
+                    if attempt < max_retries - 1:
+                        tqdm.write(f"  [INFO] Server BPS sibuk/WAF (HTTP {status}) di SLS {sls_asli}. Retry dalam 5 detik... (Percobaan {attempt+1}/{max_retries})")
+                        await asyncio.sleep(5.0)
+                        continue
+                    else:
+                        tqdm.write(f"  [DEBUG] SLS {sls_asli} Gagal (HTTP {status}) setelah {max_retries} percobaan.")
+                        break
                 else:
                     tqdm.write(f"  [DEBUG] SLS {sls_asli}: HTTP {status}, Error: {json.dumps(data)[:200]}")
                     break
@@ -584,9 +632,13 @@ async def main(template_file=None, scrape_detail=True, max_workers=80):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         prefix = f"Hasil_Scraping_Jodi_Lengkap_{timestamp}"
         
+        # Buat folder result sesuai nama dan waktu selesai
+        result_folder = os.path.join(dir_path, "result", prefix)
+        os.makedirs(result_folder, exist_ok=True)
+        
         # 1: Data Usaha
         df_usaha = pd.read_csv(usaha_csv, low_memory=False)
-        df_usaha.to_csv(os.path.join(dir_path, f"{prefix}_Data_Usaha.csv"), index=False)
+        df_usaha.to_csv(os.path.join(result_folder, f"{prefix}_Data_Usaha.csv"), index=False)
         
         # Buat Pivot assignmentStatusAlias dengan One-to-One matching (16 digit sub SLS)
         if 'codeIdentity' in df_usaha.columns:
@@ -660,7 +712,7 @@ async def main(template_file=None, scrape_detail=True, max_workers=80):
             final_cols = template_base_cols + ['Open', 'Submit', 'Draft 1', 'Total', 'Draft 2'] + other_statuses
             
             df_merged = df_merged[final_cols]
-            df_merged.to_csv(os.path.join(dir_path, f"{prefix}_Template_Wilayah.csv"), index=False)
+            df_merged.to_csv(os.path.join(result_folder, f"{prefix}_Template_Wilayah.csv"), index=False)
             
             # --- FILE KINERJA PPL ---
             if 'PPL' in df_merged.columns:
@@ -700,7 +752,7 @@ async def main(template_file=None, scrape_detail=True, max_workers=80):
                     
                 # Urutkan dari yang % Selesai Lapangan nya paling rendah agar prioritas pantau
                 df_ppl = df_ppl.sort_values(by='% Selesai Lapangan', ascending=True)
-                df_ppl.to_csv(os.path.join(dir_path, f"{prefix}_Kinerja_PPL.csv"), index=False)
+                df_ppl.to_csv(os.path.join(result_folder, f"{prefix}_Kinerja_PPL.csv"), index=False)
                 
                 # --- REKAP PCL ---
                 print("\nMembuat Rekap PCL...")
@@ -786,7 +838,7 @@ async def main(template_file=None, scrape_detail=True, max_workers=80):
                     }
                     df_rekap = pd.concat([df_rekap, pd.DataFrame([total_row])], ignore_index=True)
                     
-                    rekap_file = os.path.join(dir_path, f"{prefix}_Rekap_PCL.csv")
+                    rekap_file = os.path.join(result_folder, f"{prefix}_Rekap_PCL.csv")
                     df_rekap.to_csv(rekap_file, index=False)
                     
                     print(f"\n{'='*90}")
@@ -797,9 +849,10 @@ async def main(template_file=None, scrape_detail=True, max_workers=80):
                     print(f"File rekap disimpan: {prefix}_Rekap_PCL.csv")
                 
         else:
-            df_template.to_csv(os.path.join(dir_path, f"{prefix}_Template_Wilayah.csv"), index=False)
+            df_template.to_csv(os.path.join(result_folder, f"{prefix}_Template_Wilayah.csv"), index=False)
+            
             if not pivot_df.empty:
-                pivot_df.to_csv(os.path.join(dir_path, f"{prefix}_Rekap_Status.csv"), index=False)
+                pivot_df.to_csv(os.path.join(result_folder, f"{prefix}_Rekap_Status.csv"), index=False)
         
         # 3: Detail Data
         if detail_csv and os.path.exists(detail_csv):
@@ -834,14 +887,14 @@ async def main(template_file=None, scrape_detail=True, max_workers=80):
                     cols.insert(insert_idx, 'Status Assignment')
                     df_detail = df_detail[cols]
                 
-            df_detail.to_csv(os.path.join(dir_path, f"{prefix}_Detail_Data.csv"), index=False)
+            df_detail.to_csv(os.path.join(result_folder, f"{prefix}_Detail_Data.csv"), index=False)
             
         # 4: Error Log (Jika ada)
         if error_csv and os.path.exists(error_csv):
             df_error = pd.read_csv(error_csv, low_memory=False)
-            df_error.to_csv(os.path.join(dir_path, f"{prefix}_Error_Log.csv"), index=False)
+            df_error.to_csv(os.path.join(result_folder, f"{prefix}_Error_Log.csv"), index=False)
             
-        excel_path = os.path.join(dir_path, f"{prefix}_Laporan_Lengkap.xlsx")
+        excel_path = os.path.join(result_folder, f"{prefix}_Laporan_Lengkap.xlsx")
         print(f"\nMenyimpan laporan dalam format Excel ke: {os.path.basename(excel_path)}")
         try:
             with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
